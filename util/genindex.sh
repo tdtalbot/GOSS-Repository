@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 
 # Simple utility to generate the repository indexes for
 # R5 and pre-R5 OBRs.
@@ -73,10 +73,11 @@ for dir in ${dirs[@]}; do
       # Generate index.xml.gz for dir
       $java -jar $repoindex $dir -d $dir -r $dir/index.xml.gz
       # Extract index.xml.gz to index.xml
-      gzcat $dir/index.xml.gz > $dir/index.xml
+      #gzcat $dir/index.xml.gz > $dir/index.xml
+      gunzip  -c $dir/index.xml.gz > $dir/index.xml
       # Calculate sha's for index.xml.gz and index.xml
-      shasum -a 256 $dir/index.xml.gz | cut -f 1 -d " " > $dir/index.xml.gz.sha
-      shasum -a 256 $dir/index.xml | cut -f 1 -d " " > $dir/index.xml.sha
+      sha256sum $dir/index.xml.gz | cut -f 1 -d " " > $dir/index.xml.gz.sha
+      sha256sum $dir/index.xml | cut -f 1 -d " " > $dir/index.xml.sha
     fi
 
     if [[ -f $bindex ]]; then
