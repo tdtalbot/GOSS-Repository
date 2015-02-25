@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 # Simple utility to generate the repository indexes for
 # R5 and pre-R5 OBRs.
