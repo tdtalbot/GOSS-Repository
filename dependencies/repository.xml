@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
-<repository lastmodified='20150221180544.180' name='Amdatu dependenciess'>
+<repository lastmodified='20150225112248.247' name='Amdatu dependenciess'>
   <resource id='com.google.gson/2.3.1' presentationname='Gson' symbolicname='com.google.gson' uri='com.google.gson/com.google.gson-2.3.1.jar' version='2.3.1'>
     <description>
       Google Gson library
@@ -2294,6 +2294,121 @@
       Import package sun.nio.ch
     </require>
   </resource>
+  <resource id='org.apache.activemq.shiro/5.10.1' presentationname='activemq-shiro' symbolicname='org.apache.activemq.shiro' uri='org.apache.activemq.shiro/org.apache.activemq.shiro-5.10.1.jar' version='5.10.1'>
+    <description>
+      ActiveMQ secured by Apache Shiro
+    </description>
+    <size>
+      44359
+    </size>
+    <license>
+      http://www.apache.org/licenses/LICENSE-2.0.txt
+    </license>
+    <documentation>
+      http://www.apache.org/
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='activemq-shiro'/>
+      <p n='symbolicname' v='org.apache.activemq.shiro'/>
+      <p n='version' t='version' v='5.10.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.shiro.authc'/>
+      <p n='uses' v='org.apache.shiro.authc,org.apache.activemq.shiro.env,org.apache.activemq.command,org.apache.activemq.broker,org.apache.activemq.shiro,org.apache.shiro.subject,org.apache.shiro.env,org.apache.activemq.security,org.apache.activemq.shiro.subject,org.slf4j'/>
+      <p n='version' t='version' v='5.10.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.shiro.env'/>
+      <p n='uses' v='org.apache.activemq.shiro,org.apache.shiro.env,org.apache.shiro.realm,org.apache.shiro.config,org.apache.activemq.shiro.authz,org.apache.activemq.shiro.mgt,org.apache.shiro.mgt,org.apache.shiro.realm.text,org.apache.shiro.authz.permission,org.apache.shiro.io,org.apache.shiro,org.apache.shiro.util'/>
+      <p n='version' t='version' v='5.10.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.shiro.authz'/>
+      <p n='uses' v='org.apache.shiro.authz,org.apache.shiro.authz.permission,org.apache.activemq.shiro.env,org.apache.activemq.command,org.apache.activemq.broker.region,org.apache.activemq.broker,org.apache.shiro.subject,org.apache.activemq.security,org.apache.activemq.shiro.subject'/>
+      <p n='version' t='version' v='5.10.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.shiro'/>
+      <p n='uses' v='org.apache.activemq.command,org.apache.activemq.broker,org.apache.shiro.env,org.apache.activemq.security,org.apache.activemq.shiro.subject,org.apache.shiro.mgt,org.apache.activemq.shiro.authc,org.apache.activemq.shiro.env,org.apache.shiro.config,org.apache.activemq,org.apache.activemq.shiro.authz,org.slf4j'/>
+      <p n='version' t='version' v='5.10.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.shiro.mgt'/>
+      <p n='uses' v='org.apache.shiro.session.mgt,org.apache.activemq.shiro.session.mgt,org.apache.shiro.mgt'/>
+      <p n='version' t='version' v='5.10.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.shiro.session.mgt'/>
+      <p n='uses' v='org.apache.shiro.session.mgt,org.apache.shiro.session'/>
+      <p n='version' t='version' v='5.10.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.shiro.subject'/>
+      <p n='uses' v='org.apache.activemq.shiro,org.apache.shiro.subject,org.apache.activemq.broker,org.apache.activemq.security,org.apache.activemq.shiro.authc,org.apache.shiro.mgt,org.apache.shiro.env,org.apache.activemq.command,org.apache.activemq.shiro.env'/>
+      <p n='version' t='version' v='5.10.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq)(version&gt;=5.10.1))' multiple='false' name='package' optional='true'>
+      Import package org.apache.activemq ;version=5.10.1
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.broker)(version&gt;=5.10.1))' multiple='false' name='package' optional='true'>
+      Import package org.apache.activemq.broker ;version=5.10.1
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.broker.region)(version&gt;=5.10.1))' multiple='false' name='package' optional='true'>
+      Import package org.apache.activemq.broker.region ;version=5.10.1
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.command)(version&gt;=5.10.1))' multiple='false' name='package' optional='true'>
+      Import package org.apache.activemq.command ;version=5.10.1
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.security)(version&gt;=5.10.1))' multiple='false' name='package' optional='true'>
+      Import package org.apache.activemq.security ;version=5.10.1
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro)(version&gt;=1.2.0)(version&lt;=2.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro ;version=[1.2.0,2.0.0]
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authc)(version&gt;=1.2.0)(version&lt;=2.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authc ;version=[1.2.0,2.0.0]
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz)(version&gt;=1.2.0)(version&lt;=2.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz ;version=[1.2.0,2.0.0]
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz.permission)(version&gt;=1.2.0)(version&lt;=2.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz.permission ;version=[1.2.0,2.0.0]
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.config)(version&gt;=1.2.0)(version&lt;=2.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.config ;version=[1.2.0,2.0.0]
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.env)(version&gt;=1.2.0)(version&lt;=2.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.env ;version=[1.2.0,2.0.0]
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.io)(version&gt;=1.2.0)(version&lt;=2.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.io ;version=[1.2.0,2.0.0]
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(version&lt;=2.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0]
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm)(version&gt;=1.2.0)(version&lt;=2.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.realm ;version=[1.2.0,2.0.0]
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm.text)(version&gt;=1.2.0)(version&lt;=2.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.realm.text ;version=[1.2.0,2.0.0]
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.session)(version&gt;=1.2.0)(version&lt;=2.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.session ;version=[1.2.0,2.0.0]
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.session.mgt)(version&gt;=1.2.0)(version&lt;=2.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.session.mgt ;version=[1.2.0,2.0.0]
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.subject)(version&gt;=1.2.0)(version&lt;=2.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.subject ;version=[1.2.0,2.0.0]
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.util)(version&gt;=1.2.0)(version&lt;=2.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.util ;version=[1.2.0,2.0.0]
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+  </resource>
   <resource id='org.apache.aries.blueprint/1.1.0' presentationname='Apache Aries Blueprint Bundle' symbolicname='org.apache.aries.blueprint' uri='org.apache.aries.blueprint/org.apache.aries.blueprint-1.1.0.jar' version='1.1.0'>
     <description>
       This bundle contains the standalone implementation along with
@@ -2649,13 +2764,13 @@
       Import package org.w3c.dom
     </require>
   </resource>
-  <resource id='org.apache.aries.blueprint.core/1.4.2' presentationname='Apache Aries Blueprint Core' symbolicname='org.apache.aries.blueprint.core' uri='org.apache.aries.blueprint.core/org.apache.aries.blueprint.core-1.4.2.jar' version='1.4.2'>
+  <resource id='org.apache.aries.blueprint.core/1.1.0' presentationname='Apache Aries Blueprint Core' symbolicname='org.apache.aries.blueprint.core' uri='org.apache.aries.blueprint.core/org.apache.aries.blueprint.core-1.1.0.jar' version='1.1.0'>
     <description>
       This bundle contains the core implementation of Blueprint 
              along with the "ext" namespace handler.
     </description>
     <size>
-      418647
+      389623
     </size>
     <license>
       http://www.apache.org/licenses/LICENSE-2.0.txt
@@ -2666,26 +2781,35 @@
     <capability name='service'>
       <p n='service' v='org.apache.aries.blueprint.NamespaceHandler'/>
     </capability>
+    <capability name='service'>
+      <p n='service' v='org.apache.aries.blueprint.NamespaceHandler'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.apache.aries.blueprint.NamespaceHandler'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.apache.aries.blueprint.ParserService'/>
+    </capability>
     <capability name='bundle'>
       <p n='manifestversion' v='2'/>
       <p n='presentationname' v='Apache Aries Blueprint Core'/>
       <p n='symbolicname' v='org.apache.aries.blueprint.core'/>
-      <p n='version' t='version' v='1.4.2'/>
+      <p n='version' t='version' v='1.1.0'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.apache.aries.blueprint'/>
-      <p n='uses' v='org.apache.aries.blueprint.services,org.osgi.framework,org.osgi.service.blueprint.reflect,org.w3c.dom'/>
-      <p n='version' t='version' v='1.3.0'/>
+      <p n='uses' v='org.osgi.service.blueprint.reflect,org.apache.aries.blueprint.services,org.osgi.framework,org.w3c.dom'/>
+      <p n='version' t='version' v='1.1.0'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.apache.aries.blueprint.mutable'/>
-      <p n='uses' v='org.apache.aries.blueprint,org.osgi.framework,org.osgi.service.blueprint.reflect'/>
-      <p n='version' t='version' v='1.2.0'/>
+      <p n='uses' v='org.osgi.service.blueprint.reflect,org.apache.aries.blueprint,org.osgi.framework'/>
+      <p n='version' t='version' v='1.0.0'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.apache.aries.blueprint.ext'/>
-      <p n='uses' v='org.apache.aries.blueprint,org.apache.aries.blueprint.ext.evaluator,org.apache.aries.blueprint.mutable,org.apache.aries.blueprint.services,org.osgi.service.blueprint.container,org.osgi.service.blueprint.reflect'/>
-      <p n='version' t='version' v='1.1.0'/>
+      <p n='uses' v='org.osgi.service.blueprint.reflect,org.slf4j,org.apache.aries.blueprint,org.osgi.framework,org.osgi.service.blueprint.container,org.apache.aries.blueprint.mutable,org.apache.aries.blueprint.services,org.apache.aries.blueprint.ext.evaluator'/>
+      <p n='version' t='version' v='1.0.0'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.apache.aries.blueprint.ext.evaluator'/>
@@ -2693,39 +2817,18 @@
     </capability>
     <capability name='package'>
       <p n='package' v='org.apache.aries.blueprint.services'/>
-      <p n='uses' v='org.apache.aries.blueprint,org.apache.aries.proxy,org.osgi.framework,org.osgi.service.blueprint.container,org.osgi.service.blueprint.reflect'/>
-      <p n='version' t='version' v='1.2.0'/>
+      <p n='uses' v='org.apache.aries.blueprint,org.osgi.service.blueprint.reflect,org.osgi.framework,org.apache.aries.proxy,org.osgi.service.blueprint.container'/>
+      <p n='version' t='version' v='1.1.0'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.apache.aries.blueprint.utils'/>
-      <p n='uses' v='org.apache.aries.blueprint.services,org.osgi.framework'/>
+      <p n='uses' v='org.osgi.framework,org.apache.aries.blueprint.services,org.osgi.service.blueprint.container,org.slf4j'/>
       <p n='version' t='version' v='1.1.0'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.osgi.service.blueprint'/>
       <p n='version' t='version' v='1.0.0'/>
     </capability>
-    <require extend='false' filter='(service=org.apache.aries.proxy.ProxyManager)' multiple='true' name='service' optional='false'>
-      Import Service org.apache.aries.proxy.ProxyManager
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.aries.quiesce.manager)(version&gt;=1.0.0)(!(version&gt;=1.1.0)))' multiple='false' name='package' optional='true'>
-      Import package org.apache.aries.quiesce.manager ;version=[1.0.0,1.1.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.aries.quiesce.participant)(version&gt;=1.0.0)(!(version&gt;=1.1.0)))' multiple='false' name='package' optional='true'>
-      Import package org.apache.aries.quiesce.participant ;version=[1.0.0,1.1.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.osgi.service.blueprint.container)(version&gt;=1.0.0)(!(version&gt;=1.1.0)))' multiple='false' name='package' optional='false'>
-      Import package org.osgi.service.blueprint.container ;version=[1.0.0,1.1.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.osgi.service.blueprint.reflect)(version&gt;=1.0.0)(!(version&gt;=1.1.0)))' multiple='false' name='package' optional='false'>
-      Import package org.osgi.service.blueprint.reflect ;version=[1.0.0,1.1.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.osgi.service.event)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
-      Import package org.osgi.service.event ;version=[1.3.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.aries.proxy)(version&gt;=1.0.0)(!(version&gt;=1.1.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.aries.proxy ;version=[1.0.0,1.1.0)
-    </require>
     <require extend='false' filter='(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
       Import package javax.xml.namespace
     </require>
@@ -2744,20 +2847,45 @@
     <require extend='false' filter='(&amp;(package=javax.xml.validation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
       Import package javax.xml.validation
     </require>
+    <require extend='false' filter='(&amp;(package=org.apache.aries.blueprint.annotation.service)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.apache.aries.blueprint.annotation.service
+       ;version=[1.0.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.aries.proxy)(version&gt;=1.0.0)(!(version&gt;=1.1.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.aries.proxy ;version=[1.0.0,1.1.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.aries.quiesce.manager)(version&gt;=1.0.0)(!(version&gt;=1.1.0)))' multiple='false' name='package' optional='true'>
+      Import package org.apache.aries.quiesce.manager ;version=[1.0.0,1.1.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.aries.quiesce.participant)(version&gt;=1.0.0)(!(version&gt;=1.1.0)))' multiple='false' name='package' optional='true'>
+      Import package org.apache.aries.quiesce.participant ;version=[1.0.0,1.1.0)
+    </require>
     <require extend='false' filter='(&amp;(package=org.apache.aries.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
       Import package org.apache.aries.util ;version=[1.0.0,2.0.0)
     </require>
     <require extend='false' filter='(&amp;(package=org.apache.aries.util.tracker)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
       Import package org.apache.aries.util.tracker ;version=[1.0.0,2.0.0)
     </require>
-    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.osgi.framework ;version=[1.6.0,2.0.0)
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
     </require>
-    <require extend='false' filter='(&amp;(package=org.osgi.util.tracker)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.osgi.util.tracker ;version=[1.5.0,2.0.0)
+    <require extend='false' filter='(&amp;(package=org.osgi.service.blueprint.container)(version&gt;=1.0.0)(!(version&gt;=1.1.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.blueprint.container ;version=[1.0.0,1.1.0)
     </require>
-    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    <require extend='false' filter='(&amp;(package=org.osgi.service.blueprint.reflect)(version&gt;=1.0.0)(!(version&gt;=1.1.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.blueprint.reflect ;version=[1.0.0,1.1.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.event)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.service.event ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.framework)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.service.framework
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.util.tracker)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.util.tracker ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.5.0,2.0.0)
     </require>
     <require extend='false' filter='(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
       Import package org.w3c.dom
@@ -2767,13 +2895,6 @@
     </require>
     <require extend='false' filter='(&amp;(package=org.xml.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
       Import package org.xml.sax
-    </require>
-    <require extend='false' filter='(&amp;(package=org.osgi.service.framework)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
-      Import package org.osgi.service.framework
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.aries.blueprint.annotation.service)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
-      Import package org.apache.aries.blueprint.annotation.service
-       ;version=[1.0.0,2.0.0)
     </require>
   </resource>
   <resource id='org.apache.aries.blueprint.core/1.2.0' presentationname='Apache Aries Blueprint Core' symbolicname='org.apache.aries.blueprint.core' uri='org.apache.aries.blueprint.core/org.apache.aries.blueprint.core-1.2.0.jar' version='1.2.0'>
@@ -2915,13 +3036,13 @@
       Import package org.xml.sax
     </require>
   </resource>
-  <resource id='org.apache.aries.blueprint.core/1.1.0' presentationname='Apache Aries Blueprint Core' symbolicname='org.apache.aries.blueprint.core' uri='org.apache.aries.blueprint.core/org.apache.aries.blueprint.core-1.1.0.jar' version='1.1.0'>
+  <resource id='org.apache.aries.blueprint.core/1.4.2' presentationname='Apache Aries Blueprint Core' symbolicname='org.apache.aries.blueprint.core' uri='org.apache.aries.blueprint.core/org.apache.aries.blueprint.core-1.4.2.jar' version='1.4.2'>
     <description>
       This bundle contains the core implementation of Blueprint 
              along with the "ext" namespace handler.
     </description>
     <size>
-      389623
+      418647
     </size>
     <license>
       http://www.apache.org/licenses/LICENSE-2.0.txt
@@ -2932,35 +3053,26 @@
     <capability name='service'>
       <p n='service' v='org.apache.aries.blueprint.NamespaceHandler'/>
     </capability>
-    <capability name='service'>
-      <p n='service' v='org.apache.aries.blueprint.NamespaceHandler'/>
-    </capability>
-    <capability name='service'>
-      <p n='service' v='org.apache.aries.blueprint.NamespaceHandler'/>
-    </capability>
-    <capability name='service'>
-      <p n='service' v='org.apache.aries.blueprint.ParserService'/>
-    </capability>
     <capability name='bundle'>
       <p n='manifestversion' v='2'/>
       <p n='presentationname' v='Apache Aries Blueprint Core'/>
       <p n='symbolicname' v='org.apache.aries.blueprint.core'/>
-      <p n='version' t='version' v='1.1.0'/>
+      <p n='version' t='version' v='1.4.2'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.apache.aries.blueprint'/>
-      <p n='uses' v='org.osgi.service.blueprint.reflect,org.apache.aries.blueprint.services,org.osgi.framework,org.w3c.dom'/>
-      <p n='version' t='version' v='1.1.0'/>
+      <p n='uses' v='org.apache.aries.blueprint.services,org.osgi.framework,org.osgi.service.blueprint.reflect,org.w3c.dom'/>
+      <p n='version' t='version' v='1.3.0'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.apache.aries.blueprint.mutable'/>
-      <p n='uses' v='org.osgi.service.blueprint.reflect,org.apache.aries.blueprint,org.osgi.framework'/>
-      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses' v='org.apache.aries.blueprint,org.osgi.framework,org.osgi.service.blueprint.reflect'/>
+      <p n='version' t='version' v='1.2.0'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.apache.aries.blueprint.ext'/>
-      <p n='uses' v='org.osgi.service.blueprint.reflect,org.slf4j,org.apache.aries.blueprint,org.osgi.framework,org.osgi.service.blueprint.container,org.apache.aries.blueprint.mutable,org.apache.aries.blueprint.services,org.apache.aries.blueprint.ext.evaluator'/>
-      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses' v='org.apache.aries.blueprint,org.apache.aries.blueprint.ext.evaluator,org.apache.aries.blueprint.mutable,org.apache.aries.blueprint.services,org.osgi.service.blueprint.container,org.osgi.service.blueprint.reflect'/>
+      <p n='version' t='version' v='1.1.0'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.apache.aries.blueprint.ext.evaluator'/>
@@ -2968,18 +3080,39 @@
     </capability>
     <capability name='package'>
       <p n='package' v='org.apache.aries.blueprint.services'/>
-      <p n='uses' v='org.apache.aries.blueprint,org.osgi.service.blueprint.reflect,org.osgi.framework,org.apache.aries.proxy,org.osgi.service.blueprint.container'/>
-      <p n='version' t='version' v='1.1.0'/>
+      <p n='uses' v='org.apache.aries.blueprint,org.apache.aries.proxy,org.osgi.framework,org.osgi.service.blueprint.container,org.osgi.service.blueprint.reflect'/>
+      <p n='version' t='version' v='1.2.0'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.apache.aries.blueprint.utils'/>
-      <p n='uses' v='org.osgi.framework,org.apache.aries.blueprint.services,org.osgi.service.blueprint.container,org.slf4j'/>
+      <p n='uses' v='org.apache.aries.blueprint.services,org.osgi.framework'/>
       <p n='version' t='version' v='1.1.0'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.osgi.service.blueprint'/>
       <p n='version' t='version' v='1.0.0'/>
     </capability>
+    <require extend='false' filter='(service=org.apache.aries.proxy.ProxyManager)' multiple='true' name='service' optional='false'>
+      Import Service org.apache.aries.proxy.ProxyManager
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.aries.quiesce.manager)(version&gt;=1.0.0)(!(version&gt;=1.1.0)))' multiple='false' name='package' optional='true'>
+      Import package org.apache.aries.quiesce.manager ;version=[1.0.0,1.1.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.aries.quiesce.participant)(version&gt;=1.0.0)(!(version&gt;=1.1.0)))' multiple='false' name='package' optional='true'>
+      Import package org.apache.aries.quiesce.participant ;version=[1.0.0,1.1.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.blueprint.container)(version&gt;=1.0.0)(!(version&gt;=1.1.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.blueprint.container ;version=[1.0.0,1.1.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.blueprint.reflect)(version&gt;=1.0.0)(!(version&gt;=1.1.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.blueprint.reflect ;version=[1.0.0,1.1.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.event)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.service.event ;version=[1.3.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.aries.proxy)(version&gt;=1.0.0)(!(version&gt;=1.1.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.aries.proxy ;version=[1.0.0,1.1.0)
+    </require>
     <require extend='false' filter='(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
       Import package javax.xml.namespace
     </require>
@@ -2998,45 +3131,20 @@
     <require extend='false' filter='(&amp;(package=javax.xml.validation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
       Import package javax.xml.validation
     </require>
-    <require extend='false' filter='(&amp;(package=org.apache.aries.blueprint.annotation.service)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
-      Import package org.apache.aries.blueprint.annotation.service
-       ;version=[1.0.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.aries.proxy)(version&gt;=1.0.0)(!(version&gt;=1.1.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.aries.proxy ;version=[1.0.0,1.1.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.aries.quiesce.manager)(version&gt;=1.0.0)(!(version&gt;=1.1.0)))' multiple='false' name='package' optional='true'>
-      Import package org.apache.aries.quiesce.manager ;version=[1.0.0,1.1.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.aries.quiesce.participant)(version&gt;=1.0.0)(!(version&gt;=1.1.0)))' multiple='false' name='package' optional='true'>
-      Import package org.apache.aries.quiesce.participant ;version=[1.0.0,1.1.0)
-    </require>
     <require extend='false' filter='(&amp;(package=org.apache.aries.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
       Import package org.apache.aries.util ;version=[1.0.0,2.0.0)
     </require>
     <require extend='false' filter='(&amp;(package=org.apache.aries.util.tracker)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
       Import package org.apache.aries.util.tracker ;version=[1.0.0,2.0.0)
     </require>
-    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.framework ;version=[1.6.0,2.0.0)
     </require>
-    <require extend='false' filter='(&amp;(package=org.osgi.service.blueprint.container)(version&gt;=1.0.0)(!(version&gt;=1.1.0)))' multiple='false' name='package' optional='false'>
-      Import package org.osgi.service.blueprint.container ;version=[1.0.0,1.1.0)
+    <require extend='false' filter='(&amp;(package=org.osgi.util.tracker)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.util.tracker ;version=[1.5.0,2.0.0)
     </require>
-    <require extend='false' filter='(&amp;(package=org.osgi.service.blueprint.reflect)(version&gt;=1.0.0)(!(version&gt;=1.1.0)))' multiple='false' name='package' optional='false'>
-      Import package org.osgi.service.blueprint.reflect ;version=[1.0.0,1.1.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.osgi.service.event)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
-      Import package org.osgi.service.event ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.osgi.service.framework)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
-      Import package org.osgi.service.framework
-    </require>
-    <require extend='false' filter='(&amp;(package=org.osgi.util.tracker)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.osgi.util.tracker ;version=[1.4.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.slf4j ;version=[1.5.0,2.0.0)
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
     </require>
     <require extend='false' filter='(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
       Import package org.w3c.dom
@@ -3046,6 +3154,13 @@
     </require>
     <require extend='false' filter='(&amp;(package=org.xml.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
       Import package org.xml.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.framework)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.service.framework
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.aries.blueprint.annotation.service)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.apache.aries.blueprint.annotation.service
+       ;version=[1.0.0,2.0.0)
     </require>
   </resource>
   <resource id='org.apache.aries.proxy.api/1.0.0' presentationname='Apache Aries Proxy API' symbolicname='org.apache.aries.proxy.api' uri='org.apache.aries.proxy.api/org.apache.aries.proxy.api-1.0.0.jar' version='1.0.0'>
@@ -3383,6 +3498,531 @@
     </require>
     <require extend='false' filter='(&amp;(package=javax.transaction.xa)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
       Import package javax.transaction.xa
+    </require>
+  </resource>
+  <resource id='org.apache.shiro.core/1.2.3' presentationname='Apache Shiro :: Core' symbolicname='org.apache.shiro.core' uri='org.apache.shiro.core/org.apache.shiro.core-1.2.3.jar' version='1.2.3'>
+    <description>
+      Apache Shiro is a powerful and flexible open-source security
+       framework that cleanly handles        authentication, authorization,
+       enterprise session management, single sign-on and cryptography
+       services.
+    </description>
+    <size>
+      367458
+    </size>
+    <license>
+      http://www.apache.org/licenses/LICENSE-2.0.txt
+    </license>
+    <documentation>
+      http://www.apache.org/
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='Apache Shiro :: Core'/>
+      <p n='symbolicname' v='org.apache.shiro.core'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.crypto'/>
+      <p n='uses' v='javax.crypto,org.apache.shiro.util,org.apache.shiro,javax.crypto.spec,org.slf4j'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.authc.pam'/>
+      <p n='uses' v='org.apache.shiro.authc,org.apache.shiro.realm,org.slf4j,org.apache.shiro.util,org.apache.shiro.subject'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.authz.aop'/>
+      <p n='uses' v='org.apache.shiro.authz,org.apache.shiro.aop,org.apache.shiro.authz.annotation,org.apache.shiro.subject'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.codec'/>
+      <p n='uses' v='org.apache.shiro,org.apache.shiro.util'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.authc.credential'/>
+      <p n='uses' v='org.apache.shiro.authc,org.apache.shiro.crypto.hash,org.apache.shiro.crypto.hash.format,org.apache.shiro.util,org.slf4j,org.apache.shiro.codec'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.crypto.hash.format'/>
+      <p n='uses' v='org.apache.shiro.crypto.hash,org.apache.shiro.util,org.apache.shiro.codec'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.subject'/>
+      <p n='uses' v='org.apache.shiro,org.apache.shiro.util,org.apache.shiro.subject.support,org.apache.shiro.session,org.apache.shiro.mgt,org.apache.shiro.authc,org.apache.shiro.authz'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.concurrent'/>
+      <p n='uses' v='org.apache.shiro,org.apache.shiro.subject'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.cache'/>
+      <p n='uses' v='org.apache.shiro.util,org.apache.shiro'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.authz.annotation'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.realm.activedirectory'/>
+      <p n='uses' v='org.apache.shiro.authc,javax.naming,javax.naming.directory,org.apache.shiro.authz,javax.naming.ldap,org.apache.shiro.subject,org.slf4j,org.apache.shiro.realm.ldap'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.authc'/>
+      <p n='uses' v='org.apache.shiro.subject,org.slf4j,org.apache.shiro.authz,org.apache.shiro,org.apache.shiro.util'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.jndi'/>
+      <p n='uses' v='javax.naming,org.slf4j,org.apache.shiro.util'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro'/>
+      <p n='uses' v='org.apache.shiro.util,org.apache.shiro.subject,org.apache.shiro.mgt'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.realm.jdbc'/>
+      <p n='uses' v='org.apache.shiro.authc,org.apache.shiro.realm,org.apache.shiro.config,javax.sql,org.apache.shiro.authz,org.apache.shiro.util,org.apache.shiro.subject,org.slf4j'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.crypto.hash'/>
+      <p n='uses' v='org.apache.shiro.crypto,org.apache.shiro.codec,org.apache.shiro.util'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.functor'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.util'/>
+      <p n='uses' v='org.slf4j,org.apache.shiro.subject,org.apache.shiro,org.apache.shiro.authz,org.apache.shiro.authz.permission,org.apache.shiro.codec,org.apache.shiro.mgt'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.mgt'/>
+      <p n='uses' v='org.apache.shiro.authc,org.apache.shiro.crypto,org.apache.shiro.io,org.apache.shiro.codec,org.apache.shiro.util,org.apache.shiro.subject,org.slf4j,org.apache.shiro.authc.pam,org.apache.shiro.authz,org.apache.shiro.cache,org.apache.shiro.realm,org.apache.shiro.session.mgt,org.apache.shiro.subject.support,org.apache.shiro.session'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.realm.ldap'/>
+      <p n='uses' v='org.apache.shiro.authc,javax.naming,org.apache.shiro.realm,org.apache.shiro.authz,org.apache.shiro.subject,org.slf4j,javax.naming.ldap,org.apache.shiro.util,org.apache.shiro.authc.credential,org.apache.shiro.ldap,javax.naming.directory'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.io'/>
+      <p n='uses' v='org.apache.shiro.util,org.slf4j,org.apache.shiro'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.realm'/>
+      <p n='uses' v='org.apache.shiro.authc,org.apache.shiro.authc.credential,org.apache.shiro.cache,org.apache.shiro.util,org.apache.shiro.subject,org.slf4j,org.apache.shiro.authz,org.apache.shiro.authz.permission'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.realm.jndi'/>
+      <p n='uses' v='org.apache.shiro.jndi,org.apache.shiro.realm,org.apache.shiro.util'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.ldap'/>
+      <p n='uses' v='org.apache.shiro.dao'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.config'/>
+      <p n='uses' v='org.apache.shiro,org.apache.shiro.util,org.slf4j,org.apache.shiro.io,org.apache.shiro.realm,org.apache.shiro.realm.text,org.apache.shiro.mgt,org.apache.commons.beanutils,org.apache.shiro.codec'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.dao'/>
+      <p n='uses' v='org.apache.shiro'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.authz'/>
+      <p n='uses' v='org.apache.shiro,org.apache.shiro.subject,org.apache.shiro.realm,org.apache.shiro.authz.permission'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.session.mgt'/>
+      <p n='uses' v='org.apache.shiro.authz,org.apache.shiro.util,org.slf4j,org.apache.shiro.session,org.apache.shiro.cache,org.apache.shiro.session.mgt.eis'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.aop'/>
+      <p n='uses' v='org.apache.shiro,org.apache.shiro.subject'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.subject.support'/>
+      <p n='uses' v='org.apache.shiro.authc,org.apache.shiro,org.apache.shiro.util,org.apache.shiro.subject,org.apache.shiro.session,org.apache.shiro.mgt,org.slf4j,org.apache.shiro.authz,org.apache.shiro.session.mgt'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.env'/>
+      <p n='uses' v='org.apache.shiro.util,org.apache.shiro.mgt,org.apache.shiro'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.realm.text'/>
+      <p n='uses' v='org.apache.shiro.config,org.apache.shiro.util,org.slf4j,org.apache.shiro.io,org.apache.shiro,org.apache.shiro.authc,org.apache.shiro.realm,org.apache.shiro.authz,org.apache.shiro.authz.permission'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.session'/>
+      <p n='uses' v='org.apache.shiro'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.session.mgt.eis'/>
+      <p n='uses' v='org.apache.shiro.session.mgt,org.apache.shiro.session,org.apache.shiro.cache,org.apache.shiro.util,org.slf4j'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.authz.permission'/>
+      <p n='uses' v='org.apache.shiro.authz,org.apache.shiro.util,org.apache.shiro'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.crypto)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.crypto
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.crypto.spec)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.crypto.spec
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.naming
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming.directory)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.naming.directory
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming.ldap)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.naming.ldap
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.sql
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.beanutils)(version&gt;=1.8.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.commons.beanutils ;version=1.8.0
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.aop)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.aop ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authc)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authc ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authc.credential)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authc.credential ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authc.pam)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authc.pam ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz.annotation)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz.annotation ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz.aop)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz.aop ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz.permission)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz.permission ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.cache)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.cache ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.codec)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.codec ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.concurrent)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.concurrent ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.config)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.config ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.crypto)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.crypto ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.crypto.hash)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.crypto.hash ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.crypto.hash.format)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.crypto.hash.format ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.dao)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.dao ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.env)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.env ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.functor)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.functor ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.io)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.io ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.jndi)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.jndi ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.ldap)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.ldap ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.realm ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm.activedirectory)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.realm.activedirectory ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm.jdbc)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.realm.jdbc ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm.jndi)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.realm.jndi ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm.ldap)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.realm.ldap ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm.text)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.realm.text ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.session)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.session ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.session.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.session.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.session.mgt.eis)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.session.mgt.eis ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.subject)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.subject ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.subject.support)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.subject.support ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.util)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.util ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.6.0))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=1.6.0
+    </require>
+  </resource>
+  <resource id='org.apache.shiro.web/1.2.3' presentationname='Apache Shiro :: Web' symbolicname='org.apache.shiro.web' uri='org.apache.shiro.web/org.apache.shiro.web-1.2.3.jar' version='1.2.3'>
+    <description>
+      Apache Shiro is a powerful and flexible open-source security
+       framework that cleanly handles        authentication, authorization,
+       enterprise session management, single sign-on and cryptography
+       services.
+    </description>
+    <size>
+      142474
+    </size>
+    <license>
+      http://www.apache.org/licenses/LICENSE-2.0.txt
+    </license>
+    <documentation>
+      http://www.apache.org/
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='Apache Shiro :: Web'/>
+      <p n='symbolicname' v='org.apache.shiro.web'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.web.servlet'/>
+      <p n='uses' v='javax.servlet,org.apache.shiro.util,org.slf4j,org.apache.shiro,org.apache.shiro.web.subject,org.apache.shiro.subject,org.apache.shiro.mgt,org.apache.shiro.web.filter.mgt,org.apache.shiro.web.mgt,org.apache.shiro.session,javax.servlet.http,org.apache.shiro.io,org.apache.shiro.config,org.apache.shiro.web.util,org.apache.shiro.web.config,org.apache.shiro.web.env,org.apache.shiro.subject.support,org.apache.shiro.web.session'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.web.filter.authz'/>
+      <p n='uses' v='javax.servlet,org.apache.shiro.web.util,org.apache.shiro.web.filter,org.apache.shiro.util,org.apache.shiro.subject,javax.servlet.http,org.slf4j,org.apache.shiro.config'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.web.session.mgt'/>
+      <p n='uses' v='javax.servlet,org.apache.shiro.session.mgt,org.apache.shiro.web.servlet,org.apache.shiro.web.util,org.apache.shiro.session,org.slf4j,javax.servlet.http,org.apache.shiro.web.session,org.apache.shiro.authz'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.web.subject'/>
+      <p n='uses' v='javax.servlet,org.apache.shiro,org.apache.shiro.subject,org.apache.shiro.mgt,org.apache.shiro.web.subject.support,org.apache.shiro.web.util'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.web.env'/>
+      <p n='uses' v='javax.servlet,org.apache.shiro.web.filter.mgt,org.apache.shiro.web.mgt,org.apache.shiro.mgt,org.apache.shiro.env,org.apache.shiro.config,org.apache.shiro.util,org.slf4j,org.apache.shiro.io,org.apache.shiro.web.util,org.apache.shiro.web.config'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.web.filter.authc'/>
+      <p n='uses' v='javax.servlet,org.apache.shiro.web.filter,org.apache.shiro.authc,org.apache.shiro.authz,org.apache.shiro.subject,org.apache.shiro.web.util,org.apache.shiro.codec,org.slf4j,javax.servlet.http,org.apache.shiro,org.apache.shiro.web.servlet,org.apache.shiro.session'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.web.session'/>
+      <p n='uses' v='org.apache.shiro.web.servlet,org.apache.shiro.util,org.apache.shiro.session,javax.servlet.http'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.web.tags'/>
+      <p n='uses' v='org.apache.shiro.subject,javax.servlet.jsp,org.slf4j,org.apache.shiro,javax.servlet.jsp.tagext'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.web.filter.mgt'/>
+      <p n='uses' v='org.apache.shiro.web.filter.authc,javax.servlet,org.apache.shiro.web.filter.authz,org.apache.shiro.web.filter.session,org.apache.shiro.util,org.apache.shiro.config,org.apache.shiro.web.filter,org.slf4j,org.apache.shiro.web.util,javax.servlet.http,org.apache.shiro.web.servlet'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.web.util'/>
+      <p n='uses' v='javax.servlet.http,javax.servlet,org.apache.shiro,org.apache.shiro.util,org.apache.shiro.subject,org.slf4j,org.apache.shiro.web.env,org.apache.shiro.subject.support,org.apache.shiro.session'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.web.filter.session'/>
+      <p n='uses' v='javax.servlet,org.apache.shiro.web.filter,org.apache.shiro.subject.support'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.web.filter'/>
+      <p n='uses' v='javax.servlet,org.apache.shiro,org.apache.shiro.web.util,org.apache.shiro.subject,org.apache.shiro.web.servlet,org.apache.shiro.util,org.slf4j,javax.servlet.http'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.web.mgt'/>
+      <p n='uses' v='javax.servlet,org.apache.shiro.codec,org.apache.shiro.web.servlet,org.apache.shiro.web.util,org.apache.shiro.web.subject,org.apache.shiro.subject,org.slf4j,org.apache.shiro.mgt,javax.servlet.http,org.apache.shiro.web.session.mgt,org.apache.shiro.util,org.apache.shiro.realm,org.apache.shiro.session.mgt,org.apache.shiro.web.subject.support,org.apache.shiro.session'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.web.config'/>
+      <p n='uses' v='javax.servlet,org.apache.shiro.config,org.apache.shiro.web.filter.mgt,org.apache.shiro.util,org.slf4j,org.apache.shiro.web.mgt,org.apache.shiro.mgt'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.shiro.web.subject.support'/>
+      <p n='uses' v='javax.servlet,org.apache.shiro.web.subject,org.apache.shiro.subject,org.apache.shiro.subject.support,org.apache.shiro.session.mgt,org.apache.shiro.web.util,org.apache.shiro.web.session.mgt,org.apache.shiro.util,org.apache.shiro.mgt,org.apache.shiro.session'/>
+      <p n='version' t='version' v='1.2.3'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.servlet.http
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.jsp)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.jsp
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.jsp.tagext)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.jsp.tagext
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authc)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authc ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.codec)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.codec ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.config)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.config ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.env)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.env ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.io)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.io ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.realm ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.session)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.session ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.session.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.session.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.subject)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.subject ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.subject.support)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.subject.support ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.util)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.util ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.web.config)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.web.config ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.web.env)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.web.env ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.web.filter)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.web.filter ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.web.filter.authc)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.web.filter.authc ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.web.filter.authz)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.web.filter.authz ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.web.filter.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.web.filter.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.web.filter.session)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.web.filter.session ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.web.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.web.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.web.servlet)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.web.servlet ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.web.session)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.web.session ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.web.session.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.web.session.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.web.subject)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.web.subject ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.web.subject.support)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.web.subject.support ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.web.tags)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.web.tags ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.web.util)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.web.util ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.6.0))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=1.6.0
     </require>
   </resource>
   <resource id='org.apache.xbean.spring/4.1.0' presentationname='Apache XBean :: Spring' symbolicname='org.apache.xbean.spring' uri='org.apache.xbean.spring/org.apache.xbean.spring-4.1.0.jar' version='4.1.0'>
