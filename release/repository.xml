@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
-<repository lastmodified='20150307223345.856' name='Amdatu releases'>
+<repository lastmodified='20150309233543.095' name='Amdatu releases'>
   <resource id='pnnl.goss.core.core-api/2.0.0' presentationname='pnnl.goss.core.core-api' symbolicname='pnnl.goss.core.core-api' uri='pnnl.goss.core.core-api/pnnl.goss.core.core-api-2.0.0.jar' version='2.0.0'>
     <size>
-      55111
+      54852
     </size>
     <license>
       https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
@@ -37,7 +37,7 @@
   </resource>
   <resource id='pnnl.goss.core.goss-client/2.0.0' presentationname='pnnl.goss.core.goss-client' symbolicname='pnnl.goss.core.goss-client' uri='pnnl.goss.core.goss-client/pnnl.goss.core.goss-client-2.0.0.jar' version='2.0.0'>
     <size>
-      30095
+      30010
     </size>
     <license>
       https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
@@ -88,7 +88,7 @@
   </resource>
   <resource id='pnnl.goss.core.goss-core-commands/2.0.0' presentationname='pnnl.goss.core.goss-core-commands' symbolicname='pnnl.goss.core.goss-core-commands' uri='pnnl.goss.core.goss-core-commands/pnnl.goss.core.goss-core-commands-2.0.0.jar' version='2.0.0'>
     <size>
-      4772
+      4760
     </size>
     <license>
       https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
@@ -109,7 +109,7 @@
   </resource>
   <resource id='pnnl.goss.core.goss-core-exceptions/2.0.0' presentationname='pnnl.goss.core.goss-core-exceptions' symbolicname='pnnl.goss.core.goss-core-exceptions' uri='pnnl.goss.core.goss-core-exceptions/pnnl.goss.core.goss-core-exceptions-2.0.0.jar' version='2.0.0'>
     <size>
-      4523
+      4511
     </size>
     <license>
       https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
@@ -130,7 +130,7 @@
   </resource>
   <resource id='pnnl.goss.core.goss-core-security/2.0.0' presentationname='pnnl.goss.core.goss-core-security' symbolicname='pnnl.goss.core.goss-core-security' uri='pnnl.goss.core.goss-core-security/pnnl.goss.core.goss-core-security-2.0.0.jar' version='2.0.0'>
     <size>
-      19225
+      19148
     </size>
     <license>
       https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
@@ -189,7 +189,7 @@
   </resource>
   <resource id='pnnl.goss.core.goss-core-server/2.0.0' presentationname='pnnl.goss.core.goss-core-server' symbolicname='pnnl.goss.core.goss-core-server' uri='pnnl.goss.core.goss-core-server/pnnl.goss.core.goss-core-server-2.0.0.jar' version='2.0.0'>
     <size>
-      43244
+      48742
     </size>
     <license>
       https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
@@ -213,6 +213,9 @@
     <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
       Import package javax.jms ;version=[1.1.0,2.0.0)
     </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.sql
+    </require>
     <require extend='false' filter='(&amp;(package=org.apache.activemq)(version&gt;=5.10.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
       Import package org.apache.activemq ;version=[5.10.0,6.0.0)
     </require>
@@ -221,6 +224,9 @@
     </require>
     <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro)(version&gt;=5.10.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
       Import package org.apache.activemq.shiro ;version=[5.10.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.dbcp)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.dbcp ;version=[1.4.0,2.0.0)
     </require>
     <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
       Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
@@ -243,7 +249,7 @@
   </resource>
   <resource id='pnnl.goss.core.goss-core-server-api/2.0.0' presentationname='pnnl.goss.core.goss-core-server-api' symbolicname='pnnl.goss.core.goss-core-server-api' uri='pnnl.goss.core.goss-core-server-api/pnnl.goss.core.goss-core-server-api-2.0.0.jar' version='2.0.0'>
     <size>
-      14603
+      13453
     </size>
     <license>
       https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
@@ -260,17 +266,11 @@
     </capability>
     <capability name='package'>
       <p n='package' v='pnnl.goss.core.server'/>
-      <p n='uses' v='com.northconcepts.exception,javax.sql,pnnl.goss.core,pnnl.goss.core.security'/>
+      <p n='uses' v='com.northconcepts.exception,pnnl.goss.core,pnnl.goss.core.security'/>
       <p n='version' t='version' v='1.0.0'/>
     </capability>
     <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
       Import package com.northconcepts.exception ;version=[1.0.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.sql
-    </require>
-    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.slf4j ;version=[1.7.0,2.0.0)
     </require>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core ;version=[1.0.0,2.0.0)
@@ -324,9 +324,54 @@
       Import package pnnl.goss.core.server.runner.requests ;version=[1.0.0,2.0.0)
     </require>
   </resource>
+  <resource id='pnnl.goss.core.itests/0.0.0.201503100632' presentationname='pnnl.goss.core.itests' symbolicname='pnnl.goss.core.itests' uri='pnnl.goss.core.itests/pnnl.goss.core.itests-0.0.0.jar' version='0.0.0.201503100632'>
+    <size>
+      14739
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.itests'/>
+      <p n='symbolicname' v='pnnl.goss.core.itests'/>
+      <p n='version' t='version' v='0.0.0.201503100632'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.amdatu.testing.configurator)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.amdatu.testing.configurator ;version=[3.0.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.felix.dm)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.felix.dm
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.junit)(version&gt;=4.11.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.junit ;version=[4.11.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server.runner.requests)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server.runner.requests ;version=[1.0.0,2.0.0)
+    </require>
+  </resource>
   <resource id='pnnl.goss.core.runner/2.0.0' presentationname='pnnl.goss.core.runner' symbolicname='pnnl.goss.core.runner' uri='pnnl.goss.core.runner/pnnl.goss.core.runner-2.0.0.jar' version='2.0.0'>
     <size>
-      31442
+      31695
     </size>
     <license>
       https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
@@ -383,9 +428,45 @@
       Import package pnnl.goss.core.server.runner.requests ;version=[1.0.0,2.0.0)
     </require>
   </resource>
+  <resource id='pnnl.goss.core.security-ldap/1.0.0.201503100632' presentationname='pnnl.goss.core.security-ldap' symbolicname='pnnl.goss.core.security-ldap' uri='pnnl.goss.core.security-ldap/pnnl.goss.core.security-ldap-1.0.0.jar' version='1.0.0.201503100632'>
+    <size>
+      6640
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.security-ldap'/>
+      <p n='symbolicname' v='pnnl.goss.core.security-ldap'/>
+      <p n='version' t='version' v='1.0.0.201503100632'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[1.0.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authc)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authc ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm.ldap)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.realm.ldap ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.subject)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.subject ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[1.0.0,2.0.0)
+    </require>
+  </resource>
   <resource id='pnnl.goss.core.security-propertyfile/2.0.0' presentationname='pnnl.goss.core.security-propertyfile' symbolicname='pnnl.goss.core.security-propertyfile' uri='pnnl.goss.core.security-propertyfile/pnnl.goss.core.security-propertyfile-2.0.0.jar' version='2.0.0'>
     <size>
-      6815
+      6798
     </size>
     <license>
       https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
