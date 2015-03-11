@@ -50,7 +50,7 @@ fi
 java=""
 if [[ -z "$JAVA_HOME" ]]; then
     # TODO this will break on non-OSX machines?!
-    java=$(/usr/libexec/java_home)/bin/java
+    java=/usr/bin/java
 else
     java=$JAVA_HOME/bin/java
 fi
