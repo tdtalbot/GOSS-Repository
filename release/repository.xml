@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
-<repository lastmodified='20150309233543.095' name='Amdatu releases'>
+<repository lastmodified='20150311124009.227' name='Amdatu releases'>
   <resource id='pnnl.goss.core.core-api/2.0.0' presentationname='pnnl.goss.core.core-api' symbolicname='pnnl.goss.core.core-api' uri='pnnl.goss.core.core-api/pnnl.goss.core.core-api-2.0.0.jar' version='2.0.0'>
     <size>
       54852
@@ -324,9 +324,9 @@
       Import package pnnl.goss.core.server.runner.requests ;version=[1.0.0,2.0.0)
     </require>
   </resource>
-  <resource id='pnnl.goss.core.itests/0.0.0.201503100632' presentationname='pnnl.goss.core.itests' symbolicname='pnnl.goss.core.itests' uri='pnnl.goss.core.itests/pnnl.goss.core.itests-0.0.0.jar' version='0.0.0.201503100632'>
+  <resource id='pnnl.goss.core.itests/0.0.0.201503111933' presentationname='pnnl.goss.core.itests' symbolicname='pnnl.goss.core.itests' uri='pnnl.goss.core.itests/pnnl.goss.core.itests-0.0.0.jar' version='0.0.0.201503111933'>
     <size>
-      14739
+      14740
     </size>
     <license>
       https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
@@ -339,7 +339,7 @@
       <p n='manifestversion' v='2'/>
       <p n='presentationname' v='pnnl.goss.core.itests'/>
       <p n='symbolicname' v='pnnl.goss.core.itests'/>
-      <p n='version' t='version' v='0.0.0.201503100632'/>
+      <p n='version' t='version' v='0.0.0.201503111933'/>
     </capability>
     <require extend='false' filter='(&amp;(package=org.amdatu.testing.configurator)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
       Import package org.amdatu.testing.configurator ;version=[3.0.0,4.0.0)
@@ -428,9 +428,9 @@
       Import package pnnl.goss.core.server.runner.requests ;version=[1.0.0,2.0.0)
     </require>
   </resource>
-  <resource id='pnnl.goss.core.security-ldap/1.0.0.201503100632' presentationname='pnnl.goss.core.security-ldap' symbolicname='pnnl.goss.core.security-ldap' uri='pnnl.goss.core.security-ldap/pnnl.goss.core.security-ldap-1.0.0.jar' version='1.0.0.201503100632'>
+  <resource id='pnnl.goss.core.security-ldap/1.0.0.201503111933' presentationname='pnnl.goss.core.security-ldap' symbolicname='pnnl.goss.core.security-ldap' uri='pnnl.goss.core.security-ldap/pnnl.goss.core.security-ldap-1.0.0.jar' version='1.0.0.201503111933'>
     <size>
-      6640
+      6641
     </size>
     <license>
       https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
@@ -443,7 +443,7 @@
       <p n='manifestversion' v='2'/>
       <p n='presentationname' v='pnnl.goss.core.security-ldap'/>
       <p n='symbolicname' v='pnnl.goss.core.security-ldap'/>
-      <p n='version' t='version' v='1.0.0.201503100632'/>
+      <p n='version' t='version' v='1.0.0.201503111933'/>
     </capability>
     <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
       Import package com.northconcepts.exception ;version=[1.0.0,2.0.0)
