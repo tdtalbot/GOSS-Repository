@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
-<repository lastmodified='20150428114832.229' name='Amdatu snapshots'>
+<repository lastmodified='20150428124107.366' name='Amdatu snapshots'>
   <resource id='kundera/2.16.0.201504281822' presentationname='kundera' symbolicname='kundera' uri='kundera/kundera-2.16.0.jar' version='2.16.0.201504281822'>
     <description>
       The idea behind Kundera is to make working with NoSQL Databases
@@ -1215,6 +1215,31 @@
     </capability>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-exceptions/2.0.2.201504281939' presentationname='pnnl.goss.core.goss-core-exceptions' symbolicname='pnnl.goss.core.goss-core-exceptions' uri='pnnl.goss.core.goss-core-exceptions/pnnl.goss.core.goss-core-exceptions-2.0.2.jar' version='2.0.2.201504281939'>
+    <size>
+      13491
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-exceptions'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-exceptions'/>
+      <p n='version' t='version' v='2.0.2.201504281939'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.northconcepts.exception'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
     </require>
   </resource>
   <resource id='pnnl.goss.core.goss-core-exceptions/2.0.1.201504102032' presentationname='pnnl.goss.core.goss-core-exceptions' symbolicname='pnnl.goss.core.goss-core-exceptions' uri='pnnl.goss.core.goss-core-exceptions/pnnl.goss.core.goss-core-exceptions-2.0.1.jar' version='2.0.1.201504102032'>
