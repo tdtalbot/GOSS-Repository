@@ -1,7 +1,232 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
-<repository lastmodified='20150424190532.573' name='Amdatu snapshots'>
+<repository lastmodified='20150428114832.229' name='Amdatu snapshots'>
+  <resource id='kundera/2.16.0.201504281822' presentationname='kundera' symbolicname='kundera' uri='kundera/kundera-2.16.0.jar' version='2.16.0.201504281822'>
+    <description>
+      The idea behind Kundera is to make working with NoSQL Databases
+       drop-dead simple and fun. Kundera is being developed with
+       following objectives: * To make working with NoSQL as simple
+       as working with SQL * To serve as JPA Compliant mapping solution
+       for NoSQL Datastores. * To help developers, forget the complexity
+       of NoSQL stores and focus on Domain Model. * To make switching
+       across data-stores as easy as changing a configuration.
+    </description>
+    <size>
+      9119825
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <category id='jpa'/>
+    <category id='polygot'/>
+    <category id='driver'/>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='kundera'/>
+      <p n='symbolicname' v='kundera'/>
+      <p n='version' t='version' v='2.16.0.201504281822'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.datastax.driver.core)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.datastax.driver.core
+    </require>
+    <require extend='false' filter='(&amp;(package=com.datastax.driver.core.policies)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.datastax.driver.core.policies
+    </require>
+    <require extend='false' filter='(&amp;(package=com.google.common.collect)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.google.common.collect
+    </require>
+    <require extend='false' filter='(&amp;(package=com.mongodb)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.mongodb
+    </require>
+    <require extend='false' filter='(&amp;(package=com.mongodb.util)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.mongodb.util
+    </require>
+    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.thoughtworks.xstream
+    </require>
+    <require extend='false' filter='(&amp;(package=com.vividsolutions.jts.geom)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.vividsolutions.jts.geom
+    </require>
+    <require extend='false' filter='(&amp;(package=com.vividsolutions.jts.io)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.vividsolutions.jts.io
+    </require>
+    <require extend='false' filter='(&amp;(package=javassist)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javassist
+    </require>
+    <require extend='false' filter='(&amp;(package=javassist.bytecode)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javassist.bytecode
+    </require>
+    <require extend='false' filter='(&amp;(package=javassist.bytecode.annotation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javassist.bytecode.annotation
+    </require>
+    <require extend='false' filter='(&amp;(package=javassist.util.proxy)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javassist.util.proxy
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.el)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.el
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.naming
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.naming.spi
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.net
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.persistence)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.persistence
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.persistence.criteria)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.persistence.criteria
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.persistence.metamodel)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.persistence.metamodel
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.persistence.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.persistence.spi
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.sql
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.transaction)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.transaction
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.transaction.xa)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.transaction.xa
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.validation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.validation
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.validation.constraints)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.validation.constraints
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.bind.annotation
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.parsers)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.parsers
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.transform
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.transform.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.transform.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.validation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.validation
+    </require>
+    <require extend='false' filter='(&amp;(package=net.dataforte.cassandra.pool)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package net.dataforte.cassandra.pool
+    </require>
+    <require extend='false' filter='(&amp;(package=net.sf.cglib.proxy)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package net.sf.cglib.proxy
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.cassandra.db.marshal)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.cassandra.db.marshal
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.cassandra.exceptions)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.cassandra.exceptions
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.cassandra.locator)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.cassandra.locator
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.cassandra.serializers)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.cassandra.serializers
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.cassandra.thrift)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.cassandra.thrift
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.cassandra.utils)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.cassandra.utils
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.codec.binary)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.codec.binary
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.configuration)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.configuration
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.lang)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.lang
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.lang.builder)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.lang.builder
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.lang.math)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.lang.math
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.thrift)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.thrift
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.thrift.protocol)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.thrift.protocol
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.thrift.transport)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.thrift.transport
+    </require>
+    <require extend='false' filter='(&amp;(package=org.bson)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.bson
+    </require>
+    <require extend='false' filter='(&amp;(package=org.bson.types)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.bson.types
+    </require>
+    <require extend='false' filter='(&amp;(package=org.eclipse.persistence.jpa.jpql.parser)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.eclipse.persistence.jpa.jpql.parser
+    </require>
+    <require extend='false' filter='(&amp;(package=org.eclipse.persistence.jpa.jpql.utility.iterable)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.eclipse.persistence.jpa.jpql.utility.iterable
+    </require>
+    <require extend='false' filter='(&amp;(package=org.hibernate)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.hibernate
+    </require>
+    <require extend='false' filter='(&amp;(package=org.hibernate.cfg)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.hibernate.cfg
+    </require>
+    <require extend='false' filter='(&amp;(package=org.hibernate.criterion)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.hibernate.criterion
+    </require>
+    <require extend='false' filter='(&amp;(package=org.hibernate.engine.transaction.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.hibernate.engine.transaction.spi
+    </require>
+    <require extend='false' filter='(&amp;(package=org.hibernate.exception)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.hibernate.exception
+    </require>
+    <require extend='false' filter='(&amp;(package=org.hibernate.internal)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.hibernate.internal
+    </require>
+    <require extend='false' filter='(&amp;(package=org.hibernate.service)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.hibernate.service
+    </require>
+    <require extend='false' filter='(&amp;(package=org.hibernate.transform)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.hibernate.transform
+    </require>
+    <require extend='false' filter='(&amp;(package=org.scale7.cassandra.pelops)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.scale7.cassandra.pelops
+    </require>
+    <require extend='false' filter='(&amp;(package=org.scale7.cassandra.pelops.exceptions)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.scale7.cassandra.pelops.exceptions
+    </require>
+    <require extend='false' filter='(&amp;(package=org.scale7.cassandra.pelops.pool)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.scale7.cassandra.pelops.pool
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j
+    </require>
+    <require extend='false' filter='(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.w3c.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.xml.sax
+    </require>
+  </resource>
   <resource id='pnnl.goss.core.client-all/1.1.1.201504231642' presentationname='pnnl.goss.core.client-all' symbolicname='pnnl.goss.core.client-all' uri='pnnl.goss.core.client-all/pnnl.goss.core.client-all-1.1.1.jar' version='1.1.1.201504231642'>
     <size>
       4813975
