@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
-<repository lastmodified='20150429092530.803' name='Amdatu dependenciess'>
+<repository lastmodified='20150429115259.782' name='Amdatu dependenciess'>
   <resource id='com.google.gson/2.3.1' presentationname='Gson' symbolicname='com.google.gson' uri='com.google.gson/com.google.gson-2.3.1.jar' version='2.3.1'>
     <description>
       Google Gson library
@@ -5551,6 +5551,122 @@
       Import package org.xml.sax.helpers
     </require>
   </resource>
+  <resource id='org.apache.felix.http.servlet-api/1.1.0' presentationname='Apache Felix Servlet API' symbolicname='org.apache.felix.http.servlet-api' uri='org.apache.felix.http.servlet-api/org.apache.felix.http.servlet-api-1.1.0.jar' version='1.1.0'>
+    <description>
+      Provides the Servlet API for use by applications
+    </description>
+    <size>
+      243338
+    </size>
+    <license>
+      http://www.apache.org/licenses/LICENSE-2.0.txt
+    </license>
+    <documentation>
+      http://www.apache.org/
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='Apache Felix Servlet API'/>
+      <p n='symbolicname' v='org.apache.felix.http.servlet-api'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.servlet'/>
+      <p n='uses' v='javax.servlet.annotation,javax.servlet.descriptor'/>
+      <p n='version' t='version' v='2.6.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.servlet.annotation'/>
+      <p n='uses' v='javax.servlet'/>
+      <p n='version' t='version' v='2.6.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.servlet.descriptor'/>
+      <p n='version' t='version' v='2.6.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.servlet.http'/>
+      <p n='uses' v='javax.servlet'/>
+      <p n='version' t='version' v='2.6.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.servlet.annotation'/>
+      <p n='version' t='version' v='3.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.servlet.descriptor'/>
+      <p n='version' t='version' v='3.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.servlet.descriptor'/>
+      <p n='version' t='version' v='3.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.servlet.annotation'/>
+      <p n='version' t='version' v='3.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.servlet.http'/>
+      <p n='version' t='version' v='3.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.servlet'/>
+      <p n='version' t='version' v='3.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.servlet.http'/>
+      <p n='version' t='version' v='3.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.servlet'/>
+      <p n='version' t='version' v='3.1.0'/>
+    </capability>
+  </resource>
+  <resource id='org.apache.felix.http.whiteboard/2.3.2' presentationname='Apache Felix Http Whiteboard' symbolicname='org.apache.felix.http.whiteboard' uri='org.apache.felix.http.whiteboard/org.apache.felix.http.whiteboard-2.3.2.jar' version='2.3.2'>
+    <description>
+      Apache Felix is an OSGi implementation.
+    </description>
+    <size>
+      39981
+    </size>
+    <license>
+      http://www.apache.org/licenses/LICENSE-2.0.txt
+    </license>
+    <documentation>
+      http://www.apache.org/
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='Apache Felix Http Whiteboard'/>
+      <p n='symbolicname' v='org.apache.felix.http.whiteboard'/>
+      <p n='version' t='version' v='2.3.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.felix.http.whiteboard'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.servlet ;version=[3.0.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.servlet.http ;version=[3.0.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.felix.http.api)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.felix.http.api ;version=[2.0.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.http)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.http ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.log)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.log ;version=[1.3.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.util.tracker)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.util.tracker ;version=[1.4.0,2.0.0)
+    </require>
+  </resource>
   <resource id='org.apache.geronimo.components.geronimo-transaction/3.1.1' presentationname='Geronimo TxManager :: Transaction' symbolicname='org.apache.geronimo.components.geronimo-transaction' uri='org.apache.geronimo.components.geronimo-transaction/org.apache.geronimo.components.geronimo-transaction-3.1.1.jar' version='3.1.1'>
     <description>
       Apache Geronimo Transaction Manager
@@ -6704,6 +6820,443 @@
     </require>
     <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=2.5.0))' multiple='false' name='package' optional='false'>
       Import package javax.servlet.http ;version=2.5.0
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.sql
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.transaction)(version&gt;=1.1.0))' multiple='false' name='package' optional='true'>
+      Import package javax.transaction ;version=1.1.0
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.transaction.xa)(version&gt;=1.1.0))' multiple='false' name='package' optional='true'>
+      Import package javax.transaction.xa ;version=1.1.0
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.parsers)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.parsers
+    </require>
+    <require extend='false' filter='(&amp;(package=org.ietf.jgss)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.ietf.jgss
+    </require>
+    <require extend='false' filter='(&amp;(package=org.objectweb.asm)(version&gt;=3.1.0))' multiple='false' name='package' optional='true'>
+      Import package org.objectweb.asm ;version=3.1.0
+    </require>
+    <require extend='false' filter='(&amp;(package=org.objectweb.asm.commons)(version&gt;=3.1.0))' multiple='false' name='package' optional='true'>
+      Import package org.objectweb.asm.commons ;version=3.1.0
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.slf4j
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j.helpers)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.slf4j.helpers
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.slf4j.spi
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.xml.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax.helpers)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.xml.sax.helpers
+    </require>
+    <require extend='false' filter='(|(ee=J2SE-1.5))' multiple='false' name='ee' optional='false'>
+      Execution Environment (|(ee=J2SE-1.5))
+    </require>
+  </resource>
+  <resource id='org.eclipse.jetty.aggregate.jetty-all-server/8.1.16.v20140903' presentationname='Jetty :: Aggregate :: All Server' symbolicname='org.eclipse.jetty.aggregate.jetty-all-server' uri='org.eclipse.jetty.aggregate.jetty-all-server/org.eclipse.jetty.aggregate.jetty-all-server-8.1.16.jar' version='8.1.16.v20140903'>
+    <description>
+      Administrative parent pom for Jetty modules
+    </description>
+    <size>
+      1882609
+    </size>
+    <license>
+      http://www.apache.org/licenses/LICENSE-2.0, http://www.eclipse.org/org/documents/epl-v10.php
+    </license>
+    <documentation>
+      http://www.eclipse.org/jetty
+    </documentation>
+    <copyright>
+      Copyright (c) 2008-2014 Mort Bay Consulting Pty. Ltd.
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='Jetty :: Aggregate :: All Server'/>
+      <p n='symbolicname' v='org.eclipse.jetty.aggregate.jetty-all-server'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.client'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.client.security'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.security'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.jndi.java'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.jndi.factories'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.util.log.jmx'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.security.authentication'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.webapp.jmx'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.server.nio.jmx'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.continuation'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.util.component'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.util.component.jmx'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.plus.servlet'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.plus.jaas.callback'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.server.ssl'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.util.thread'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.websocket'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.xml'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.plus.jaas.spi'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.server'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.io.bio'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.servlet'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.util.thread.jmx'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.server.nio'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.server.handler'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.plus.jndi'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.deploy.util'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.jndi'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.jndi.local'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.servlets'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.servlets.jmx'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.http.gzip'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.plus.security'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.deploy.graph'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.servlet.jmx'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.deploy'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.client.webdav'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.http.ssl'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.util.resource'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.plus.annotation'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.plus.webapp'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.deploy.bindings'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.io.nio'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.webapp'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.util.statistic'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.security.jaspi.callback'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.server.handler.jmx'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.annotations'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.deploy.jmx'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.util.preventers'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.server.bio'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.util.ssl'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.util'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.util.security'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.io'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.rewrite.handler'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.http'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.plus.jaas'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.deploy.providers'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.nested'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.server.session.jmx'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.security.jaspi'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.ajp'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.server.jmx'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.security.jaspi.modules'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.jmx'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.server.session'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.servlet.listener'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.deploy.providers.jmx'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.util.log'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.eclipse.jetty.util.ajax'/>
+      <p n='version' t='version' v='8.1.16.v20140903'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.annotation)(version&gt;=1.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.annotation ;version=1.0.0
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.annotation.security)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.annotation.security ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.imageio)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.imageio
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.mail)(version&gt;=1.4.0))' multiple='false' name='package' optional='true'>
+      Import package javax.mail ;version=1.4.0
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.mail.event)(version&gt;=1.4.0))' multiple='false' name='package' optional='true'>
+      Import package javax.mail.event ;version=1.4.0
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.mail.internet)(version&gt;=1.4.0))' multiple='false' name='package' optional='true'>
+      Import package javax.mail.internet ;version=1.4.0
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.mail.search)(version&gt;=1.4.0))' multiple='false' name='package' optional='true'>
+      Import package javax.mail.search ;version=1.4.0
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.mail.util)(version&gt;=1.4.0))' multiple='false' name='package' optional='true'>
+      Import package javax.mail.util ;version=1.4.0
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.management)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.management
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.management.modelmbean)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.management.modelmbean
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.management.remote)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.management.remote
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.naming
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming.directory)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.naming.directory
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.naming.spi
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.net
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.net.ssl
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.auth)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.security.auth
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.auth.callback)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.security.auth.callback
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.auth.login)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.security.auth.login
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.auth.message)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package javax.security.auth.message ;version=[1.0.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.auth.message.callback)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package javax.security.auth.message.callback ;version=[1.0.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.auth.message.config)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package javax.security.auth.message.config ;version=[1.0.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.auth.message.module)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package javax.security.auth.message.module ;version=[1.0.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.auth.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.security.auth.spi
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.cert)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.security.cert
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=2.6.0))' multiple='false' name='package' optional='false'>
+      Import package javax.servlet ;version=2.6.0
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.annotation)(version&gt;=2.6.0))' multiple='false' name='package' optional='false'>
+      Import package javax.servlet.annotation ;version=2.6.0
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.descriptor)(version&gt;=2.6.0))' multiple='false' name='package' optional='false'>
+      Import package javax.servlet.descriptor ;version=2.6.0
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=2.6.0))' multiple='false' name='package' optional='false'>
+      Import package javax.servlet.http ;version=2.6.0
     </require>
     <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
       Import package javax.sql
