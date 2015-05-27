@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
-<repository lastmodified='20150527140612.236' name='Amdatu snapshots'>
+<repository lastmodified='20150527153408.618' name='Amdatu snapshots'>
   <resource id='kundera/2.16.0.201504281822' presentationname='kundera' symbolicname='kundera' uri='kundera/kundera-2.16.0.jar' version='2.16.0.201504281822'>
     <description>
       The idea behind Kundera is to make working with NoSQL Databases
@@ -225,1068 +225,6 @@
     </require>
     <require extend='false' filter='(&amp;(package=org.xml.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
       Import package org.xml.sax
-    </require>
-  </resource>
-  <resource id='pnnl.goss.core.client-all/3.0.0.201505272104' presentationname='pnnl.goss.core.client-all' symbolicname='pnnl.goss.core.client-all' uri='pnnl.goss.core.client-all/pnnl.goss.core.client-all-3.0.0.jar' version='3.0.0.201505272104'>
-    <size>
-      36835473
-    </size>
-    <license>
-      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
-       Licensed";link=LICENSE
-    </license>
-    <copyright>
-      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
-    </copyright>
-    <capability name='bundle'>
-      <p n='manifestversion' v='2'/>
-      <p n='presentationname' v='pnnl.goss.core.client-all'/>
-      <p n='symbolicname' v='pnnl.goss.core.client-all'/>
-      <p n='version' t='version' v='3.0.0.201505272104'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='pnnl.goss.core'/>
-      <p n='uses' v='com.northconcepts.exception,javax.jms,org.apache.http.auth'/>
-      <p n='version' t='version' v='3.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='pnnl.goss.core.client'/>
-      <p n='uses' v='com.northconcepts.exception,javax.jms,org.apache.http.auth,org.osgi.service.cm,pnnl.goss.core'/>
-      <p n='version' t='version' v='3.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='pnnl.goss.core.exception'/>
-      <p n='uses' v='com.northconcepts.exception'/>
-      <p n='version' t='version' v='2.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='com.google.gson'/>
-      <p n='uses' v='com.google.gson.reflect,com.google.gson.stream'/>
-      <p n='version' t='version' v='2.3.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='com.northconcepts.exception'/>
-      <p n='version' t='version' v='2.1.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='javax.jms'/>
-      <p n='uses' v='javax.transaction.xa'/>
-      <p n='version' t='version' v='1.1.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq'/>
-      <p n='uses' v='javax.jms,javax.net.ssl,javax.transaction.xa,org.apache.activemq.advisory,org.apache.activemq.blob,org.apache.activemq.broker.region,org.apache.activemq.broker.region.policy,org.apache.activemq.command,org.apache.activemq.filter,org.apache.activemq.jndi,org.apache.activemq.management,org.apache.activemq.thread,org.apache.activemq.transaction,org.apache.activemq.transport,org.apache.activemq.usage,org.apache.activemq.util'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.broker.region'/>
-      <p n='uses' v='javax.jms,javax.management,org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.broker.region.cursors,org.apache.activemq.broker.region.group,org.apache.activemq.broker.region.policy,org.apache.activemq.command,org.apache.activemq.filter,org.apache.activemq.management,org.apache.activemq.state,org.apache.activemq.store,org.apache.activemq.thread,org.apache.activemq.usage,org.apache.activemq.util,org.slf4j'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.fusesource.hawtdispatch.internal'/>
-      <p n='uses' v='org.fusesource.hawtdispatch,org.osgi.framework'/>
-      <p n='version' t='version' v='3.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.fusesource.hawtdispatch.util'/>
-      <p n='version' t='version' v='3.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.fusesource.hawtdispatch.internal.pool'/>
-      <p n='uses' v='org.fusesource.hawtdispatch,org.fusesource.hawtdispatch.internal'/>
-      <p n='version' t='version' v='3.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.fusesource.hawtdispatch.internal.util'/>
-      <p n='uses' v='org.fusesource.hawtdispatch'/>
-      <p n='version' t='version' v='3.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.fusesource.hawtdispatch.jmx'/>
-      <p n='uses' v='javax.management,javax.management.openmbean,org.fusesource.hawtdispatch,org.fusesource.hawtdispatch.internal'/>
-      <p n='version' t='version' v='3.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.plugin.jaxb2_commons'/>
-      <p n='uses' v='org.jvnet.jaxb2_commons.lang,org.jvnet.jaxb2_commons.locator'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.fusesource.hawtdispatch'/>
-      <p n='uses' v='scala,scala.collection,scala.collection.immutable,scala.collection.mutable,scala.reflect,scala.runtime'/>
-      <p n='version' t='version' v='3.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.fusesource.hawtdispatch.transport'/>
-      <p n='uses' v='javax.net.ssl,org.fusesource.hawtbuf,org.fusesource.hawtdispatch,org.fusesource.hawtdispatch.util'/>
-      <p n='version' t='version' v='3.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.fusesource.stomp.client'/>
-      <p n='uses' v='javax.net.ssl,org.fusesource.hawtbuf,org.fusesource.hawtdispatch,org.fusesource.hawtdispatch.transport,org.fusesource.stomp.codec'/>
-      <p n='version' t='version' v='3.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.fusesource.stomp.codec'/>
-      <p n='uses' v='org.fusesource.hawtbuf,org.fusesource.hawtdispatch.transport'/>
-      <p n='version' t='version' v='3.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.fusesource.stomp.jms.jndi'/>
-      <p n='uses' v='javax.jms,javax.naming,javax.naming.spi,org.fusesource.stomp.jms'/>
-      <p n='version' t='version' v='3.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.fusesource.stomp.jms.util'/>
-      <p n='uses' v='javax.jms,org.fusesource.hawtbuf,org.fusesource.stomp.codec,org.fusesource.stomp.jms,org.fusesource.stomp.jms.message'/>
-      <p n='version' t='version' v='3.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.transport.xstream'/>
-      <p n='uses' v='com.thoughtworks.xstream,org.apache.activemq.transport.util,org.apache.activemq.wireformat'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.web'/>
-      <p n='uses' v='javax.jms,javax.management,javax.management.openmbean,javax.management.remote,javax.servlet,javax.servlet.http,org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.broker.jmx,org.apache.activemq.broker.util,org.apache.activemq.command,org.apache.activemq.web.config,org.apache.activemq.web.view,org.eclipse.jetty.continuation,org.springframework.beans.factory,org.springframework.web.servlet'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.web.config'/>
-      <p n='uses' v='javax.jms,javax.management.remote,javax.naming'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.web.view'/>
-      <p n='uses' v='com.sun.syndication.feed.synd,com.thoughtworks.xstream,javax.jms,javax.servlet,javax.servlet.http'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.wireformat'/>
-      <p n='uses' v='org.apache.activemq.util'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.xbean'/>
-      <p n='uses' v='org.apache.activemq.broker,org.springframework.beans,org.springframework.beans.factory,org.springframework.context,org.springframework.core.io'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.advisory'/>
-      <p n='uses' v='javax.jms,org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.broker.region,org.apache.activemq.command,org.apache.activemq.usage'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.plugin.jmx'/>
-      <p n='uses' v='org.apache.activemq.broker.jmx,org.apache.activemq.plugin'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.schema.core'/>
-      <p n='uses' v='javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.namespace,org.jvnet.jaxb2_commons.lang,org.jvnet.jaxb2_commons.locator'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.store.jdbc.adapter'/>
-      <p n='uses' v='org.apache.activemq.command,org.apache.activemq.store.jdbc'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.transport.http'/>
-      <p n='uses' v='javax.servlet,javax.servlet.http,org.apache.activemq.broker,org.apache.activemq.command,org.apache.activemq.transport,org.apache.activemq.transport.util,org.apache.activemq.util,org.apache.activemq.wireformat,org.apache.http.client,org.apache.http.conn,org.apache.http.message,org.eclipse.jetty.server'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.transport.util'/>
-      <p n='uses' v='org.apache.activemq.util,org.apache.activemq.wireformat'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.blob'/>
-      <p n='uses' v='javax.jms,org.apache.activemq.command,org.apache.commons.net.ftp'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.broker'/>
-      <p n='uses' v='javax.jms,javax.management,javax.net.ssl,javax.transaction.xa,org.apache.activemq,org.apache.activemq.broker.jmx,org.apache.activemq.broker.region,org.apache.activemq.broker.region.policy,org.apache.activemq.broker.scheduler,org.apache.activemq.command,org.apache.activemq.filter,org.apache.activemq.network,org.apache.activemq.network.jms,org.apache.activemq.proxy,org.apache.activemq.security,org.apache.activemq.state,org.apache.activemq.store,org.apache.activemq.thread,org.apache.activemq.transaction,org.apache.activemq.transport,org.apache.activemq.transport.discovery,org.apache.activemq.usage,org.apache.activemq.util'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.broker.region.cursors'/>
-      <p n='uses' v='org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.broker.region,org.apache.activemq.command,org.apache.activemq.store,org.apache.activemq.usage,org.apache.activemq.util'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.broker.region.group'/>
-      <p n='uses' v='org.apache.activemq.broker.region,org.apache.activemq.command'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.broker.region.virtual'/>
-      <p n='uses' v='javax.jms,org.apache.activemq.broker,org.apache.activemq.broker.region,org.apache.activemq.command,org.apache.activemq.filter,org.apache.activemq.util'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.broker.util'/>
-      <p n='uses' v='org.apache.activemq.broker,org.apache.activemq.broker.region,org.apache.activemq.broker.region.policy,org.apache.activemq.command,org.apache.activemq.openwire,org.apache.activemq.usage,org.apache.activemq.wireformat'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.command'/>
-      <p n='uses' v='javax.jms,javax.transaction.xa,org.apache.activemq,org.apache.activemq.blob,org.apache.activemq.broker.region,org.apache.activemq.filter,org.apache.activemq.jndi,org.apache.activemq.state,org.apache.activemq.transport,org.apache.activemq.usage,org.apache.activemq.util,org.apache.activemq.wireformat'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.broker.cluster'/>
-      <p n='uses' v='org.apache.activemq.broker,org.apache.activemq.broker.region,org.apache.activemq.command'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.broker.jmx'/>
-      <p n='uses' v='javax.jms,javax.management,javax.management.openmbean,org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.broker.region,org.apache.activemq.broker.region.policy,org.apache.activemq.broker.scheduler,org.apache.activemq.command,org.apache.activemq.network,org.apache.activemq.network.jms,org.apache.activemq.proxy,org.apache.activemq.store,org.apache.activemq.thread,org.apache.activemq.transaction,org.apache.activemq.transport,org.apache.activemq.usage,org.apache.activemq.util'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.broker.scheduler'/>
-      <p n='uses' v='javax.jms,org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.command,org.apache.activemq.util'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.filter.function'/>
-      <p n='uses' v='javax.jms,org.apache.activemq.filter,org.apache.activemq.util'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.jaas'/>
-      <p n='uses' v='javax.naming,javax.naming.directory,javax.security.auth,javax.security.auth.callback,javax.security.auth.login,javax.security.auth.spi,org.jasypt.encryption.pbe'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.memory'/>
-      <p n='uses' v='org.apache.activemq.thread,org.apache.activemq.usage'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.memory.buffer'/>
-      <p n='uses' v='org.apache.activemq.broker.region,org.apache.activemq.command'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.network.jms'/>
-      <p n='uses' v='javax.jms,javax.naming,org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.util,org.springframework.jndi'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.openwire'/>
-      <p n='uses' v='org.apache.activemq.command,org.apache.activemq.util,org.apache.activemq.wireformat'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.plugin'/>
-      <p n='uses' v='javax.jms,javax.management,org.apache.activemq.broker,org.apache.activemq.broker.jmx,org.apache.activemq.broker.region,org.apache.activemq.broker.region.policy,org.apache.activemq.command,org.apache.activemq.schema.core,org.slf4j,org.springframework.core.io,org.w3c.dom'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.proxy'/>
-      <p n='uses' v='org.apache.activemq,org.apache.activemq.transport'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.store.jdbc'/>
-      <p n='uses' v='javax.sql,org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.broker.scheduler,org.apache.activemq.command,org.apache.activemq.store,org.apache.activemq.store.memory,org.apache.activemq.usage,org.apache.activemq.util,org.apache.activemq.wireformat'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.store.journal'/>
-      <p n='uses' v='org.apache.activeio.journal,org.apache.activeio.packet,org.apache.activemq.broker,org.apache.activemq.broker.scheduler,org.apache.activemq.command,org.apache.activemq.store,org.apache.activemq.store.jdbc,org.apache.activemq.thread,org.apache.activemq.usage,org.apache.activemq.util,org.apache.activemq.wireformat'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.transport'/>
-      <p n='uses' v='org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.broker.jmx,org.apache.activemq.command,org.apache.activemq.openwire,org.apache.activemq.transport.tcp,org.apache.activemq.util,org.apache.activemq.wireformat,org.eclipse.jetty.server,org.eclipse.jetty.util.ssl,org.slf4j'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.store.memory'/>
-      <p n='uses' v='org.apache.activemq.broker,org.apache.activemq.broker.scheduler,org.apache.activemq.command,org.apache.activemq.store,org.apache.activemq.usage,org.apache.activemq.util'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.transport.discovery'/>
-      <p n='uses' v='org.apache.activemq,org.apache.activemq.command,org.apache.activemq.transport,org.apache.activemq.transport.failover,org.apache.activemq.util'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.transport.https'/>
-      <p n='uses' v='javax.net.ssl,org.apache.activemq.broker,org.apache.activemq.transport,org.apache.activemq.transport.http,org.apache.activemq.transport.util,org.apache.activemq.wireformat,org.apache.http.conn,org.eclipse.jetty.io,org.eclipse.jetty.server,org.eclipse.jetty.server.ssl,org.eclipse.jetty.util.ssl'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.transport.tcp'/>
-      <p n='uses' v='javax.net,javax.net.ssl,org.apache.activemq,org.apache.activemq.command,org.apache.activemq.transport,org.apache.activemq.util,org.apache.activemq.wireformat'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.transport.vm'/>
-      <p n='uses' v='org.apache.activemq.broker,org.apache.activemq.command,org.apache.activemq.thread,org.apache.activemq.transport,org.slf4j'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.filter'/>
-      <p n='uses' v='javax.jms,javax.xml.parsers,org.apache.activemq.broker.region,org.apache.activemq.command,org.apache.activemq.filter.function'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.memory.list'/>
-      <p n='uses' v='org.apache.activemq.broker.region,org.apache.activemq.command,org.apache.activemq.memory.buffer'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.network'/>
-      <p n='uses' v='javax.management,javax.naming.directory,javax.naming.event,org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.broker.jmx,org.apache.activemq.broker.region,org.apache.activemq.command,org.apache.activemq.transport,org.apache.activemq.transport.discovery,org.apache.activemq.util'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.security'/>
-      <p n='uses' v='javax.jms,javax.naming,javax.naming.directory,javax.naming.event,javax.naming.ldap,javax.security.auth,org.apache.activemq.broker,org.apache.activemq.broker.region,org.apache.activemq.command,org.apache.activemq.filter,org.apache.activemq.jaas,org.springframework.beans.factory'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.selector'/>
-      <p n='uses' v='javax.jms,org.apache.activemq.filter'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.spring'/>
-      <p n='uses' v='org.apache.activemq,org.apache.activemq.broker,org.springframework.beans,org.springframework.beans.factory,org.springframework.context,org.springframework.core.io'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.state'/>
-      <p n='uses' v='org.apache.activemq.command,org.apache.activemq.transport'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.store'/>
-      <p n='uses' v='org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.broker.scheduler,org.apache.activemq.command,org.apache.activemq.store.journal,org.apache.activemq.usage,org.apache.activemq.util,org.springframework.beans.factory'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.thread'/>
-      <p n='uses' v='org.apache.activemq.util'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.transaction'/>
-      <p n='uses' v='javax.transaction.xa,org.apache.activemq.broker,org.apache.activemq.command,org.apache.activemq.store,org.slf4j'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.transport.failover'/>
-      <p n='uses' v='org.apache.activemq.command,org.apache.activemq.state,org.apache.activemq.transport,org.apache.activemq.util'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.usage'/>
-      <p n='uses' v='org.apache.activemq,org.apache.activemq.broker.scheduler,org.apache.activemq.store'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.util'/>
-      <p n='uses' v='javax.jms,org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.command,org.apache.activemq.store,org.apache.activemq.transport,org.fusesource.hawtbuf'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.broker.region.policy'/>
-      <p n='uses' v='javax.jms,org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.broker.region,org.apache.activemq.broker.region.cursors,org.apache.activemq.broker.region.group,org.apache.activemq.command,org.apache.activemq.filter,org.apache.activemq.memory.list,org.apache.activemq.network,org.apache.activemq.thread,org.apache.activemq.usage'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='javax.management.j2ee.statistics'/>
-      <p n='version' t='version' v='1.0.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.jndi'/>
-      <p n='uses' v='javax.jms,javax.naming,javax.naming.spi,org.apache.activemq'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.management'/>
-      <p n='uses' v='javax.jms,javax.management.j2ee.statistics,org.apache.activemq,org.apache.activemq.util'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.osgi'/>
-      <p n='uses' v='org.apache.activemq.broker,org.osgi.framework,org.osgi.service.cm'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.http.auth'/>
-      <p n='uses' v='org.apache.http,org.apache.http.params,org.apache.http.protocol'/>
-      <p n='version' t='version' v='4.2.3'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.fusesource.hawtbuf'/>
-      <p n='version' t='version' v='3.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.fusesource.stomp.jms'/>
-      <p n='uses' v='javax.jms,javax.net.ssl,org.fusesource.hawtbuf,org.fusesource.stomp.client,org.fusesource.stomp.codec,org.fusesource.stomp.jms.jndi,org.fusesource.stomp.jms.message'/>
-      <p n='version' t='version' v='3.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.fusesource.stomp.jms.message'/>
-      <p n='uses' v='javax.jms,org.fusesource.hawtbuf,org.fusesource.stomp.codec,org.fusesource.stomp.jms'/>
-      <p n='version' t='version' v='3.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.osgi.service.cm'/>
-      <p n='uses' v='org.osgi.framework'/>
-      <p n='version' t='version' v='1.4.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.slf4j'/>
-      <p n='uses' v='org.slf4j.spi'/>
-      <p n='version' t='version' v='1.7.7'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.slf4j.helpers'/>
-      <p n='uses' v='org.slf4j,org.slf4j.spi'/>
-      <p n='version' t='version' v='1.7.7'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.slf4j.impl'/>
-      <p n='uses' v='org.slf4j,org.slf4j.helpers,org.slf4j.spi'/>
-      <p n='version' t='version' v='1.7.7'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.slf4j.spi'/>
-      <p n='uses' v='org.slf4j'/>
-      <p n='version' t='version' v='1.7.7'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.openwire.v10'/>
-      <p n='uses' v='org.apache.activemq.command,org.apache.activemq.openwire,org.apache.activemq.util'/>
-      <p n='version' t='version' v='5.11.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='com.google.gson.annotations'/>
-      <p n='version' t='version' v='2.3.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='com.google.gson.internal'/>
-      <p n='uses' v='com.google.gson,com.google.gson.reflect,com.google.gson.stream'/>
-      <p n='version' t='version' v='2.3.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='com.google.gson.internal.bind'/>
-      <p n='uses' v='com.google.gson,com.google.gson.internal,com.google.gson.reflect,com.google.gson.stream'/>
-      <p n='version' t='version' v='2.3.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='com.google.gson.reflect'/>
-      <p n='version' t='version' v='2.3.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='com.google.gson.stream'/>
-      <p n='version' t='version' v='2.3.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.apollo.filter'/>
-      <p n='version' t='version' v='3.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.apollo.selector'/>
-      <p n='version' t='version' v='3.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.transport.tcp'/>
-      <p n='version' t='version' v='3.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.apache.activemq.wireformat'/>
-      <p n='version' t='version' v='3.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='com.google.gson'/>
-      <p n='version' t='version' v='3.0.0'/>
-    </capability>
-    <require extend='false' filter='(&amp;(package=com.fasterxml.jackson.annotation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package com.fasterxml.jackson.annotation
-    </require>
-    <require extend='false' filter='(&amp;(package=com.fasterxml.jackson.databind)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package com.fasterxml.jackson.databind
-    </require>
-    <require extend='false' filter='(&amp;(package=com.fasterxml.jackson.databind.annotation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package com.fasterxml.jackson.databind.annotation
-    </require>
-    <require extend='false' filter='(&amp;(package=com.sun.net.httpserver)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package com.sun.net.httpserver
-    </require>
-    <require extend='false' filter='(&amp;(package=com.sun.syndication.feed.synd)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package com.sun.syndication.feed.synd
-    </require>
-    <require extend='false' filter='(&amp;(package=com.sun.syndication.io)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package com.sun.syndication.io
-    </require>
-    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package com.thoughtworks.xstream ;version=[1.3.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream.converters)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package com.thoughtworks.xstream.converters ;version=[1.3.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream.converters.basic)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package com.thoughtworks.xstream.converters.basic ;version=[1.3.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream.io)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package com.thoughtworks.xstream.io ;version=[1.3.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream.io.json)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package com.thoughtworks.xstream.io.json ;version=[1.3.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream.io.xml)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package com.thoughtworks.xstream.io.xml ;version=[1.3.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream.io.xml.xppdom)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package com.thoughtworks.xstream.io.xml.xppdom ;version=[1.3.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=groovy.lang)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package groovy.lang
-    </require>
-    <require extend='false' filter='(&amp;(package=groovy.util)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package groovy.util
-    </require>
-    <require extend='false' filter='(&amp;(package=groovy.xml)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package groovy.xml
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.annotation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.annotation
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.crypto)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.crypto
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.crypto.spec)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.crypto.spec
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.jmdns)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.jmdns
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package javax.jms ;version=[1.1.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.management)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.management
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.management.openmbean)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.management.openmbean
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.management.remote)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.management.remote
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.naming)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.naming
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.naming.directory)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.naming.directory
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.naming.event)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.naming.event
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.naming.ldap)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.naming.ldap
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.naming.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.naming.spi
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.net)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.net
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.net.ssl
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.resource)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package javax.resource ;version=[1.5.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.resource.spi)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package javax.resource.spi ;version=[1.5.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.resource.spi.endpoint)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package javax.resource.spi.endpoint ;version=[1.5.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.resource.spi.work)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package javax.resource.spi.work ;version=[1.5.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.security.auth)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.security.auth
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.security.auth.callback)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.security.auth.callback
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.security.auth.login)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.security.auth.login
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.security.auth.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.security.auth.spi
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.servlet
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.servlet.http
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.sql
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.transaction)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.transaction
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.transaction.xa)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.transaction.xa
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.xml.bind)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
-      Import package javax.xml.bind ;version=[2.2.0,3.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
-      Import package javax.xml.bind.annotation ;version=[2.2.0,3.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation.adapters)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
-      Import package javax.xml.bind.annotation.adapters ;version=[2.2.0,3.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.xml.namespace
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.xml.parsers)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.xml.parsers
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.xml.transform
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.xml.transform.dom
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.xml.transform.stream
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.xml.validation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.xml.validation
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.xml.xpath)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.xml.xpath
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activeio.journal)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activeio.journal
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activeio.journal.active)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activeio.journal.active
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activeio.packet)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activeio.packet
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.advisory)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.advisory ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.apollo.filter)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.apollo.filter
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.apollo.selector)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.apollo.selector
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.broker.jmx)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.broker.jmx ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.broker.region)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.broker.region ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.broker.region.virtual)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.broker.region.virtual ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.broker.scheduler)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.broker.scheduler ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.command)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.command ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.filter)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.filter ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.jndi)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.jndi ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.management)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.management ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.network)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.network ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.openwire)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.openwire ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.security)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.security ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.selector)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.selector ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.state)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.state ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.store)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.store ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.thread)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.thread ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.transaction)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.transaction ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.transport)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.transport ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.transport.discovery)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.transport.discovery ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.transport.vm)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.transport.vm ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.usage)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.usage ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.util)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.util ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.wireformat)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.wireformat ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.commons.daemon)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.commons.daemon
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.commons.net.ftp)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.commons.net.ftp
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.commons.pool)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.commons.pool ;version=[1.5.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.commons.pool.impl)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.commons.pool.impl ;version=[1.5.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.derby.jdbc)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.derby.jdbc
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.geronimo.transaction.manager)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.geronimo.transaction.manager
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.hadoop.io.compress)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.hadoop.io.compress
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.http
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.http.client)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.http.client ;version=[4.2.0,5.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.http.client.methods)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.http.client.methods ;version=[4.2.0,5.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.http.conn)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.http.conn ;version=[4.2.0,5.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.http.conn.scheme)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.http.conn.scheme ;version=[4.2.0,5.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.http.conn.ssl)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.http.conn.ssl ;version=[4.2.0,5.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.http.entity)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.http.entity
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.http.impl.client)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.http.impl.client ;version=[4.2.0,5.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.http.impl.conn)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.http.impl.conn ;version=[4.2.0,5.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.http.message)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.http.message
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.http.params)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.http.params
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.http.protocol)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.http.protocol
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.http.util)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.http.util
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.log4j)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.log4j
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.log4j.helpers)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.log4j.helpers
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.log4j.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.log4j.spi
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.maven.plugin)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.maven.plugin
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.maven.plugin.logging)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.maven.plugin.logging
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.maven.project)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.maven.project
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.authc)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.authc ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.authz ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz.permission)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.authz.permission ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.config)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.config ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.env)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.env ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.io)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.io ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.realm ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm.text)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.realm.text ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.session)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.session ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.session.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.session.mgt ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.subject)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.subject ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.util)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.util ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.tools.ant)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.tools.ant
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.xbean.spring.context)(version&gt;=4.1.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.xbean.spring.context ;version=[4.1.0,5.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.xbean.spring.context.impl)(version&gt;=4.1.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.xbean.spring.context.impl ;version=[4.1.0,5.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.zookeeper)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.zookeeper
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.zookeeper.data)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.zookeeper.data
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.zookeeper.server)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.zookeeper.server
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.zookeeper.server.persistence)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.zookeeper.server.persistence
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.zookeeper.server.quorum)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.zookeeper.server.quorum
-    </require>
-    <require extend='false' filter='(&amp;(package=org.codehaus.groovy.reflection)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.codehaus.groovy.reflection
-    </require>
-    <require extend='false' filter='(&amp;(package=org.codehaus.groovy.runtime)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.codehaus.groovy.runtime
-    </require>
-    <require extend='false' filter='(&amp;(package=org.codehaus.groovy.runtime.callsite)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.codehaus.groovy.runtime.callsite
-    </require>
-    <require extend='false' filter='(&amp;(package=org.codehaus.groovy.runtime.typehandling)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.codehaus.groovy.runtime.typehandling
-    </require>
-    <require extend='false' filter='(&amp;(package=org.codehaus.groovy.runtime.wrappers)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.codehaus.groovy.runtime.wrappers
-    </require>
-    <require extend='false' filter='(&amp;(package=org.codehaus.jettison.mapped)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.codehaus.jettison.mapped
-    </require>
-    <require extend='false' filter='(&amp;(package=org.eclipse.jetty.continuation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.eclipse.jetty.continuation
-    </require>
-    <require extend='false' filter='(&amp;(package=org.eclipse.jetty.io)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.eclipse.jetty.io
-    </require>
-    <require extend='false' filter='(&amp;(package=org.eclipse.jetty.server)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.eclipse.jetty.server
-    </require>
-    <require extend='false' filter='(&amp;(package=org.eclipse.jetty.server.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.eclipse.jetty.server.ssl
-    </require>
-    <require extend='false' filter='(&amp;(package=org.eclipse.jetty.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.eclipse.jetty.servlet
-    </require>
-    <require extend='false' filter='(&amp;(package=org.eclipse.jetty.util.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.eclipse.jetty.util.ssl
-    </require>
-    <require extend='false' filter='(&amp;(package=org.eclipse.jetty.websocket)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.eclipse.jetty.websocket
-    </require>
-    <require extend='false' filter='(&amp;(package=org.eclipse.jetty.websocket.api)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.eclipse.jetty.websocket.api
-    </require>
-    <require extend='false' filter='(&amp;(package=org.eclipse.jetty.websocket.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.eclipse.jetty.websocket.servlet
-    </require>
-    <require extend='false' filter='(&amp;(package=org.fusesource.hawtbuf)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.fusesource.hawtbuf
-    </require>
-    <require extend='false' filter='(&amp;(package=org.fusesource.hawtdispatch)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.fusesource.hawtdispatch
-    </require>
-    <require extend='false' filter='(&amp;(package=org.fusesource.hawtdispatch.transport)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.fusesource.hawtdispatch.transport
-    </require>
-    <require extend='false' filter='(&amp;(package=org.fusesource.hawtdispatch.util)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.fusesource.hawtdispatch.util
-    </require>
-    <require extend='false' filter='(&amp;(package=org.fusesource.leveldbjni.internal)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.fusesource.leveldbjni.internal
-    </require>
-    <require extend='false' filter='(&amp;(package=org.jasypt.encryption)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.jasypt.encryption
-    </require>
-    <require extend='false' filter='(&amp;(package=org.jasypt.encryption.pbe)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.jasypt.encryption.pbe
-    </require>
-    <require extend='false' filter='(&amp;(package=org.jasypt.encryption.pbe.config)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.jasypt.encryption.pbe.config
-    </require>
-    <require extend='false' filter='(&amp;(package=org.jasypt.exceptions)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.jasypt.exceptions
-    </require>
-    <require extend='false' filter='(&amp;(package=org.jasypt.properties)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.jasypt.properties
-    </require>
-    <require extend='false' filter='(&amp;(package=org.json)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.json
-    </require>
-    <require extend='false' filter='(&amp;(package=org.jvnet.jaxb2_commons.lang)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.jvnet.jaxb2_commons.lang
-    </require>
-    <require extend='false' filter='(&amp;(package=org.jvnet.jaxb2_commons.locator)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.jvnet.jaxb2_commons.locator
-    </require>
-    <require extend='false' filter='(&amp;(package=org.jvnet.jaxb2_commons.locator.util)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.jvnet.jaxb2_commons.locator.util
-    </require>
-    <require extend='false' filter='(&amp;(package=org.objectweb.asm)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.objectweb.asm
-    </require>
-    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.osgi.framework ;version=[1.7.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.osgi.service.cm ;version=[1.4.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.slf4j ;version=[1.7.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.slf4j.bridge)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.slf4j.bridge
-    </require>
-    <require extend='false' filter='(&amp;(package=org.springframework.beans)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.springframework.beans ;version=[3.2.0,4.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.springframework.beans.factory)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.springframework.beans.factory ;version=[3.2.0,4.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.springframework.beans.factory.config)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.springframework.beans.factory.config ;version=[3.2.0,4.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.springframework.beans.factory.xml)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.springframework.beans.factory.xml ;version=[3.2.0,4.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.springframework.context)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.springframework.context ;version=[3.2.0,4.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.springframework.core.io)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.springframework.core.io ;version=[3.2.0,4.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.springframework.jndi)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.springframework.jndi ;version=[3.2.0,4.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.springframework.osgi.context.support)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.springframework.osgi.context.support
-    </require>
-    <require extend='false' filter='(&amp;(package=org.springframework.util)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.springframework.util ;version=[3.2.0,4.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.springframework.web.context.support)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.springframework.web.context.support
-    </require>
-    <require extend='false' filter='(&amp;(package=org.springframework.web.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.springframework.web.servlet
-    </require>
-    <require extend='false' filter='(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.w3c.dom
-    </require>
-    <require extend='false' filter='(&amp;(package=org.xerial.snappy)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.xerial.snappy
-    </require>
-    <require extend='false' filter='(&amp;(package=org.xml.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.xml.sax
-    </require>
-    <require extend='false' filter='(&amp;(package=org.xmlpull.v1)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.xmlpull.v1 ;version=[1.1.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=scala)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package scala
-    </require>
-    <require extend='false' filter='(&amp;(package=scala.collection)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package scala.collection
-    </require>
-    <require extend='false' filter='(&amp;(package=scala.collection.concurrent)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package scala.collection.concurrent
-    </require>
-    <require extend='false' filter='(&amp;(package=scala.collection.generic)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package scala.collection.generic
-    </require>
-    <require extend='false' filter='(&amp;(package=scala.collection.immutable)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package scala.collection.immutable
-    </require>
-    <require extend='false' filter='(&amp;(package=scala.collection.mutable)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package scala.collection.mutable
-    </require>
-    <require extend='false' filter='(&amp;(package=scala.math)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package scala.math
-    </require>
-    <require extend='false' filter='(&amp;(package=scala.reflect)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package scala.reflect
-    </require>
-    <require extend='false' filter='(&amp;(package=scala.runtime)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package scala.runtime
-    </require>
-    <require extend='false' filter='(&amp;(package=scala.sys)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package scala.sys
-    </require>
-    <require extend='false' filter='(&amp;(package=sun.misc)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package sun.misc
-    </require>
-    <require extend='false' filter='(&amp;(package=sun.nio.ch)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package sun.nio.ch
     </require>
   </resource>
   <resource id='pnnl.goss.core.client-all/1.1.1.201504231642' presentationname='pnnl.goss.core.client-all' symbolicname='pnnl.goss.core.client-all' uri='pnnl.goss.core.client-all/pnnl.goss.core.client-all-1.1.1.jar' version='1.1.1.201504231642'>
@@ -2069,9 +1007,1071 @@
       <p n='version' t='version' v='5.10.1'/>
     </capability>
   </resource>
-  <resource id='pnnl.goss.core.core-api/3.0.1.201505272104' presentationname='pnnl.goss.core.core-api' symbolicname='pnnl.goss.core.core-api' uri='pnnl.goss.core.core-api/pnnl.goss.core.core-api-3.0.1.jar' version='3.0.1.201505272104'>
+  <resource id='pnnl.goss.core.client-all/2.0.2.201505272232' presentationname='pnnl.goss.core.client-all' symbolicname='pnnl.goss.core.client-all' uri='pnnl.goss.core.client-all/pnnl.goss.core.client-all-2.0.2.jar' version='2.0.2.201505272232'>
     <size>
-      55283
+      36835337
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.client-all'/>
+      <p n='symbolicname' v='pnnl.goss.core.client-all'/>
+      <p n='version' t='version' v='2.0.2.201505272232'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='pnnl.goss.core'/>
+      <p n='uses' v='com.northconcepts.exception,javax.jms,org.apache.http.auth'/>
+      <p n='version' t='version' v='3.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='pnnl.goss.core.client'/>
+      <p n='uses' v='com.northconcepts.exception,javax.jms,org.apache.http.auth,org.osgi.service.cm,pnnl.goss.core'/>
+      <p n='version' t='version' v='3.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='pnnl.goss.core.exception'/>
+      <p n='uses' v='com.northconcepts.exception'/>
+      <p n='version' t='version' v='2.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.gson'/>
+      <p n='uses' v='com.google.gson.reflect,com.google.gson.stream'/>
+      <p n='version' t='version' v='2.3.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.northconcepts.exception'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.jms'/>
+      <p n='uses' v='javax.transaction.xa'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq'/>
+      <p n='uses' v='javax.jms,javax.net.ssl,javax.transaction.xa,org.apache.activemq.advisory,org.apache.activemq.blob,org.apache.activemq.broker.region,org.apache.activemq.broker.region.policy,org.apache.activemq.command,org.apache.activemq.filter,org.apache.activemq.jndi,org.apache.activemq.management,org.apache.activemq.thread,org.apache.activemq.transaction,org.apache.activemq.transport,org.apache.activemq.usage,org.apache.activemq.util'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.broker.region'/>
+      <p n='uses' v='javax.jms,javax.management,org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.broker.region.cursors,org.apache.activemq.broker.region.group,org.apache.activemq.broker.region.policy,org.apache.activemq.command,org.apache.activemq.filter,org.apache.activemq.management,org.apache.activemq.state,org.apache.activemq.store,org.apache.activemq.thread,org.apache.activemq.usage,org.apache.activemq.util,org.slf4j'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.fusesource.hawtdispatch.internal'/>
+      <p n='uses' v='org.fusesource.hawtdispatch,org.osgi.framework'/>
+      <p n='version' t='version' v='2.0.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.fusesource.hawtdispatch.util'/>
+      <p n='version' t='version' v='2.0.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.fusesource.hawtdispatch.internal.pool'/>
+      <p n='uses' v='org.fusesource.hawtdispatch,org.fusesource.hawtdispatch.internal'/>
+      <p n='version' t='version' v='2.0.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.fusesource.hawtdispatch.internal.util'/>
+      <p n='uses' v='org.fusesource.hawtdispatch'/>
+      <p n='version' t='version' v='2.0.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.fusesource.hawtdispatch.jmx'/>
+      <p n='uses' v='javax.management,javax.management.openmbean,org.fusesource.hawtdispatch,org.fusesource.hawtdispatch.internal'/>
+      <p n='version' t='version' v='2.0.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.plugin.jaxb2_commons'/>
+      <p n='uses' v='org.jvnet.jaxb2_commons.lang,org.jvnet.jaxb2_commons.locator'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.fusesource.hawtdispatch'/>
+      <p n='uses' v='scala,scala.collection,scala.collection.immutable,scala.collection.mutable,scala.reflect,scala.runtime'/>
+      <p n='version' t='version' v='2.0.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.fusesource.hawtdispatch.transport'/>
+      <p n='uses' v='javax.net.ssl,org.fusesource.hawtbuf,org.fusesource.hawtdispatch,org.fusesource.hawtdispatch.util'/>
+      <p n='version' t='version' v='2.0.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.fusesource.stomp.client'/>
+      <p n='uses' v='javax.net.ssl,org.fusesource.hawtbuf,org.fusesource.hawtdispatch,org.fusesource.hawtdispatch.transport,org.fusesource.stomp.codec'/>
+      <p n='version' t='version' v='2.0.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.fusesource.stomp.codec'/>
+      <p n='uses' v='org.fusesource.hawtbuf,org.fusesource.hawtdispatch.transport'/>
+      <p n='version' t='version' v='2.0.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.fusesource.stomp.jms.jndi'/>
+      <p n='uses' v='javax.jms,javax.naming,javax.naming.spi,org.fusesource.stomp.jms'/>
+      <p n='version' t='version' v='2.0.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.fusesource.stomp.jms.util'/>
+      <p n='uses' v='javax.jms,org.fusesource.hawtbuf,org.fusesource.stomp.codec,org.fusesource.stomp.jms,org.fusesource.stomp.jms.message'/>
+      <p n='version' t='version' v='2.0.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.transport.xstream'/>
+      <p n='uses' v='com.thoughtworks.xstream,org.apache.activemq.transport.util,org.apache.activemq.wireformat'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.web'/>
+      <p n='uses' v='javax.jms,javax.management,javax.management.openmbean,javax.management.remote,javax.servlet,javax.servlet.http,org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.broker.jmx,org.apache.activemq.broker.util,org.apache.activemq.command,org.apache.activemq.web.config,org.apache.activemq.web.view,org.eclipse.jetty.continuation,org.springframework.beans.factory,org.springframework.web.servlet'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.web.config'/>
+      <p n='uses' v='javax.jms,javax.management.remote,javax.naming'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.web.view'/>
+      <p n='uses' v='com.sun.syndication.feed.synd,com.thoughtworks.xstream,javax.jms,javax.servlet,javax.servlet.http'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.wireformat'/>
+      <p n='uses' v='org.apache.activemq.util'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.xbean'/>
+      <p n='uses' v='org.apache.activemq.broker,org.springframework.beans,org.springframework.beans.factory,org.springframework.context,org.springframework.core.io'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.advisory'/>
+      <p n='uses' v='javax.jms,org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.broker.region,org.apache.activemq.command,org.apache.activemq.usage'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.plugin.jmx'/>
+      <p n='uses' v='org.apache.activemq.broker.jmx,org.apache.activemq.plugin'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.schema.core'/>
+      <p n='uses' v='javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.namespace,org.jvnet.jaxb2_commons.lang,org.jvnet.jaxb2_commons.locator'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.store.jdbc.adapter'/>
+      <p n='uses' v='org.apache.activemq.command,org.apache.activemq.store.jdbc'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.transport.http'/>
+      <p n='uses' v='javax.servlet,javax.servlet.http,org.apache.activemq.broker,org.apache.activemq.command,org.apache.activemq.transport,org.apache.activemq.transport.util,org.apache.activemq.util,org.apache.activemq.wireformat,org.apache.http.client,org.apache.http.conn,org.apache.http.message,org.eclipse.jetty.server'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.transport.util'/>
+      <p n='uses' v='org.apache.activemq.util,org.apache.activemq.wireformat'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.blob'/>
+      <p n='uses' v='javax.jms,org.apache.activemq.command,org.apache.commons.net.ftp'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.broker'/>
+      <p n='uses' v='javax.jms,javax.management,javax.net.ssl,javax.transaction.xa,org.apache.activemq,org.apache.activemq.broker.jmx,org.apache.activemq.broker.region,org.apache.activemq.broker.region.policy,org.apache.activemq.broker.scheduler,org.apache.activemq.command,org.apache.activemq.filter,org.apache.activemq.network,org.apache.activemq.network.jms,org.apache.activemq.proxy,org.apache.activemq.security,org.apache.activemq.state,org.apache.activemq.store,org.apache.activemq.thread,org.apache.activemq.transaction,org.apache.activemq.transport,org.apache.activemq.transport.discovery,org.apache.activemq.usage,org.apache.activemq.util'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.broker.region.cursors'/>
+      <p n='uses' v='org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.broker.region,org.apache.activemq.command,org.apache.activemq.store,org.apache.activemq.usage,org.apache.activemq.util'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.broker.region.group'/>
+      <p n='uses' v='org.apache.activemq.broker.region,org.apache.activemq.command'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.broker.region.virtual'/>
+      <p n='uses' v='javax.jms,org.apache.activemq.broker,org.apache.activemq.broker.region,org.apache.activemq.command,org.apache.activemq.filter,org.apache.activemq.util'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.broker.util'/>
+      <p n='uses' v='org.apache.activemq.broker,org.apache.activemq.broker.region,org.apache.activemq.broker.region.policy,org.apache.activemq.command,org.apache.activemq.openwire,org.apache.activemq.usage,org.apache.activemq.wireformat'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.command'/>
+      <p n='uses' v='javax.jms,javax.transaction.xa,org.apache.activemq,org.apache.activemq.blob,org.apache.activemq.broker.region,org.apache.activemq.filter,org.apache.activemq.jndi,org.apache.activemq.state,org.apache.activemq.transport,org.apache.activemq.usage,org.apache.activemq.util,org.apache.activemq.wireformat'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.broker.cluster'/>
+      <p n='uses' v='org.apache.activemq.broker,org.apache.activemq.broker.region,org.apache.activemq.command'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.broker.jmx'/>
+      <p n='uses' v='javax.jms,javax.management,javax.management.openmbean,org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.broker.region,org.apache.activemq.broker.region.policy,org.apache.activemq.broker.scheduler,org.apache.activemq.command,org.apache.activemq.network,org.apache.activemq.network.jms,org.apache.activemq.proxy,org.apache.activemq.store,org.apache.activemq.thread,org.apache.activemq.transaction,org.apache.activemq.transport,org.apache.activemq.usage,org.apache.activemq.util'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.broker.scheduler'/>
+      <p n='uses' v='javax.jms,org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.command,org.apache.activemq.util'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.filter.function'/>
+      <p n='uses' v='javax.jms,org.apache.activemq.filter,org.apache.activemq.util'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.jaas'/>
+      <p n='uses' v='javax.naming,javax.naming.directory,javax.security.auth,javax.security.auth.callback,javax.security.auth.login,javax.security.auth.spi,org.jasypt.encryption.pbe'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.memory'/>
+      <p n='uses' v='org.apache.activemq.thread,org.apache.activemq.usage'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.memory.buffer'/>
+      <p n='uses' v='org.apache.activemq.broker.region,org.apache.activemq.command'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.network.jms'/>
+      <p n='uses' v='javax.jms,javax.naming,org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.util,org.springframework.jndi'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.openwire'/>
+      <p n='uses' v='org.apache.activemq.command,org.apache.activemq.util,org.apache.activemq.wireformat'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.plugin'/>
+      <p n='uses' v='javax.jms,javax.management,org.apache.activemq.broker,org.apache.activemq.broker.jmx,org.apache.activemq.broker.region,org.apache.activemq.broker.region.policy,org.apache.activemq.command,org.apache.activemq.schema.core,org.slf4j,org.springframework.core.io,org.w3c.dom'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.proxy'/>
+      <p n='uses' v='org.apache.activemq,org.apache.activemq.transport'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.store.jdbc'/>
+      <p n='uses' v='javax.sql,org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.broker.scheduler,org.apache.activemq.command,org.apache.activemq.store,org.apache.activemq.store.memory,org.apache.activemq.usage,org.apache.activemq.util,org.apache.activemq.wireformat'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.store.journal'/>
+      <p n='uses' v='org.apache.activeio.journal,org.apache.activeio.packet,org.apache.activemq.broker,org.apache.activemq.broker.scheduler,org.apache.activemq.command,org.apache.activemq.store,org.apache.activemq.store.jdbc,org.apache.activemq.thread,org.apache.activemq.usage,org.apache.activemq.util,org.apache.activemq.wireformat'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.transport'/>
+      <p n='uses' v='org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.broker.jmx,org.apache.activemq.command,org.apache.activemq.openwire,org.apache.activemq.transport.tcp,org.apache.activemq.util,org.apache.activemq.wireformat,org.eclipse.jetty.server,org.eclipse.jetty.util.ssl,org.slf4j'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.store.memory'/>
+      <p n='uses' v='org.apache.activemq.broker,org.apache.activemq.broker.scheduler,org.apache.activemq.command,org.apache.activemq.store,org.apache.activemq.usage,org.apache.activemq.util'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.transport.discovery'/>
+      <p n='uses' v='org.apache.activemq,org.apache.activemq.command,org.apache.activemq.transport,org.apache.activemq.transport.failover,org.apache.activemq.util'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.transport.https'/>
+      <p n='uses' v='javax.net.ssl,org.apache.activemq.broker,org.apache.activemq.transport,org.apache.activemq.transport.http,org.apache.activemq.transport.util,org.apache.activemq.wireformat,org.apache.http.conn,org.eclipse.jetty.io,org.eclipse.jetty.server,org.eclipse.jetty.server.ssl,org.eclipse.jetty.util.ssl'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.transport.tcp'/>
+      <p n='uses' v='javax.net,javax.net.ssl,org.apache.activemq,org.apache.activemq.command,org.apache.activemq.transport,org.apache.activemq.util,org.apache.activemq.wireformat'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.transport.vm'/>
+      <p n='uses' v='org.apache.activemq.broker,org.apache.activemq.command,org.apache.activemq.thread,org.apache.activemq.transport,org.slf4j'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.filter'/>
+      <p n='uses' v='javax.jms,javax.xml.parsers,org.apache.activemq.broker.region,org.apache.activemq.command,org.apache.activemq.filter.function'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.memory.list'/>
+      <p n='uses' v='org.apache.activemq.broker.region,org.apache.activemq.command,org.apache.activemq.memory.buffer'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.network'/>
+      <p n='uses' v='javax.management,javax.naming.directory,javax.naming.event,org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.broker.jmx,org.apache.activemq.broker.region,org.apache.activemq.command,org.apache.activemq.transport,org.apache.activemq.transport.discovery,org.apache.activemq.util'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.security'/>
+      <p n='uses' v='javax.jms,javax.naming,javax.naming.directory,javax.naming.event,javax.naming.ldap,javax.security.auth,org.apache.activemq.broker,org.apache.activemq.broker.region,org.apache.activemq.command,org.apache.activemq.filter,org.apache.activemq.jaas,org.springframework.beans.factory'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.selector'/>
+      <p n='uses' v='javax.jms,org.apache.activemq.filter'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.spring'/>
+      <p n='uses' v='org.apache.activemq,org.apache.activemq.broker,org.springframework.beans,org.springframework.beans.factory,org.springframework.context,org.springframework.core.io'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.state'/>
+      <p n='uses' v='org.apache.activemq.command,org.apache.activemq.transport'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.store'/>
+      <p n='uses' v='org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.broker.scheduler,org.apache.activemq.command,org.apache.activemq.store.journal,org.apache.activemq.usage,org.apache.activemq.util,org.springframework.beans.factory'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.thread'/>
+      <p n='uses' v='org.apache.activemq.util'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.transaction'/>
+      <p n='uses' v='javax.transaction.xa,org.apache.activemq.broker,org.apache.activemq.command,org.apache.activemq.store,org.slf4j'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.transport.failover'/>
+      <p n='uses' v='org.apache.activemq.command,org.apache.activemq.state,org.apache.activemq.transport,org.apache.activemq.util'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.usage'/>
+      <p n='uses' v='org.apache.activemq,org.apache.activemq.broker.scheduler,org.apache.activemq.store'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.util'/>
+      <p n='uses' v='javax.jms,org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.command,org.apache.activemq.store,org.apache.activemq.transport,org.fusesource.hawtbuf'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.broker.region.policy'/>
+      <p n='uses' v='javax.jms,org.apache.activemq,org.apache.activemq.broker,org.apache.activemq.broker.region,org.apache.activemq.broker.region.cursors,org.apache.activemq.broker.region.group,org.apache.activemq.command,org.apache.activemq.filter,org.apache.activemq.memory.list,org.apache.activemq.network,org.apache.activemq.thread,org.apache.activemq.usage'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.management.j2ee.statistics'/>
+      <p n='version' t='version' v='1.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.jndi'/>
+      <p n='uses' v='javax.jms,javax.naming,javax.naming.spi,org.apache.activemq'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.management'/>
+      <p n='uses' v='javax.jms,javax.management.j2ee.statistics,org.apache.activemq,org.apache.activemq.util'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.osgi'/>
+      <p n='uses' v='org.apache.activemq.broker,org.osgi.framework,org.osgi.service.cm'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.auth'/>
+      <p n='uses' v='org.apache.http,org.apache.http.params,org.apache.http.protocol'/>
+      <p n='version' t='version' v='4.2.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.fusesource.hawtbuf'/>
+      <p n='version' t='version' v='2.0.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.fusesource.stomp.jms'/>
+      <p n='uses' v='javax.jms,javax.net.ssl,org.fusesource.hawtbuf,org.fusesource.stomp.client,org.fusesource.stomp.codec,org.fusesource.stomp.jms.jndi,org.fusesource.stomp.jms.message'/>
+      <p n='version' t='version' v='2.0.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.fusesource.stomp.jms.message'/>
+      <p n='uses' v='javax.jms,org.fusesource.hawtbuf,org.fusesource.stomp.codec,org.fusesource.stomp.jms'/>
+      <p n='version' t='version' v='2.0.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.osgi.service.cm'/>
+      <p n='uses' v='org.osgi.framework'/>
+      <p n='version' t='version' v='1.4.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.slf4j'/>
+      <p n='uses' v='org.slf4j.spi'/>
+      <p n='version' t='version' v='1.7.7'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.slf4j.helpers'/>
+      <p n='uses' v='org.slf4j,org.slf4j.spi'/>
+      <p n='version' t='version' v='1.7.7'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.slf4j.impl'/>
+      <p n='uses' v='org.slf4j,org.slf4j.helpers,org.slf4j.spi'/>
+      <p n='version' t='version' v='1.7.7'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.slf4j.spi'/>
+      <p n='uses' v='org.slf4j'/>
+      <p n='version' t='version' v='1.7.7'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.openwire.v10'/>
+      <p n='uses' v='org.apache.activemq.command,org.apache.activemq.openwire,org.apache.activemq.util'/>
+      <p n='version' t='version' v='5.11.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.gson.annotations'/>
+      <p n='version' t='version' v='2.3.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.gson.internal'/>
+      <p n='uses' v='com.google.gson,com.google.gson.reflect,com.google.gson.stream'/>
+      <p n='version' t='version' v='2.3.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.gson.internal.bind'/>
+      <p n='uses' v='com.google.gson,com.google.gson.internal,com.google.gson.reflect,com.google.gson.stream'/>
+      <p n='version' t='version' v='2.3.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.gson.reflect'/>
+      <p n='version' t='version' v='2.3.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.gson.stream'/>
+      <p n='version' t='version' v='2.3.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.apollo.filter'/>
+      <p n='version' t='version' v='2.0.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.apollo.selector'/>
+      <p n='version' t='version' v='2.0.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.transport.tcp'/>
+      <p n='version' t='version' v='2.0.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.activemq.wireformat'/>
+      <p n='version' t='version' v='2.0.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.gson'/>
+      <p n='version' t='version' v='2.0.2'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.fasterxml.jackson.annotation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.fasterxml.jackson.annotation
+    </require>
+    <require extend='false' filter='(&amp;(package=com.fasterxml.jackson.databind)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.fasterxml.jackson.databind
+    </require>
+    <require extend='false' filter='(&amp;(package=com.fasterxml.jackson.databind.annotation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.fasterxml.jackson.databind.annotation
+    </require>
+    <require extend='false' filter='(&amp;(package=com.sun.net.httpserver)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.net.httpserver
+    </require>
+    <require extend='false' filter='(&amp;(package=com.sun.syndication.feed.synd)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.syndication.feed.synd
+    </require>
+    <require extend='false' filter='(&amp;(package=com.sun.syndication.io)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.syndication.io
+    </require>
+    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.thoughtworks.xstream ;version=[1.3.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream.converters)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.thoughtworks.xstream.converters ;version=[1.3.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream.converters.basic)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.thoughtworks.xstream.converters.basic ;version=[1.3.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream.io)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.thoughtworks.xstream.io ;version=[1.3.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream.io.json)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.thoughtworks.xstream.io.json ;version=[1.3.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream.io.xml)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.thoughtworks.xstream.io.xml ;version=[1.3.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream.io.xml.xppdom)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.thoughtworks.xstream.io.xml.xppdom ;version=[1.3.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=groovy.lang)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package groovy.lang
+    </require>
+    <require extend='false' filter='(&amp;(package=groovy.util)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package groovy.util
+    </require>
+    <require extend='false' filter='(&amp;(package=groovy.xml)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package groovy.xml
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.annotation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.annotation
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.crypto)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.crypto
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.crypto.spec)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.crypto.spec
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.jmdns)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.jmdns
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.management)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.management
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.management.openmbean)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.management.openmbean
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.management.remote)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.management.remote
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.naming
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming.directory)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.naming.directory
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming.event)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.naming.event
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming.ldap)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.naming.ldap
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.naming.spi
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.net
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.net.ssl
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.resource)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.resource ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.resource.spi)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.resource.spi ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.resource.spi.endpoint)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.resource.spi.endpoint ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.resource.spi.work)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.resource.spi.work ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.auth)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.security.auth
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.auth.callback)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.security.auth.callback
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.auth.login)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.security.auth.login
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.auth.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.security.auth.spi
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.servlet.http
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.sql
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.transaction)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.transaction
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.transaction.xa)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.transaction.xa
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.bind ;version=[2.2.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.bind.annotation ;version=[2.2.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation.adapters)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.bind.annotation.adapters ;version=[2.2.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.namespace
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.parsers)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.parsers
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.transform
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.transform.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.transform.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.validation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.validation
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.xpath)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.xpath
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activeio.journal)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activeio.journal
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activeio.journal.active)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activeio.journal.active
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activeio.packet)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activeio.packet
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.advisory)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.advisory ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.apollo.filter)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.apollo.filter
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.apollo.selector)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.apollo.selector
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.broker.jmx)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.broker.jmx ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.broker.region)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.broker.region ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.broker.region.virtual)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.broker.region.virtual ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.broker.scheduler)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.broker.scheduler ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.command)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.command ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.filter)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.filter ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.jndi)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.jndi ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.management)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.management ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.network)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.network ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.openwire)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.openwire ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.security)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.security ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.selector)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.selector ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.state)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.state ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.store)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.store ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.thread)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.thread ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.transaction)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.transaction ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.transport)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.transport ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.transport.discovery)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.transport.discovery ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.transport.vm)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.transport.vm ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.usage)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.usage ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.util)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.util ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.wireformat)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.wireformat ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.daemon)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.daemon
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.net.ftp)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.net.ftp
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.pool)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.pool ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.pool.impl)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.pool.impl ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.derby.jdbc)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.derby.jdbc
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.geronimo.transaction.manager)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.geronimo.transaction.manager
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.hadoop.io.compress)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.hadoop.io.compress
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.client)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.client ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.client.methods)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.client.methods ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.conn)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.conn ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.conn.scheme)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.conn.scheme ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.conn.ssl)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.conn.ssl ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.entity)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.entity
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.impl.client)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.impl.client ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.impl.conn)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.impl.conn ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.message)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.message
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.params)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.params
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.protocol)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.protocol
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.util)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.util
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.log4j)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.log4j
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.log4j.helpers)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.log4j.helpers
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.log4j.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.log4j.spi
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.maven.plugin)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.maven.plugin
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.maven.plugin.logging)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.maven.plugin.logging
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.maven.project)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.maven.project
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authc)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authc ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz.permission)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz.permission ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.config)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.config ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.env)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.env ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.io)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.io ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.realm ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm.text)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.realm.text ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.session)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.session ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.session.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.session.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.subject)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.subject ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.util)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.util ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.tools.ant)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.tools.ant
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.xbean.spring.context)(version&gt;=4.1.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.xbean.spring.context ;version=[4.1.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.xbean.spring.context.impl)(version&gt;=4.1.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.xbean.spring.context.impl ;version=[4.1.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.zookeeper)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.zookeeper
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.zookeeper.data)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.zookeeper.data
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.zookeeper.server)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.zookeeper.server
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.zookeeper.server.persistence)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.zookeeper.server.persistence
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.zookeeper.server.quorum)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.zookeeper.server.quorum
+    </require>
+    <require extend='false' filter='(&amp;(package=org.codehaus.groovy.reflection)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.codehaus.groovy.reflection
+    </require>
+    <require extend='false' filter='(&amp;(package=org.codehaus.groovy.runtime)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.codehaus.groovy.runtime
+    </require>
+    <require extend='false' filter='(&amp;(package=org.codehaus.groovy.runtime.callsite)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.codehaus.groovy.runtime.callsite
+    </require>
+    <require extend='false' filter='(&amp;(package=org.codehaus.groovy.runtime.typehandling)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.codehaus.groovy.runtime.typehandling
+    </require>
+    <require extend='false' filter='(&amp;(package=org.codehaus.groovy.runtime.wrappers)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.codehaus.groovy.runtime.wrappers
+    </require>
+    <require extend='false' filter='(&amp;(package=org.codehaus.jettison.mapped)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.codehaus.jettison.mapped
+    </require>
+    <require extend='false' filter='(&amp;(package=org.eclipse.jetty.continuation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.eclipse.jetty.continuation
+    </require>
+    <require extend='false' filter='(&amp;(package=org.eclipse.jetty.io)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.eclipse.jetty.io
+    </require>
+    <require extend='false' filter='(&amp;(package=org.eclipse.jetty.server)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.eclipse.jetty.server
+    </require>
+    <require extend='false' filter='(&amp;(package=org.eclipse.jetty.server.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.eclipse.jetty.server.ssl
+    </require>
+    <require extend='false' filter='(&amp;(package=org.eclipse.jetty.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.eclipse.jetty.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=org.eclipse.jetty.util.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.eclipse.jetty.util.ssl
+    </require>
+    <require extend='false' filter='(&amp;(package=org.eclipse.jetty.websocket)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.eclipse.jetty.websocket
+    </require>
+    <require extend='false' filter='(&amp;(package=org.eclipse.jetty.websocket.api)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.eclipse.jetty.websocket.api
+    </require>
+    <require extend='false' filter='(&amp;(package=org.eclipse.jetty.websocket.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.eclipse.jetty.websocket.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=org.fusesource.hawtbuf)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.fusesource.hawtbuf
+    </require>
+    <require extend='false' filter='(&amp;(package=org.fusesource.hawtdispatch)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.fusesource.hawtdispatch
+    </require>
+    <require extend='false' filter='(&amp;(package=org.fusesource.hawtdispatch.transport)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.fusesource.hawtdispatch.transport
+    </require>
+    <require extend='false' filter='(&amp;(package=org.fusesource.hawtdispatch.util)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.fusesource.hawtdispatch.util
+    </require>
+    <require extend='false' filter='(&amp;(package=org.fusesource.leveldbjni.internal)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.fusesource.leveldbjni.internal
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jasypt.encryption)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.jasypt.encryption
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jasypt.encryption.pbe)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.jasypt.encryption.pbe
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jasypt.encryption.pbe.config)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.jasypt.encryption.pbe.config
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jasypt.exceptions)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.jasypt.exceptions
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jasypt.properties)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.jasypt.properties
+    </require>
+    <require extend='false' filter='(&amp;(package=org.json)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.json
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jvnet.jaxb2_commons.lang)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.jvnet.jaxb2_commons.lang
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jvnet.jaxb2_commons.locator)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.jvnet.jaxb2_commons.locator
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jvnet.jaxb2_commons.locator.util)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.jvnet.jaxb2_commons.locator.util
+    </require>
+    <require extend='false' filter='(&amp;(package=org.objectweb.asm)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.objectweb.asm
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.framework ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.cm ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j.bridge)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j.bridge
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.beans)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.beans ;version=[3.2.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.beans.factory)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.beans.factory ;version=[3.2.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.beans.factory.config)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.beans.factory.config ;version=[3.2.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.beans.factory.xml)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.beans.factory.xml ;version=[3.2.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.context)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.context ;version=[3.2.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.core.io)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.core.io ;version=[3.2.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.jndi)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.jndi ;version=[3.2.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.osgi.context.support)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.osgi.context.support
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.util)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.util ;version=[3.2.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.web.context.support)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.web.context.support
+    </require>
+    <require extend='false' filter='(&amp;(package=org.springframework.web.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.springframework.web.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.w3c.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xerial.snappy)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.xerial.snappy
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.xml.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xmlpull.v1)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.xmlpull.v1 ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=scala)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package scala
+    </require>
+    <require extend='false' filter='(&amp;(package=scala.collection)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package scala.collection
+    </require>
+    <require extend='false' filter='(&amp;(package=scala.collection.concurrent)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package scala.collection.concurrent
+    </require>
+    <require extend='false' filter='(&amp;(package=scala.collection.generic)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package scala.collection.generic
+    </require>
+    <require extend='false' filter='(&amp;(package=scala.collection.immutable)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package scala.collection.immutable
+    </require>
+    <require extend='false' filter='(&amp;(package=scala.collection.mutable)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package scala.collection.mutable
+    </require>
+    <require extend='false' filter='(&amp;(package=scala.math)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package scala.math
+    </require>
+    <require extend='false' filter='(&amp;(package=scala.reflect)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package scala.reflect
+    </require>
+    <require extend='false' filter='(&amp;(package=scala.runtime)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package scala.runtime
+    </require>
+    <require extend='false' filter='(&amp;(package=scala.sys)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package scala.sys
+    </require>
+    <require extend='false' filter='(&amp;(package=sun.misc)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package sun.misc
+    </require>
+    <require extend='false' filter='(&amp;(package=sun.nio.ch)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package sun.nio.ch
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.core-api/3.0.0.201505272232' presentationname='pnnl.goss.core.core-api' symbolicname='pnnl.goss.core.core-api' uri='pnnl.goss.core.core-api/pnnl.goss.core.core-api-3.0.0.jar' version='3.0.0.201505272232'>
+    <size>
+      55282
     </size>
     <license>
       https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
@@ -2084,7 +2084,7 @@
       <p n='manifestversion' v='2'/>
       <p n='presentationname' v='pnnl.goss.core.core-api'/>
       <p n='symbolicname' v='pnnl.goss.core.core-api'/>
-      <p n='version' t='version' v='3.0.1.201505272104'/>
+      <p n='version' t='version' v='3.0.0.201505272232'/>
     </capability>
     <capability name='package'>
       <p n='package' v='pnnl.goss.core'/>
@@ -2166,6 +2166,57 @@
     </require>
     <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
       Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-client/2.0.5.201505272232' presentationname='pnnl.goss.core.goss-client' symbolicname='pnnl.goss.core.goss-client' uri='pnnl.goss.core.goss-client/pnnl.goss.core.goss-client-2.0.5.jar' version='2.0.5.201505272232'>
+    <size>
+      32241
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-client'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-client'/>
+      <p n='version' t='version' v='2.0.5.201505272232'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.google.gson)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.google.gson ;version=[2.3.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.fusesource.hawtbuf)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.fusesource.hawtbuf
+    </require>
+    <require extend='false' filter='(&amp;(package=org.fusesource.stomp.jms)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.fusesource.stomp.jms
+    </require>
+    <require extend='false' filter='(&amp;(package=org.fusesource.stomp.jms.message)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.fusesource.stomp.jms.message
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.cm ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.0.0,4.0.0)
     </require>
   </resource>
   <resource id='pnnl.goss.core.goss-client/2.0.2.201504102032' presentationname='pnnl.goss.core.goss-client' symbolicname='pnnl.goss.core.goss-client' uri='pnnl.goss.core.goss-client/pnnl.goss.core.goss-client-2.0.2.jar' version='2.0.2.201504102032'>
@@ -2268,57 +2319,6 @@
     </require>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core ;version=[2.2.0,3.0.0)
-    </require>
-  </resource>
-  <resource id='pnnl.goss.core.goss-client/2.0.9.201505272104' presentationname='pnnl.goss.core.goss-client' symbolicname='pnnl.goss.core.goss-client' uri='pnnl.goss.core.goss-client/pnnl.goss.core.goss-client-2.0.9.jar' version='2.0.9.201505272104'>
-    <size>
-      32242
-    </size>
-    <license>
-      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
-       Licensed";link=LICENSE
-    </license>
-    <copyright>
-      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
-    </copyright>
-    <capability name='bundle'>
-      <p n='manifestversion' v='2'/>
-      <p n='presentationname' v='pnnl.goss.core.goss-client'/>
-      <p n='symbolicname' v='pnnl.goss.core.goss-client'/>
-      <p n='version' t='version' v='2.0.9.201505272104'/>
-    </capability>
-    <require extend='false' filter='(&amp;(package=com.google.gson)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
-      Import package com.google.gson ;version=[2.3.0,3.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
-      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package javax.jms ;version=[1.1.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.fusesource.hawtbuf)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.fusesource.hawtbuf
-    </require>
-    <require extend='false' filter='(&amp;(package=org.fusesource.stomp.jms)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.fusesource.stomp.jms
-    </require>
-    <require extend='false' filter='(&amp;(package=org.fusesource.stomp.jms.message)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.fusesource.stomp.jms.message
-    </require>
-    <require extend='false' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.osgi.service.cm ;version=[1.4.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.slf4j ;version=[1.7.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
-      Import package pnnl.goss.core ;version=[3.0.0,4.0.0)
     </require>
   </resource>
   <resource id='pnnl.goss.core.goss-core-commands/2.0.5.201505272104' presentationname='pnnl.goss.core.goss-core-commands' symbolicname='pnnl.goss.core.goss-core-commands' uri='pnnl.goss.core.goss-core-commands/pnnl.goss.core.goss-core-commands-2.0.5.jar' version='2.0.5.201505272104'>
@@ -2455,31 +2455,6 @@
       Import package com.northconcepts.exception ;version=[1.0.0,2.0.0)
     </require>
   </resource>
-  <resource id='pnnl.goss.core.goss-core-exceptions/2.1.1.201505272104' presentationname='pnnl.goss.core.goss-core-exceptions' symbolicname='pnnl.goss.core.goss-core-exceptions' uri='pnnl.goss.core.goss-core-exceptions/pnnl.goss.core.goss-core-exceptions-2.1.1.jar' version='2.1.1.201505272104'>
-    <size>
-      13447
-    </size>
-    <license>
-      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
-       Licensed";link=LICENSE
-    </license>
-    <copyright>
-      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
-    </copyright>
-    <capability name='bundle'>
-      <p n='manifestversion' v='2'/>
-      <p n='presentationname' v='pnnl.goss.core.goss-core-exceptions'/>
-      <p n='symbolicname' v='pnnl.goss.core.goss-core-exceptions'/>
-      <p n='version' t='version' v='2.1.1.201505272104'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='com.northconcepts.exception'/>
-      <p n='version' t='version' v='2.1.0'/>
-    </capability>
-    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
-      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
-    </require>
-  </resource>
   <resource id='pnnl.goss.core.goss-core-security/2.0.4.201504231642' presentationname='pnnl.goss.core.goss-core-security' symbolicname='pnnl.goss.core.goss-core-security' uri='pnnl.goss.core.goss-core-security/pnnl.goss.core.goss-core-security-2.0.4.jar' version='2.0.4.201504231642'>
     <size>
       21018
@@ -2610,6 +2585,71 @@
       Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
     </require>
   </resource>
+  <resource id='pnnl.goss.core.goss-core-security/2.1.1.201505272232' presentationname='pnnl.goss.core.goss-core-security' symbolicname='pnnl.goss.core.goss-core-security' uri='pnnl.goss.core.goss-core-security/pnnl.goss.core.goss-core-security-2.1.1.jar' version='2.1.1.201505272232'>
+    <size>
+      22200
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-security'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-security'/>
+      <p n='version' t='version' v='2.1.1.201505272232'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='pnnl.goss.core.security'/>
+      <p n='uses' v='org.apache.shiro.authz.permission,org.apache.shiro.realm,pnnl.goss.core,pnnl.goss.core.server'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro.authz)(version&gt;=5.10.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.shiro.authz ;version=[5.10.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro.mgt)(version&gt;=5.10.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.shiro.mgt ;version=[5.10.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.felix.dm)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.felix.dm
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authc)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authc ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz.permission)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz.permission ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.realm ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.subject)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.subject ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.framework ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.0.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
   <resource id='pnnl.goss.core.goss-core-security/2.0.3.201504102032' presentationname='pnnl.goss.core.goss-core-security' symbolicname='pnnl.goss.core.goss-core-security' uri='pnnl.goss.core.goss-core-security/pnnl.goss.core.goss-core-security-2.0.3.jar' version='2.0.3.201504102032'>
     <size>
       19583
@@ -2667,131 +2707,6 @@
     </require>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core.server ;version=[1.0.0,2.0.0)
-    </require>
-  </resource>
-  <resource id='pnnl.goss.core.goss-core-security/2.1.2.201505272104' presentationname='pnnl.goss.core.goss-core-security' symbolicname='pnnl.goss.core.goss-core-security' uri='pnnl.goss.core.goss-core-security/pnnl.goss.core.goss-core-security-2.1.2.jar' version='2.1.2.201505272104'>
-    <size>
-      22201
-    </size>
-    <license>
-      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
-       Licensed";link=LICENSE
-    </license>
-    <copyright>
-      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
-    </copyright>
-    <capability name='bundle'>
-      <p n='manifestversion' v='2'/>
-      <p n='presentationname' v='pnnl.goss.core.goss-core-security'/>
-      <p n='symbolicname' v='pnnl.goss.core.goss-core-security'/>
-      <p n='version' t='version' v='2.1.2.201505272104'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='pnnl.goss.core.security'/>
-      <p n='uses' v='org.apache.shiro.authz.permission,org.apache.shiro.realm,pnnl.goss.core,pnnl.goss.core.server'/>
-      <p n='version' t='version' v='2.1.0'/>
-    </capability>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro.authz)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.shiro.authz ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro.mgt)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.shiro.mgt ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.felix.dm)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.felix.dm
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.authc)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.authc ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.authz ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz.permission)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.authz.permission ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.realm ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.subject)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.subject ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.osgi.framework ;version=[1.7.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
-      Import package pnnl.goss.core ;version=[3.0.0,4.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
-      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
-      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
-    </require>
-  </resource>
-  <resource id='pnnl.goss.core.goss-core-server/2.0.8.201505272104' presentationname='pnnl.goss.core.goss-core-server' symbolicname='pnnl.goss.core.goss-core-server' uri='pnnl.goss.core.goss-core-server/pnnl.goss.core.goss-core-server-2.0.8.jar' version='2.0.8.201505272104'>
-    <size>
-      34555
-    </size>
-    <license>
-      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
-       Licensed";link=LICENSE
-    </license>
-    <copyright>
-      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
-    </copyright>
-    <capability name='bundle'>
-      <p n='manifestversion' v='2'/>
-      <p n='presentationname' v='pnnl.goss.core.goss-core-server'/>
-      <p n='symbolicname' v='pnnl.goss.core.goss-core-server'/>
-      <p n='version' t='version' v='2.0.8.201505272104'/>
-    </capability>
-    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
-      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package com.thoughtworks.xstream ;version=[1.3.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package javax.jms ;version=[1.1.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.net.ssl
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.broker)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.broker ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.shiro ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.activemq.store)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.activemq.store ;version=[5.11.0,6.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.commons.io)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.commons.io ;version=[1.4.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.slf4j ;version=[1.7.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
-      Import package pnnl.goss.core ;version=[3.0.0,4.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
-      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
-      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
     </require>
   </resource>
   <resource id='pnnl.goss.core.goss-core-server/2.0.5.201504231642' presentationname='pnnl.goss.core.goss-core-server' symbolicname='pnnl.goss.core.goss-core-server' uri='pnnl.goss.core.goss-core-server/pnnl.goss.core.goss-core-server-2.0.5.jar' version='2.0.5.201504231642'>
@@ -2980,9 +2895,9 @@
       Import package pnnl.goss.core.server ;version=[1.0.0,2.0.0)
     </require>
   </resource>
-  <resource id='pnnl.goss.core.goss-core-server-api/2.0.7.201505272104' presentationname='pnnl.goss.core.goss-core-server-api' symbolicname='pnnl.goss.core.goss-core-server-api' uri='pnnl.goss.core.goss-core-server-api/pnnl.goss.core.goss-core-server-api-2.0.7.jar' version='2.0.7.201505272104'>
+  <resource id='pnnl.goss.core.goss-core-server/2.0.7.201505272232' presentationname='pnnl.goss.core.goss-core-server' symbolicname='pnnl.goss.core.goss-core-server' uri='pnnl.goss.core.goss-core-server/pnnl.goss.core.goss-core-server-2.0.7.jar' version='2.0.7.201505272232'>
     <size>
-      13435
+      34556
     </size>
     <license>
       https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
@@ -2993,23 +2908,51 @@
     </copyright>
     <capability name='bundle'>
       <p n='manifestversion' v='2'/>
-      <p n='presentationname' v='pnnl.goss.core.goss-core-server-api'/>
-      <p n='symbolicname' v='pnnl.goss.core.goss-core-server-api'/>
-      <p n='version' t='version' v='2.0.7.201505272104'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='pnnl.goss.core.server'/>
-      <p n='uses' v='com.northconcepts.exception,pnnl.goss.core,pnnl.goss.core.security'/>
-      <p n='version' t='version' v='2.0.3'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-server'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-server'/>
+      <p n='version' t='version' v='2.0.7.201505272232'/>
     </capability>
     <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
       Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.thoughtworks.xstream ;version=[1.3.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.net.ssl
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.broker)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.broker ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro)(version&gt;=5.10.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.shiro ;version=[5.10.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.store)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.store ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.io)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.io ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
     </require>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core ;version=[3.0.0,4.0.0)
     </require>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
     </require>
   </resource>
   <resource id='pnnl.goss.core.goss-core-server-api/2.0.4.201504231642' presentationname='pnnl.goss.core.goss-core-server-api' symbolicname='pnnl.goss.core.goss-core-server-api' uri='pnnl.goss.core.goss-core-server-api/pnnl.goss.core.goss-core-server-api-2.0.4.jar' version='2.0.4.201504231642'>
@@ -3042,6 +2985,38 @@
     </require>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core.security ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-server-api/2.0.6.201505272232' presentationname='pnnl.goss.core.goss-core-server-api' symbolicname='pnnl.goss.core.goss-core-server-api' uri='pnnl.goss.core.goss-core-server-api/pnnl.goss.core.goss-core-server-api-2.0.6.jar' version='2.0.6.201505272232'>
+    <size>
+      13434
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-server-api'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-server-api'/>
+      <p n='version' t='version' v='2.0.6.201505272232'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='pnnl.goss.core.server'/>
+      <p n='uses' v='com.northconcepts.exception,pnnl.goss.core,pnnl.goss.core.security'/>
+      <p n='version' t='version' v='2.0.3'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.0.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
     </require>
   </resource>
   <resource id='pnnl.goss.core.goss-core-server-api/2.0.3.201504102032' presentationname='pnnl.goss.core.goss-core-server-api' symbolicname='pnnl.goss.core.goss-core-server-api' uri='pnnl.goss.core.goss-core-server-api/pnnl.goss.core.goss-core-server-api-2.0.3.jar' version='2.0.3.201504102032'>
@@ -3108,6 +3083,51 @@
       Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
     </require>
   </resource>
+  <resource id='pnnl.goss.core.goss-core-server-registry/1.0.3.201505272232' presentationname='pnnl.goss.core.goss-core-server-registry' symbolicname='pnnl.goss.core.goss-core-server-registry' uri='pnnl.goss.core.goss-core-server-registry/pnnl.goss.core.goss-core-server-registry-1.0.3.jar' version='1.0.3.201505272232'>
+    <size>
+      20226
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-server-registry'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-server-registry'/>
+      <p n='version' t='version' v='1.0.3.201505272232'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.sql
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.dbcp)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.dbcp ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.framework ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.0.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
   <resource id='pnnl.goss.core.goss-core-server-registry/1.0.0.201504231646' presentationname='pnnl.goss.core.goss-core-server-registry' symbolicname='pnnl.goss.core.goss-core-server-registry' uri='pnnl.goss.core.goss-core-server-registry/pnnl.goss.core.goss-core-server-registry-1.0.0.jar' version='1.0.0.201504231646'>
     <size>
       20216
@@ -3148,51 +3168,6 @@
     </require>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core.security ;version=[2.0.0,3.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
-      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
-    </require>
-  </resource>
-  <resource id='pnnl.goss.core.goss-core-server-registry/1.0.4.201505272104' presentationname='pnnl.goss.core.goss-core-server-registry' symbolicname='pnnl.goss.core.goss-core-server-registry' uri='pnnl.goss.core.goss-core-server-registry/pnnl.goss.core.goss-core-server-registry-1.0.4.jar' version='1.0.4.201505272104'>
-    <size>
-      20226
-    </size>
-    <license>
-      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
-       Licensed";link=LICENSE
-    </license>
-    <copyright>
-      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
-    </copyright>
-    <capability name='bundle'>
-      <p n='manifestversion' v='2'/>
-      <p n='presentationname' v='pnnl.goss.core.goss-core-server-registry'/>
-      <p n='symbolicname' v='pnnl.goss.core.goss-core-server-registry'/>
-      <p n='version' t='version' v='1.0.4.201505272104'/>
-    </capability>
-    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
-      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.sql
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.commons.dbcp)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.commons.dbcp ;version=[1.4.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.osgi.framework ;version=[1.7.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.slf4j ;version=[1.7.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
-      Import package pnnl.goss.core ;version=[3.0.0,4.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
-      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
     </require>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
@@ -3775,48 +3750,6 @@
       <p n='presentationname' v='pnnl.goss.core.security-propertyfile'/>
       <p n='symbolicname' v='pnnl.goss.core.security-propertyfile'/>
       <p n='version' t='version' v='2.0.8.201504250204'/>
-    </capability>
-    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
-      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.authc)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.authc ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.authz ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz.permission)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.authz.permission ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.realm ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.subject)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.subject ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.slf4j ;version=[1.7.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
-      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
-    </require>
-  </resource>
-  <resource id='pnnl.goss.core.security-propertyfile/2.0.9.201505272104' presentationname='pnnl.goss.core.security-propertyfile' symbolicname='pnnl.goss.core.security-propertyfile' uri='pnnl.goss.core.security-propertyfile/pnnl.goss.core.security-propertyfile-2.0.9.jar' version='2.0.9.201505272104'>
-    <size>
-      7039
-    </size>
-    <license>
-      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
-       Licensed";link=LICENSE
-    </license>
-    <copyright>
-      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
-    </copyright>
-    <capability name='bundle'>
-      <p n='manifestversion' v='2'/>
-      <p n='presentationname' v='pnnl.goss.core.security-propertyfile'/>
-      <p n='symbolicname' v='pnnl.goss.core.security-propertyfile'/>
-      <p n='version' t='version' v='2.0.9.201505272104'/>
     </capability>
     <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
       Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
