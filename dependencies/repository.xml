@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
-<repository lastmodified='20150429115259.782' name='Amdatu dependenciess'>
+<repository lastmodified='20150910173708.483' name='Amdatu dependencies/s'>
   <resource id='com.google.gson/2.3.1' presentationname='Gson' symbolicname='com.google.gson' uri='com.google.gson/com.google.gson-2.3.1.jar' version='2.3.1'>
     <description>
       Google Gson library
@@ -4124,13 +4124,13 @@
       Import package org.w3c.dom
     </require>
   </resource>
-  <resource id='org.apache.aries.blueprint.core/1.2.0' presentationname='Apache Aries Blueprint Core' symbolicname='org.apache.aries.blueprint.core' uri='org.apache.aries.blueprint.core/org.apache.aries.blueprint.core-1.2.0.jar' version='1.2.0'>
+  <resource id='org.apache.aries.blueprint.core/1.1.0' presentationname='Apache Aries Blueprint Core' symbolicname='org.apache.aries.blueprint.core' uri='org.apache.aries.blueprint.core/org.apache.aries.blueprint.core-1.1.0.jar' version='1.1.0'>
     <description>
       This bundle contains the core implementation of Blueprint 
              along with the "ext" namespace handler.
     </description>
     <size>
-      398576
+      389623
     </size>
     <license>
       http://www.apache.org/licenses/LICENSE-2.0.txt
@@ -4148,34 +4148,28 @@
       <p n='service' v='org.apache.aries.blueprint.NamespaceHandler'/>
     </capability>
     <capability name='service'>
-      <p n='service' v='org.apache.aries.blueprint.NamespaceHandler'/>
-    </capability>
-    <capability name='service'>
-      <p n='service' v='org.apache.aries.blueprint.NamespaceHandler'/>
-    </capability>
-    <capability name='service'>
       <p n='service' v='org.apache.aries.blueprint.ParserService'/>
     </capability>
     <capability name='bundle'>
       <p n='manifestversion' v='2'/>
       <p n='presentationname' v='Apache Aries Blueprint Core'/>
       <p n='symbolicname' v='org.apache.aries.blueprint.core'/>
-      <p n='version' t='version' v='1.2.0'/>
+      <p n='version' t='version' v='1.1.0'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.apache.aries.blueprint'/>
       <p n='uses' v='org.osgi.service.blueprint.reflect,org.apache.aries.blueprint.services,org.osgi.framework,org.w3c.dom'/>
-      <p n='version' t='version' v='1.2.0'/>
+      <p n='version' t='version' v='1.1.0'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.apache.aries.blueprint.mutable'/>
       <p n='uses' v='org.osgi.service.blueprint.reflect,org.apache.aries.blueprint,org.osgi.framework'/>
-      <p n='version' t='version' v='1.1.0'/>
+      <p n='version' t='version' v='1.0.0'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.apache.aries.blueprint.ext'/>
       <p n='uses' v='org.osgi.service.blueprint.reflect,org.slf4j,org.apache.aries.blueprint,org.osgi.framework,org.osgi.service.blueprint.container,org.apache.aries.blueprint.mutable,org.apache.aries.blueprint.services,org.apache.aries.blueprint.ext.evaluator'/>
-      <p n='version' t='version' v='1.1.0'/>
+      <p n='version' t='version' v='1.0.0'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.apache.aries.blueprint.ext.evaluator'/>
@@ -4263,13 +4257,13 @@
       Import package org.xml.sax
     </require>
   </resource>
-  <resource id='org.apache.aries.blueprint.core/1.1.0' presentationname='Apache Aries Blueprint Core' symbolicname='org.apache.aries.blueprint.core' uri='org.apache.aries.blueprint.core/org.apache.aries.blueprint.core-1.1.0.jar' version='1.1.0'>
+  <resource id='org.apache.aries.blueprint.core/1.2.0' presentationname='Apache Aries Blueprint Core' symbolicname='org.apache.aries.blueprint.core' uri='org.apache.aries.blueprint.core/org.apache.aries.blueprint.core-1.2.0.jar' version='1.2.0'>
     <description>
       This bundle contains the core implementation of Blueprint 
              along with the "ext" namespace handler.
     </description>
     <size>
-      389623
+      398576
     </size>
     <license>
       http://www.apache.org/licenses/LICENSE-2.0.txt
@@ -4287,28 +4281,34 @@
       <p n='service' v='org.apache.aries.blueprint.NamespaceHandler'/>
     </capability>
     <capability name='service'>
+      <p n='service' v='org.apache.aries.blueprint.NamespaceHandler'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.apache.aries.blueprint.NamespaceHandler'/>
+    </capability>
+    <capability name='service'>
       <p n='service' v='org.apache.aries.blueprint.ParserService'/>
     </capability>
     <capability name='bundle'>
       <p n='manifestversion' v='2'/>
       <p n='presentationname' v='Apache Aries Blueprint Core'/>
       <p n='symbolicname' v='org.apache.aries.blueprint.core'/>
-      <p n='version' t='version' v='1.1.0'/>
+      <p n='version' t='version' v='1.2.0'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.apache.aries.blueprint'/>
       <p n='uses' v='org.osgi.service.blueprint.reflect,org.apache.aries.blueprint.services,org.osgi.framework,org.w3c.dom'/>
-      <p n='version' t='version' v='1.1.0'/>
+      <p n='version' t='version' v='1.2.0'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.apache.aries.blueprint.mutable'/>
       <p n='uses' v='org.osgi.service.blueprint.reflect,org.apache.aries.blueprint,org.osgi.framework'/>
-      <p n='version' t='version' v='1.0.0'/>
+      <p n='version' t='version' v='1.1.0'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.apache.aries.blueprint.ext'/>
       <p n='uses' v='org.osgi.service.blueprint.reflect,org.slf4j,org.apache.aries.blueprint,org.osgi.framework,org.osgi.service.blueprint.container,org.apache.aries.blueprint.mutable,org.apache.aries.blueprint.services,org.apache.aries.blueprint.ext.evaluator'/>
-      <p n='version' t='version' v='1.0.0'/>
+      <p n='version' t='version' v='1.1.0'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.apache.aries.blueprint.ext.evaluator'/>
@@ -7327,48 +7327,6 @@
       <p n='version' t='version' v='1.11.0'/>
     </capability>
   </resource>
-  <resource id='org.fusesource.hawtdispatch.hawtdispatch/1.19.0' presentationname='hawtdispatch' symbolicname='org.fusesource.hawtdispatch.hawtdispatch' uri='org.fusesource.hawtdispatch.hawtdispatch/org.fusesource.hawtdispatch.hawtdispatch-1.19.0.jar' version='1.19.0'>
-    <description>
-      HawtDispatch: The libdispatch style API for Java
-    </description>
-    <size>
-      119000
-    </size>
-    <license>
-      http://www.apache.org/licenses/LICENSE-2.0.txt
-    </license>
-    <documentation>
-      http://fusesource.com/
-    </documentation>
-    <capability name='bundle'>
-      <p n='manifestversion' v='2'/>
-      <p n='presentationname' v='hawtdispatch'/>
-      <p n='symbolicname' v='org.fusesource.hawtdispatch.hawtdispatch'/>
-      <p n='version' t='version' v='1.19.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.fusesource.hawtdispatch'/>
-      <p n='uses' v='org.objectweb.asm'/>
-      <p n='version' t='version' v='1.19.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.fusesource.hawtdispatch.jmx'/>
-      <p n='uses' v='javax.management,javax.management.openmbean,org.fusesource.hawtdispatch'/>
-      <p n='version' t='version' v='1.19.0'/>
-    </capability>
-    <require extend='false' filter='(&amp;(package=javax.management)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.management
-    </require>
-    <require extend='false' filter='(&amp;(package=javax.management.openmbean)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package javax.management.openmbean
-    </require>
-    <require extend='false' filter='(&amp;(package=org.objectweb.asm)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
-      Import package org.objectweb.asm
-    </require>
-    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
-      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
-    </require>
-  </resource>
   <resource id='org.fusesource.hawtdispatch.hawtdispatch/1.21.0' presentationname='hawtdispatch' symbolicname='org.fusesource.hawtdispatch.hawtdispatch' uri='org.fusesource.hawtdispatch.hawtdispatch/org.fusesource.hawtdispatch.hawtdispatch-1.21.0.jar' version='1.21.0'>
     <description>
       HawtDispatch: The libdispatch style API for Java
@@ -7397,6 +7355,48 @@
       <p n='package' v='org.fusesource.hawtdispatch.jmx'/>
       <p n='uses' v='javax.management,javax.management.openmbean,org.fusesource.hawtdispatch'/>
       <p n='version' t='version' v='1.21.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.management)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.management
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.management.openmbean)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.management.openmbean
+    </require>
+    <require extend='false' filter='(&amp;(package=org.objectweb.asm)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.objectweb.asm
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.fusesource.hawtdispatch.hawtdispatch/1.19.0' presentationname='hawtdispatch' symbolicname='org.fusesource.hawtdispatch.hawtdispatch' uri='org.fusesource.hawtdispatch.hawtdispatch/org.fusesource.hawtdispatch.hawtdispatch-1.19.0.jar' version='1.19.0'>
+    <description>
+      HawtDispatch: The libdispatch style API for Java
+    </description>
+    <size>
+      119000
+    </size>
+    <license>
+      http://www.apache.org/licenses/LICENSE-2.0.txt
+    </license>
+    <documentation>
+      http://fusesource.com/
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='hawtdispatch'/>
+      <p n='symbolicname' v='org.fusesource.hawtdispatch.hawtdispatch'/>
+      <p n='version' t='version' v='1.19.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.fusesource.hawtdispatch'/>
+      <p n='uses' v='org.objectweb.asm'/>
+      <p n='version' t='version' v='1.19.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.fusesource.hawtdispatch.jmx'/>
+      <p n='uses' v='javax.management,javax.management.openmbean,org.fusesource.hawtdispatch'/>
+      <p n='version' t='version' v='1.19.0'/>
     </capability>
     <require extend='false' filter='(&amp;(package=javax.management)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
       Import package javax.management
@@ -7824,6 +7824,233 @@
     </require>
     <require extend='false' filter='(&amp;(package=org.objenesis)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
       Import package org.objenesis ;version=[1.0.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.mongodb.mongo-java-driver/3.0.3' presentationname='mongo-java-driver' symbolicname='org.mongodb.mongo-java-driver' uri='org.mongodb.mongo-java-driver/org.mongodb.mongo-java-driver-3.0.3.jar' version='3.0.3'>
+    <size>
+      1281569
+    </size>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='mongo-java-driver'/>
+      <p n='symbolicname' v='org.mongodb.mongo-java-driver'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb'/>
+      <p n='uses' v='com.mongodb.annotations,com.mongodb.bulk,com.mongodb.client,com.mongodb.connection,javax.net,org.bson,org.bson.codecs,org.bson.codecs.configuration,org.bson.conversions,org.bson.io,org.bson.types'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.annotations'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.assertions'/>
+      <p n='uses' v='com.mongodb.async'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.async'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.binding'/>
+      <p n='uses' v='com.mongodb,com.mongodb.async,com.mongodb.connection'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.bulk'/>
+      <p n='uses' v='com.mongodb,org.bson'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.client'/>
+      <p n='uses' v='com.mongodb,com.mongodb.annotations,com.mongodb.bulk,com.mongodb.client.model,com.mongodb.client.result,org.bson,org.bson.codecs.configuration,org.bson.conversions'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.client.model'/>
+      <p n='uses' v='com.mongodb,org.bson,org.bson.conversions'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.client.result'/>
+      <p n='uses' v='org.bson'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.connection'/>
+      <p n='uses' v='com.mongodb,com.mongodb.annotations,com.mongodb.async,com.mongodb.binding,com.mongodb.bulk,com.mongodb.event,com.mongodb.internal.connection,com.mongodb.selector,javax.net,org.bson,org.bson.codecs,org.bson.io,org.bson.types'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.connection.netty'/>
+      <p n='uses' v='com.mongodb,com.mongodb.connection,io.netty.buffer,io.netty.channel.nio'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.diagnostics.logging'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.event'/>
+      <p n='uses' v='com.mongodb.connection'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.gridfs'/>
+      <p n='uses' v='com.mongodb,org.bson,org.bson.types'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.internal.async'/>
+      <p n='uses' v='com.mongodb.async,com.mongodb.diagnostics.logging'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.internal.authentication'/>
+      <p n='uses' v='org.bson'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.internal.connection'/>
+      <p n='uses' v='com.mongodb.connection,javax.net.ssl,org.bson'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.internal.management.jmx'/>
+      <p n='uses' v='com.mongodb.management'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.internal.validator'/>
+      <p n='uses' v='org.bson'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.management'/>
+      <p n='uses' v='com.mongodb.event'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.operation'/>
+      <p n='uses' v='com.mongodb,com.mongodb.annotations,com.mongodb.async,com.mongodb.binding,com.mongodb.bulk,com.mongodb.connection,org.bson,org.bson.codecs'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.selector'/>
+      <p n='uses' v='com.mongodb,com.mongodb.annotations,com.mongodb.connection'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mongodb.util'/>
+      <p n='uses' v='org.bson'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.bson'/>
+      <p n='uses' v='org.bson.codecs,org.bson.codecs.configuration,org.bson.conversions,org.bson.io,org.bson.json,org.bson.types'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.bson.assertions'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.bson.codecs'/>
+      <p n='uses' v='org.bson,org.bson.codecs.configuration,org.bson.types'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.bson.codecs.configuration'/>
+      <p n='uses' v='org.bson.codecs'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.bson.conversions'/>
+      <p n='uses' v='org.bson,org.bson.codecs.configuration'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.bson.diagnostics'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.bson.io'/>
+      <p n='uses' v='org.bson,org.bson.types'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.bson.json'/>
+      <p n='uses' v='org.bson,org.bson.types'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.bson.types'/>
+      <p n='uses' v='org.bson'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.bson.util'/>
+      <p n='version' t='version' v='3.0.3'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.bind
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.crypto)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.crypto
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.crypto.spec)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.crypto.spec
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.management)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.management
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.net
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.net.ssl
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.sasl)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.security.sasl
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.auth.callback)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.security.auth.callback
+    </require>
+    <require extend='false' filter='(&amp;(package=org.ietf.jgss)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.ietf.jgss
+    </require>
+    <require extend='false' filter='(&amp;(package=io.netty.bootstrap)(version&gt;=4.0.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='true'>
+      Import package io.netty.bootstrap ;version=[4.0.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=io.netty.buffer)(version&gt;=4.0.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='true'>
+      Import package io.netty.buffer ;version=[4.0.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=io.netty.channel)(version&gt;=4.0.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='true'>
+      Import package io.netty.channel ;version=[4.0.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=io.netty.channel.nio)(version&gt;=4.0.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='true'>
+      Import package io.netty.channel.nio ;version=[4.0.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=io.netty.channel.socket)(version&gt;=4.0.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='true'>
+      Import package io.netty.channel.socket ;version=[4.0.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=io.netty.channel.socket.nio)(version&gt;=4.0.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='true'>
+      Import package io.netty.channel.socket.nio ;version=[4.0.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=io.netty.handler.ssl)(version&gt;=4.0.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='true'>
+      Import package io.netty.handler.ssl ;version=[4.0.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=io.netty.handler.timeout)(version&gt;=4.0.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='true'>
+      Import package io.netty.handler.timeout ;version=[4.0.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=io.netty.util.concurrent)(version&gt;=4.0.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='true'>
+      Import package io.netty.util.concurrent ;version=[4.0.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
     </require>
   </resource>
   <resource id='org.objectweb.asm/3.3.1.v201105211655' presentationname='ASM' symbolicname='org.objectweb.asm' uri='org.objectweb.asm/org.objectweb.asm-3.3.1.jar' version='3.3.1.v201105211655'>
