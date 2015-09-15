@@ -1,18 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
-<repository lastmodified='20150915164625.962' name='Amdatu snapshot/s'>
-  <resource id='Untitled-2128136048/0.0.0' symbolicname='Untitled-2128136048' uri='release-util/org.amdatu.ace.client/org.amdatu.ace.client-1.0.0.jar' version='0.0.0'>
-    <size>
-      46893
-    </size>
-    <capability name='bundle'>
-      <p n='manifestversion' v='1'/>
-      <p n='symbolicname' v='Untitled-2128136048'/>
-      <p n='version' t='version' v='0.0.0'/>
-    </capability>
-  </resource>
-  <resource id='pnnl.goss.core.core-api/2.0.3.201509102217' presentationname='pnnl.goss.core.core-api' symbolicname='pnnl.goss.core.core-api' uri='release/pnnl.goss.core.core-api/pnnl.goss.core.core-api-2.0.3.jar' version='2.0.3.201509102217'>
+<repository lastmodified='20150915165038.714' name='Amdatu snapshot/s'>
+  <resource id='pnnl.goss.core.core-api/2.0.3.201509102217' presentationname='pnnl.goss.core.core-api' symbolicname='pnnl.goss.core.core-api' uri='pnnl.goss.core.core-api/pnnl.goss.core.core-api-2.0.3.jar' version='2.0.3.201509102217'>
     <size>
       55533
     </size>
@@ -45,7 +35,7 @@
       Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
     </require>
   </resource>
-  <resource id='pnnl.goss.core.core-api/2.0.0' presentationname='pnnl.goss.core.core-api' symbolicname='pnnl.goss.core.core-api' uri='release/pnnl.goss.core.core-api/pnnl.goss.core.core-api-2.0.0.jar' version='2.0.0'>
+  <resource id='pnnl.goss.core.core-api/2.0.0' presentationname='pnnl.goss.core.core-api' symbolicname='pnnl.goss.core.core-api' uri='pnnl.goss.core.core-api/pnnl.goss.core.core-api-2.0.0.jar' version='2.0.0'>
     <size>
       54852
     </size>
@@ -180,7 +170,7 @@
       Import package pnnl.goss.core ;version=[1.0.0,2.0.0)
     </require>
   </resource>
-  <resource id='pnnl.goss.core.goss-core-commands/2.0.0' presentationname='pnnl.goss.core.goss-core-commands' symbolicname='pnnl.goss.core.goss-core-commands' uri='release/pnnl.goss.core.goss-core-commands/pnnl.goss.core.goss-core-commands-2.0.0.jar' version='2.0.0'>
+  <resource id='pnnl.goss.core.goss-core-commands/2.0.0' presentationname='pnnl.goss.core.goss-core-commands' symbolicname='pnnl.goss.core.goss-core-commands' uri='pnnl.goss.core.goss-core-commands/pnnl.goss.core.goss-core-commands-2.0.0.jar' version='2.0.0'>
     <size>
       4760
     </size>
@@ -201,7 +191,7 @@
       Import package pnnl.goss.core ;version=[1.0.0,2.0.0)
     </require>
   </resource>
-  <resource id='pnnl.goss.core.goss-core-commands/2.0.5.201509102217' presentationname='pnnl.goss.core.goss-core-commands' symbolicname='pnnl.goss.core.goss-core-commands' uri='release/pnnl.goss.core.goss-core-commands/pnnl.goss.core.goss-core-commands-2.0.5.jar' version='2.0.5.201509102217'>
+  <resource id='pnnl.goss.core.goss-core-commands/2.0.5.201509102217' presentationname='pnnl.goss.core.goss-core-commands' symbolicname='pnnl.goss.core.goss-core-commands' uri='pnnl.goss.core.goss-core-commands/pnnl.goss.core.goss-core-commands-2.0.5.jar' version='2.0.5.201509102217'>
     <size>
       4909
     </size>
@@ -268,7 +258,7 @@
       Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
     </require>
   </resource>
-  <resource id='pnnl.goss.core.goss-core-security/2.1.1.201509102217' presentationname='pnnl.goss.core.goss-core-security' symbolicname='pnnl.goss.core.goss-core-security' uri='release/pnnl.goss.core.goss-core-security/pnnl.goss.core.goss-core-security-2.1.1.jar' version='2.1.1.201509102217'>
+  <resource id='pnnl.goss.core.goss-core-security/2.1.1.201509102217' presentationname='pnnl.goss.core.goss-core-security' symbolicname='pnnl.goss.core.goss-core-security' uri='pnnl.goss.core.goss-core-security/pnnl.goss.core.goss-core-security-2.1.1.jar' version='2.1.1.201509102217'>
     <size>
       22302
     </size>
@@ -333,7 +323,7 @@
       Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
     </require>
   </resource>
-  <resource id='pnnl.goss.core.goss-core-security/2.0.0' presentationname='pnnl.goss.core.goss-core-security' symbolicname='pnnl.goss.core.goss-core-security' uri='release/pnnl.goss.core.goss-core-security/pnnl.goss.core.goss-core-security-2.0.0.jar' version='2.0.0'>
+  <resource id='pnnl.goss.core.goss-core-security/2.0.0' presentationname='pnnl.goss.core.goss-core-security' symbolicname='pnnl.goss.core.goss-core-security' uri='pnnl.goss.core.goss-core-security/pnnl.goss.core.goss-core-security-2.0.0.jar' version='2.0.0'>
     <size>
       19148
     </size>
@@ -392,7 +382,7 @@
       Import package pnnl.goss.core.server ;version=[1.0.0,2.0.0)
     </require>
   </resource>
-  <resource id='pnnl.goss.core.goss-core-server/2.0.0' presentationname='pnnl.goss.core.goss-core-server' symbolicname='pnnl.goss.core.goss-core-server' uri='release/pnnl.goss.core.goss-core-server/pnnl.goss.core.goss-core-server-2.0.0.jar' version='2.0.0'>
+  <resource id='pnnl.goss.core.goss-core-server/2.0.0' presentationname='pnnl.goss.core.goss-core-server' symbolicname='pnnl.goss.core.goss-core-server' uri='pnnl.goss.core.goss-core-server/pnnl.goss.core.goss-core-server-2.0.0.jar' version='2.0.0'>
     <size>
       48742
     </size>
@@ -452,7 +442,7 @@
       Import package pnnl.goss.core.server ;version=[1.0.0,2.0.0)
     </require>
   </resource>
-  <resource id='pnnl.goss.core.goss-core-server/2.0.7.201509102217' presentationname='pnnl.goss.core.goss-core-server' symbolicname='pnnl.goss.core.goss-core-server' uri='release/pnnl.goss.core.goss-core-server/pnnl.goss.core.goss-core-server-2.0.7.jar' version='2.0.7.201509102217'>
+  <resource id='pnnl.goss.core.goss-core-server/2.0.7.201509102217' presentationname='pnnl.goss.core.goss-core-server' symbolicname='pnnl.goss.core.goss-core-server' uri='pnnl.goss.core.goss-core-server/pnnl.goss.core.goss-core-server-2.0.7.jar' version='2.0.7.201509102217'>
     <size>
       42419
     </size>
@@ -518,7 +508,7 @@
       Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
     </require>
   </resource>
-  <resource id='pnnl.goss.core.goss-core-server-api/2.0.6.201509102217' presentationname='pnnl.goss.core.goss-core-server-api' symbolicname='pnnl.goss.core.goss-core-server-api' uri='release/pnnl.goss.core.goss-core-server-api/pnnl.goss.core.goss-core-server-api-2.0.6.jar' version='2.0.6.201509102217'>
+  <resource id='pnnl.goss.core.goss-core-server-api/2.0.6.201509102217' presentationname='pnnl.goss.core.goss-core-server-api' symbolicname='pnnl.goss.core.goss-core-server-api' uri='pnnl.goss.core.goss-core-server-api/pnnl.goss.core.goss-core-server-api-2.0.6.jar' version='2.0.6.201509102217'>
     <size>
       14286
     </size>
@@ -550,7 +540,7 @@
       Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
     </require>
   </resource>
-  <resource id='pnnl.goss.core.goss-core-server-api/2.0.0' presentationname='pnnl.goss.core.goss-core-server-api' symbolicname='pnnl.goss.core.goss-core-server-api' uri='release/pnnl.goss.core.goss-core-server-api/pnnl.goss.core.goss-core-server-api-2.0.0.jar' version='2.0.0'>
+  <resource id='pnnl.goss.core.goss-core-server-api/2.0.0' presentationname='pnnl.goss.core.goss-core-server-api' symbolicname='pnnl.goss.core.goss-core-server-api' uri='pnnl.goss.core.goss-core-server-api/pnnl.goss.core.goss-core-server-api-2.0.0.jar' version='2.0.0'>
     <size>
       13453
     </size>
@@ -627,7 +617,7 @@
       Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
     </require>
   </resource>
-  <resource id='pnnl.goss.core.goss-core-server-web/1.0.12.201509102217' presentationname='pnnl.goss.core.goss-core-server-web' symbolicname='pnnl.goss.core.goss-core-server-web' uri='release/pnnl.goss.core.goss-core-server-web/pnnl.goss.core.goss-core-server-web-1.0.12.jar' version='1.0.12.201509102217'>
+  <resource id='pnnl.goss.core.goss-core-server-web/1.0.12.201509102217' presentationname='pnnl.goss.core.goss-core-server-web' symbolicname='pnnl.goss.core.goss-core-server-web' uri='pnnl.goss.core.goss-core-server-web/pnnl.goss.core.goss-core-server-web-1.0.12.jar' version='1.0.12.201509102217'>
     <size>
       242575
     </size>
@@ -828,7 +818,7 @@
       Import package pnnl.goss.core.server.runner.requests ;version=[1.0.0,2.0.0)
     </require>
   </resource>
-  <resource id='pnnl.goss.core.runner/2.0.2.201509102217' presentationname='pnnl.goss.core.runner' symbolicname='pnnl.goss.core.runner' uri='release/pnnl.goss.core.runner/pnnl.goss.core.runner-2.0.2.jar' version='2.0.2.201509102217'>
+  <resource id='pnnl.goss.core.runner/2.0.2.201509102217' presentationname='pnnl.goss.core.runner' symbolicname='pnnl.goss.core.runner' uri='pnnl.goss.core.runner/pnnl.goss.core.runner-2.0.2.jar' version='2.0.2.201509102217'>
     <size>
       31884
     </size>
@@ -887,7 +877,7 @@
       Import package pnnl.goss.core.server.runner.requests ;version=[1.0.0,2.0.0)
     </require>
   </resource>
-  <resource id='pnnl.goss.core.runner/2.0.0' presentationname='pnnl.goss.core.runner' symbolicname='pnnl.goss.core.runner' uri='release/pnnl.goss.core.runner/pnnl.goss.core.runner-2.0.0.jar' version='2.0.0'>
+  <resource id='pnnl.goss.core.runner/2.0.0' presentationname='pnnl.goss.core.runner' symbolicname='pnnl.goss.core.runner' uri='pnnl.goss.core.runner/pnnl.goss.core.runner-2.0.0.jar' version='2.0.0'>
     <size>
       31695
     </size>
@@ -1021,7 +1011,7 @@
       Import package pnnl.goss.core.security ;version=[1.0.0,2.0.0)
     </require>
   </resource>
-  <resource id='pnnl.goss.core.security-propertyfile/2.0.8.201509102217' presentationname='pnnl.goss.core.security-propertyfile' symbolicname='pnnl.goss.core.security-propertyfile' uri='release/pnnl.goss.core.security-propertyfile/pnnl.goss.core.security-propertyfile-2.0.8.jar' version='2.0.8.201509102217'>
+  <resource id='pnnl.goss.core.security-propertyfile/2.0.8.201509102217' presentationname='pnnl.goss.core.security-propertyfile' symbolicname='pnnl.goss.core.security-propertyfile' uri='pnnl.goss.core.security-propertyfile/pnnl.goss.core.security-propertyfile-2.0.8.jar' version='2.0.8.201509102217'>
     <size>
       7058
     </size>
@@ -1063,7 +1053,7 @@
       Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
     </require>
   </resource>
-  <resource id='pnnl.goss.core.security-propertyfile/2.0.0' presentationname='pnnl.goss.core.security-propertyfile' symbolicname='pnnl.goss.core.security-propertyfile' uri='release/pnnl.goss.core.security-propertyfile/pnnl.goss.core.security-propertyfile-2.0.0.jar' version='2.0.0'>
+  <resource id='pnnl.goss.core.security-propertyfile/2.0.0' presentationname='pnnl.goss.core.security-propertyfile' symbolicname='pnnl.goss.core.security-propertyfile' uri='pnnl.goss.core.security-propertyfile/pnnl.goss.core.security-propertyfile-2.0.0.jar' version='2.0.0'>
     <size>
       6798
     </size>
@@ -1102,7 +1092,7 @@
       Import package pnnl.goss.core.security ;version=[1.0.0,2.0.0)
     </require>
   </resource>
-  <resource id='pnnl.goss.core.testutil/1.0.0.201509102217' presentationname='pnnl.goss.core.testutil' symbolicname='pnnl.goss.core.testutil' uri='release/pnnl.goss.core.testutil/pnnl.goss.core.testutil-1.0.0.jar' version='1.0.0.201509102217'>
+  <resource id='pnnl.goss.core.testutil/1.0.0.201509102217' presentationname='pnnl.goss.core.testutil' symbolicname='pnnl.goss.core.testutil' uri='pnnl.goss.core.testutil/pnnl.goss.core.testutil-1.0.0.jar' version='1.0.0.201509102217'>
     <size>
       5170
     </size>
