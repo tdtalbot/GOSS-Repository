@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
-<repository lastmodified='20160520122213.972' name='Amdatu snapshots'>
+<repository lastmodified='20170324145036.417' name='Amdatu snapshots'>
   <resource id='kundera/2.16.0.201504281822' presentationname='kundera' symbolicname='kundera' uri='kundera/kundera-2.16.0.jar' version='2.16.0.201504281822'>
     <description>
       The idea behind Kundera is to make working with NoSQL Databases
@@ -411,39 +411,6 @@
       Import package org.ietf.jgss
     </require>
   </resource>
-  <resource id='pnnl.goss.core.core-api/2.0.0' presentationname='pnnl.goss.core.core-api' symbolicname='pnnl.goss.core.core-api' uri='pnnl.goss.core.core-api/pnnl.goss.core.core-api-2.0.0.jar' version='2.0.0'>
-    <size>
-      54852
-    </size>
-    <license>
-      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
-       Licensed";link=LICENSE
-    </license>
-    <copyright>
-      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
-    </copyright>
-    <capability name='bundle'>
-      <p n='manifestversion' v='2'/>
-      <p n='presentationname' v='pnnl.goss.core.core-api'/>
-      <p n='symbolicname' v='pnnl.goss.core.core-api'/>
-      <p n='version' t='version' v='2.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='pnnl.goss.core'/>
-      <p n='uses' v='com.northconcepts.exception,javax.jms,org.apache.http.auth'/>
-      <p n='version' t='version' v='1.0.0'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='com.northconcepts.exception'/>
-      <p n='version' t='version' v='1.0.0'/>
-    </capability>
-    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package javax.jms ;version=[1.1.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
-    </require>
-  </resource>
   <resource id='pnnl.goss.core.core-api/2.0.3.201509102217' presentationname='pnnl.goss.core.core-api' symbolicname='pnnl.goss.core.core-api' uri='pnnl.goss.core.core-api/pnnl.goss.core.core-api-2.0.3.jar' version='2.0.3.201509102217'>
     <size>
       55533
@@ -510,6 +477,180 @@
       Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
     </require>
   </resource>
+  <resource id='pnnl.goss.core.core-api/5.1.1.201703242149' presentationname='pnnl.goss.core.core-api' symbolicname='pnnl.goss.core.core-api' uri='pnnl.goss.core.core-api/pnnl.goss.core.core-api-5.1.1.jar' version='5.1.1.201703242149'>
+    <size>
+      55341
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.core-api'/>
+      <p n='symbolicname' v='pnnl.goss.core.core-api'/>
+      <p n='version' t='version' v='5.1.1.201703242149'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.northconcepts.exception'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='pnnl.goss.core'/>
+      <p n='uses' v='com.northconcepts.exception,javax.jms,org.apache.http.auth'/>
+      <p n='version' t='version' v='3.1.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.core-api/2.0.0' presentationname='pnnl.goss.core.core-api' symbolicname='pnnl.goss.core.core-api' uri='pnnl.goss.core.core-api/pnnl.goss.core.core-api-2.0.0.jar' version='2.0.0'>
+    <size>
+      54852
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.core-api'/>
+      <p n='symbolicname' v='pnnl.goss.core.core-api'/>
+      <p n='version' t='version' v='2.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='pnnl.goss.core'/>
+      <p n='uses' v='com.northconcepts.exception,javax.jms,org.apache.http.auth'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.northconcepts.exception'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.core-api/4.0.2.201701200421' presentationname='pnnl.goss.core.core-api' symbolicname='pnnl.goss.core.core-api' uri='pnnl.goss.core.core-api/pnnl.goss.core.core-api-4.0.2.jar' version='4.0.2.201701200421'>
+    <size>
+      55618
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.core-api'/>
+      <p n='symbolicname' v='pnnl.goss.core.core-api'/>
+      <p n='version' t='version' v='4.0.2.201701200421'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.northconcepts.exception'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='pnnl.goss.core'/>
+      <p n='uses' v='com.northconcepts.exception,javax.jms,org.apache.http.auth'/>
+      <p n='version' t='version' v='2.0.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.core-api/5.1.0.201703150418' presentationname='pnnl.goss.core.core-api' symbolicname='pnnl.goss.core.core-api' uri='pnnl.goss.core.core-api/pnnl.goss.core.core-api-5.1.0.jar' version='5.1.0.201703150418'>
+    <size>
+      55755
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.core-api'/>
+      <p n='symbolicname' v='pnnl.goss.core.core-api'/>
+      <p n='version' t='version' v='5.1.0.201703150418'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.northconcepts.exception'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='pnnl.goss.core'/>
+      <p n='uses' v='com.northconcepts.exception,javax.jms,org.apache.http.auth'/>
+      <p n='version' t='version' v='3.1.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.core-api/5.0.0.201701270746' presentationname='pnnl.goss.core.core-api' symbolicname='pnnl.goss.core.core-api' uri='pnnl.goss.core.core-api/pnnl.goss.core.core-api-5.0.0.jar' version='5.0.0.201701270746'>
+    <size>
+      55609
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.core-api'/>
+      <p n='symbolicname' v='pnnl.goss.core.core-api'/>
+      <p n='version' t='version' v='5.0.0.201701270746'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.northconcepts.exception'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='pnnl.goss.core'/>
+      <p n='uses' v='com.northconcepts.exception,javax.jms,org.apache.http.auth'/>
+      <p n='version' t='version' v='3.0.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+  </resource>
   <resource id='pnnl.goss.core.goss-client/2.0.5.201509102217' presentationname='pnnl.goss.core.goss-client' symbolicname='pnnl.goss.core.goss-client' uri='pnnl.goss.core.goss-client/pnnl.goss.core.goss-client-2.0.5.jar' version='2.0.5.201509102217'>
     <size>
       33884
@@ -561,9 +702,9 @@
       Import package pnnl.goss.core ;version=[3.0.0,4.0.0)
     </require>
   </resource>
-  <resource id='pnnl.goss.core.goss-client/2.0.13.201605201921' presentationname='pnnl.goss.core.goss-client' symbolicname='pnnl.goss.core.goss-client' uri='pnnl.goss.core.goss-client/pnnl.goss.core.goss-client-2.0.13.jar' version='2.0.13.201605201921'>
+  <resource id='pnnl.goss.core.goss-client/2.0.22.201703150418' presentationname='pnnl.goss.core.goss-client' symbolicname='pnnl.goss.core.goss-client' uri='pnnl.goss.core.goss-client/pnnl.goss.core.goss-client-2.0.22.jar' version='2.0.22.201703150418'>
     <size>
-      33491
+      34007
     </size>
     <license>
       https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
@@ -576,7 +717,7 @@
       <p n='manifestversion' v='2'/>
       <p n='presentationname' v='pnnl.goss.core.goss-client'/>
       <p n='symbolicname' v='pnnl.goss.core.goss-client'/>
-      <p n='version' t='version' v='2.0.13.201605201921'/>
+      <p n='version' t='version' v='2.0.22.201703150418'/>
     </capability>
     <require extend='false' filter='(&amp;(package=com.google.gson)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
       Import package com.google.gson ;version=[2.3.0,3.0.0)
@@ -608,8 +749,8 @@
     <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
       Import package org.slf4j ;version=[1.7.0,2.0.0)
     </require>
-    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
-      Import package pnnl.goss.core ;version=[3.0.0,4.0.0)
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.1.0,4.0.0)
     </require>
   </resource>
   <resource id='pnnl.goss.core.goss-client/2.0.0' presentationname='pnnl.goss.core.goss-client' symbolicname='pnnl.goss.core.goss-client' uri='pnnl.goss.core.goss-client/pnnl.goss.core.goss-client-2.0.0.jar' version='2.0.0'>
@@ -663,6 +804,282 @@
       Import package pnnl.goss.core ;version=[1.0.0,2.0.0)
     </require>
   </resource>
+  <resource id='pnnl.goss.core.goss-client/2.0.21.201701270746' presentationname='pnnl.goss.core.goss-client' symbolicname='pnnl.goss.core.goss-client' uri='pnnl.goss.core.goss-client/pnnl.goss.core.goss-client-2.0.21.jar' version='2.0.21.201701270746'>
+    <size>
+      33893
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-client'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-client'/>
+      <p n='version' t='version' v='2.0.21.201701270746'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.google.gson)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.google.gson ;version=[2.3.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.naming
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.fusesource.hawtbuf)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.fusesource.hawtbuf
+    </require>
+    <require extend='false' filter='(&amp;(package=org.fusesource.stomp.jms)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.fusesource.stomp.jms
+    </require>
+    <require extend='false' filter='(&amp;(package=org.fusesource.stomp.jms.message)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.fusesource.stomp.jms.message
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.0.0,4.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-client/2.0.20.201701200421' presentationname='pnnl.goss.core.goss-client' symbolicname='pnnl.goss.core.goss-client' uri='pnnl.goss.core.goss-client/pnnl.goss.core.goss-client-2.0.20.jar' version='2.0.20.201701200421'>
+    <size>
+      33698
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-client'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-client'/>
+      <p n='version' t='version' v='2.0.20.201701200421'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.google.gson)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.google.gson ;version=[2.3.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.naming
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.fusesource.hawtbuf)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.fusesource.hawtbuf
+    </require>
+    <require extend='false' filter='(&amp;(package=org.fusesource.stomp.jms)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.fusesource.stomp.jms
+    </require>
+    <require extend='false' filter='(&amp;(package=org.fusesource.stomp.jms.message)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.fusesource.stomp.jms.message
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-client/2.0.13.201605201921' presentationname='pnnl.goss.core.goss-client' symbolicname='pnnl.goss.core.goss-client' uri='pnnl.goss.core.goss-client/pnnl.goss.core.goss-client-2.0.13.jar' version='2.0.13.201605201921'>
+    <size>
+      33491
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-client'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-client'/>
+      <p n='version' t='version' v='2.0.13.201605201921'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.google.gson)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.google.gson ;version=[2.3.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.naming
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.fusesource.hawtbuf)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.fusesource.hawtbuf
+    </require>
+    <require extend='false' filter='(&amp;(package=org.fusesource.stomp.jms)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.fusesource.stomp.jms
+    </require>
+    <require extend='false' filter='(&amp;(package=org.fusesource.stomp.jms.message)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.fusesource.stomp.jms.message
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.0.0,4.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-client/2.0.23.201703242149' presentationname='pnnl.goss.core.goss-client' symbolicname='pnnl.goss.core.goss-client' uri='pnnl.goss.core.goss-client/pnnl.goss.core.goss-client-2.0.23.jar' version='2.0.23.201703242149'>
+    <size>
+      33731
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-client'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-client'/>
+      <p n='version' t='version' v='2.0.23.201703242149'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.google.gson)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.google.gson ;version=[2.3.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.naming
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.fusesource.hawtbuf)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.fusesource.hawtbuf
+    </require>
+    <require extend='false' filter='(&amp;(package=org.fusesource.stomp.jms)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.fusesource.stomp.jms
+    </require>
+    <require extend='false' filter='(&amp;(package=org.fusesource.stomp.jms.message)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.fusesource.stomp.jms.message
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.1.0,4.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-commands/2.0.12.201703150418' presentationname='pnnl.goss.core.goss-core-commands' symbolicname='pnnl.goss.core.goss-core-commands' uri='pnnl.goss.core.goss-core-commands/pnnl.goss.core.goss-core-commands-2.0.12.jar' version='2.0.12.201703150418'>
+    <size>
+      5020
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-commands'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-commands'/>
+      <p n='version' t='version' v='2.0.12.201703150418'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.1.0,4.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-commands/2.0.11.201701270746' presentationname='pnnl.goss.core.goss-core-commands' symbolicname='pnnl.goss.core.goss-core-commands' uri='pnnl.goss.core.goss-core-commands/pnnl.goss.core.goss-core-commands-2.0.11.jar' version='2.0.11.201701270746'>
+    <size>
+      5019
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-commands'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-commands'/>
+      <p n='version' t='version' v='2.0.11.201701270746'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.0.0,4.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-commands/2.0.13.201703242149' presentationname='pnnl.goss.core.goss-core-commands' symbolicname='pnnl.goss.core.goss-core-commands' uri='pnnl.goss.core.goss-core-commands/pnnl.goss.core.goss-core-commands-2.0.13.jar' version='2.0.13.201703242149'>
+    <size>
+      5018
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-commands'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-commands'/>
+      <p n='version' t='version' v='2.0.13.201703242149'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.1.0,4.0.0)
+    </require>
+  </resource>
   <resource id='pnnl.goss.core.goss-core-commands/2.0.0' presentationname='pnnl.goss.core.goss-core-commands' symbolicname='pnnl.goss.core.goss-core-commands' uri='pnnl.goss.core.goss-core-commands/pnnl.goss.core.goss-core-commands-2.0.0.jar' version='2.0.0'>
     <size>
       4760
@@ -684,6 +1101,30 @@
       Import package pnnl.goss.core ;version=[1.0.0,2.0.0)
     </require>
   </resource>
+  <resource id='pnnl.goss.core.goss-core-commands/2.0.10.201701200421' presentationname='pnnl.goss.core.goss-core-commands' symbolicname='pnnl.goss.core.goss-core-commands' uri='pnnl.goss.core.goss-core-commands/pnnl.goss.core.goss-core-commands-2.0.10.jar' version='2.0.10.201701200421'>
+    <size>
+      5018
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-commands'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-commands'/>
+      <p n='version' t='version' v='2.0.10.201701200421'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
   <resource id='pnnl.goss.core.goss-core-commands/2.0.5.201509102217' presentationname='pnnl.goss.core.goss-core-commands' symbolicname='pnnl.goss.core.goss-core-commands' uri='pnnl.goss.core.goss-core-commands/pnnl.goss.core.goss-core-commands-2.0.5.jar' version='2.0.5.201509102217'>
     <size>
       4909
@@ -703,6 +1144,31 @@
     </capability>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core ;version=[3.0.0,4.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-exceptions/2.1.1.201703242149' presentationname='pnnl.goss.core.goss-core-exceptions' symbolicname='pnnl.goss.core.goss-core-exceptions' uri='pnnl.goss.core.goss-core-exceptions/pnnl.goss.core.goss-core-exceptions-2.1.1.jar' version='2.1.1.201703242149'>
+    <size>
+      13522
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-exceptions'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-exceptions'/>
+      <p n='version' t='version' v='2.1.1.201703242149'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.northconcepts.exception'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
     </require>
   </resource>
   <resource id='pnnl.goss.core.goss-core-exceptions/2.1.0.201509102217' presentationname='pnnl.goss.core.goss-core-exceptions' symbolicname='pnnl.goss.core.goss-core-exceptions' uri='pnnl.goss.core.goss-core-exceptions/pnnl.goss.core.goss-core-exceptions-2.1.0.jar' version='2.1.0.201509102217'>
@@ -808,6 +1274,71 @@
     </require>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core.server ;version=[1.0.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-security/2.1.9.201701200421' presentationname='pnnl.goss.core.goss-core-security' symbolicname='pnnl.goss.core.goss-core-security' uri='pnnl.goss.core.goss-core-security/pnnl.goss.core.goss-core-security-2.1.9.jar' version='2.1.9.201701200421'>
+    <size>
+      22419
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-security'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-security'/>
+      <p n='version' t='version' v='2.1.9.201701200421'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='pnnl.goss.core.security'/>
+      <p n='uses' v='org.apache.shiro.authz.permission,org.apache.shiro.realm,pnnl.goss.core,pnnl.goss.core.server'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro.authz)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.shiro.authz ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro.mgt)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.shiro.mgt ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.felix.dm)(version&gt;=4.3.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.felix.dm ;version=[4.3.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authc)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authc ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz.permission)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz.permission ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.realm ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.subject)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.subject ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.framework ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[2.0.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
     </require>
   </resource>
   <resource id='pnnl.goss.core.goss-core-security/2.1.1.201509102217' presentationname='pnnl.goss.core.goss-core-security' symbolicname='pnnl.goss.core.goss-core-security' uri='pnnl.goss.core.goss-core-security/pnnl.goss.core.goss-core-security-2.1.1.jar' version='2.1.1.201509102217'>
@@ -932,6 +1463,201 @@
     </require>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core ;version=[3.0.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-security/2.1.10.201701270746' presentationname='pnnl.goss.core.goss-core-security' symbolicname='pnnl.goss.core.goss-core-security' uri='pnnl.goss.core.goss-core-security/pnnl.goss.core.goss-core-security-2.1.10.jar' version='2.1.10.201701270746'>
+    <size>
+      22385
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-security'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-security'/>
+      <p n='version' t='version' v='2.1.10.201701270746'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='pnnl.goss.core.security'/>
+      <p n='uses' v='org.apache.shiro.authz.permission,org.apache.shiro.realm,pnnl.goss.core,pnnl.goss.core.server'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro.authz)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.shiro.authz ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro.mgt)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.shiro.mgt ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.felix.dm)(version&gt;=4.3.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.felix.dm ;version=[4.3.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authc)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authc ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz.permission)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz.permission ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.realm ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.subject)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.subject ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.framework ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.0.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-security/2.1.11.201703150418' presentationname='pnnl.goss.core.goss-core-security' symbolicname='pnnl.goss.core.goss-core-security' uri='pnnl.goss.core.goss-core-security/pnnl.goss.core.goss-core-security-2.1.11.jar' version='2.1.11.201703150418'>
+    <size>
+      22424
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-security'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-security'/>
+      <p n='version' t='version' v='2.1.11.201703150418'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='pnnl.goss.core.security'/>
+      <p n='uses' v='org.apache.shiro.authz.permission,org.apache.shiro.realm,pnnl.goss.core,pnnl.goss.core.server'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro.authz)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.shiro.authz ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro.mgt)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.shiro.mgt ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.felix.dm)(version&gt;=4.3.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.felix.dm ;version=[4.3.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authc)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authc ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz.permission)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz.permission ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.realm ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.subject)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.subject ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.framework ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.1.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-security/2.1.12.201703242149' presentationname='pnnl.goss.core.goss-core-security' symbolicname='pnnl.goss.core.goss-core-security' uri='pnnl.goss.core.goss-core-security/pnnl.goss.core.goss-core-security-2.1.12.jar' version='2.1.12.201703242149'>
+    <size>
+      22279
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-security'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-security'/>
+      <p n='version' t='version' v='2.1.12.201703242149'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='pnnl.goss.core.security'/>
+      <p n='uses' v='org.apache.shiro.authz.permission,org.apache.shiro.realm,pnnl.goss.core,pnnl.goss.core.server'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro.authz)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.shiro.authz ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro.mgt)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.shiro.mgt ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.felix.dm)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.felix.dm
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authc)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authc ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz.permission)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz.permission ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.realm ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.subject)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.subject ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.framework ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.1.0,4.0.0)
     </require>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
@@ -1078,6 +1804,474 @@
       Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
     </require>
   </resource>
+  <resource id='pnnl.goss.core.goss-core-server/2.0.14.201701200421' presentationname='pnnl.goss.core.goss-core-server' symbolicname='pnnl.goss.core.goss-core-server' uri='pnnl.goss.core.goss-core-server/pnnl.goss.core.goss-core-server-2.0.14.jar' version='2.0.14.201701200421'>
+    <size>
+      49744
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-server'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-server'/>
+      <p n='version' t='version' v='2.0.14.201701200421'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.google.gson)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.google.gson ;version=[2.3.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.thoughtworks.xstream ;version=[1.3.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.net.ssl
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.sql
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.broker)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.broker ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.shiro ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.store)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.store ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.dbcp)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.dbcp ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.io)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.io ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.felix.dm)(version&gt;=4.3.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.felix.dm ;version=[4.3.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.cm ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[2.0.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-server/2.0.21.201703242149' presentationname='pnnl.goss.core.goss-core-server' symbolicname='pnnl.goss.core.goss-core-server' uri='pnnl.goss.core.goss-core-server/pnnl.goss.core.goss-core-server-2.0.21.jar' version='2.0.21.201703242149'>
+    <size>
+      50903
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-server'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-server'/>
+      <p n='version' t='version' v='2.0.21.201703242149'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.google.gson)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.google.gson ;version=[2.3.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.thoughtworks.xstream ;version=[1.3.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.net.ssl
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.sql
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.broker)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.broker ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.shiro ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.store)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.store ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.dbcp)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.dbcp ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.io)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.io ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.felix.dm)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.felix.dm
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.cm ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.1.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-server/2.0.18.201703150523' presentationname='pnnl.goss.core.goss-core-server' symbolicname='pnnl.goss.core.goss-core-server' uri='pnnl.goss.core.goss-core-server/pnnl.goss.core.goss-core-server-2.0.18.jar' version='2.0.18.201703150523'>
+    <size>
+      51207
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-server'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-server'/>
+      <p n='version' t='version' v='2.0.18.201703150523'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.google.gson)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.google.gson ;version=[2.3.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.thoughtworks.xstream ;version=[1.3.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.net.ssl
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.sql
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.broker)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.broker ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.shiro ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.store)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.store ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.dbcp)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.dbcp ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.io)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.io ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.felix.dm)(version&gt;=4.3.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.felix.dm ;version=[4.3.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.cm ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.1.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-server/2.0.17.201703220227' presentationname='pnnl.goss.core.goss-core-server' symbolicname='pnnl.goss.core.goss-core-server' uri='pnnl.goss.core.goss-core-server/pnnl.goss.core.goss-core-server-2.0.17.jar' version='2.0.17.201703220227'>
+    <size>
+      51098
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-server'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-server'/>
+      <p n='version' t='version' v='2.0.17.201703220227'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.google.gson)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.google.gson ;version=[2.3.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.thoughtworks.xstream ;version=[1.3.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.net.ssl
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.sql
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.broker)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.broker ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.shiro ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.store)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.store ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.dbcp)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.dbcp ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.io)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.io ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.felix.dm)(version&gt;=4.3.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.felix.dm ;version=[4.3.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.cm ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.1.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-server/2.0.19.201703240734' presentationname='pnnl.goss.core.goss-core-server' symbolicname='pnnl.goss.core.goss-core-server' uri='pnnl.goss.core.goss-core-server/pnnl.goss.core.goss-core-server-2.0.19.jar' version='2.0.19.201703240734'>
+    <size>
+      51200
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-server'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-server'/>
+      <p n='version' t='version' v='2.0.19.201703240734'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.google.gson)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.google.gson ;version=[2.3.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.thoughtworks.xstream ;version=[1.3.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.net.ssl
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.sql
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.broker)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.broker ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.shiro ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.store)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.store ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.dbcp)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.dbcp ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.io)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.io ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.felix.dm)(version&gt;=4.3.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.felix.dm ;version=[4.3.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.cm ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.1.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-server/2.0.16.201703150418' presentationname='pnnl.goss.core.goss-core-server' symbolicname='pnnl.goss.core.goss-core-server' uri='pnnl.goss.core.goss-core-server/pnnl.goss.core.goss-core-server-2.0.16.jar' version='2.0.16.201703150418'>
+    <size>
+      50807
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-server'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-server'/>
+      <p n='version' t='version' v='2.0.16.201703150418'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.google.gson)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.google.gson ;version=[2.3.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.thoughtworks.xstream ;version=[1.3.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.net.ssl
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.sql
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.broker)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.broker ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.shiro ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.store)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.store ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.dbcp)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.dbcp ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.io)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.io ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.felix.dm)(version&gt;=4.3.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.felix.dm ;version=[4.3.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.cm ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.1.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
   <resource id='pnnl.goss.core.goss-core-server/2.0.7.201509102217' presentationname='pnnl.goss.core.goss-core-server' symbolicname='pnnl.goss.core.goss-core-server' uri='pnnl.goss.core.goss-core-server/pnnl.goss.core.goss-core-server-2.0.7.jar' version='2.0.7.201509102217'>
     <size>
       42419
@@ -1136,6 +2330,162 @@
     </require>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core ;version=[3.0.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-server/2.0.15.201701270746' presentationname='pnnl.goss.core.goss-core-server' symbolicname='pnnl.goss.core.goss-core-server' uri='pnnl.goss.core.goss-core-server/pnnl.goss.core.goss-core-server-2.0.15.jar' version='2.0.15.201701270746'>
+    <size>
+      49529
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-server'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-server'/>
+      <p n='version' t='version' v='2.0.15.201701270746'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.google.gson)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.google.gson ;version=[2.3.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.thoughtworks.xstream ;version=[1.3.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.net.ssl
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.sql
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.broker)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.broker ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.shiro ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.store)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.store ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.dbcp)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.dbcp ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.io)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.io ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.felix.dm)(version&gt;=4.3.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.felix.dm ;version=[4.3.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.cm ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.0.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-server/2.0.20.201703242137' presentationname='pnnl.goss.core.goss-core-server' symbolicname='pnnl.goss.core.goss-core-server' uri='pnnl.goss.core.goss-core-server/pnnl.goss.core.goss-core-server-2.0.20.jar' version='2.0.20.201703242137'>
+    <size>
+      51314
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-server'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-server'/>
+      <p n='version' t='version' v='2.0.20.201703242137'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.google.gson)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.google.gson ;version=[2.3.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.thoughtworks.xstream)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.thoughtworks.xstream ;version=[1.3.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.net.ssl
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.sql
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.broker)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.broker ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.shiro)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.shiro ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.activemq.store)(version&gt;=5.11.0)(!(version&gt;=6.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.activemq.store ;version=[5.11.0,6.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.dbcp)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.dbcp ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.io)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.io ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.felix.dm)(version&gt;=4.3.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.felix.dm ;version=[4.3.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.cm ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.1.0,4.0.0)
     </require>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
@@ -1206,6 +2556,224 @@
     </require>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core.security ;version=[1.0.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-server-api/2.0.11.201701200421' presentationname='pnnl.goss.core.goss-core-server-api' symbolicname='pnnl.goss.core.goss-core-server-api' uri='pnnl.goss.core.goss-core-server-api/pnnl.goss.core.goss-core-server-api-2.0.11.jar' version='2.0.11.201701200421'>
+    <size>
+      14373
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-server-api'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-server-api'/>
+      <p n='version' t='version' v='2.0.11.201701200421'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='pnnl.goss.core.server'/>
+      <p n='uses' v='com.northconcepts.exception,pnnl.goss.core,pnnl.goss.core.security'/>
+      <p n='version' t='version' v='2.0.3'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[2.0.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-server-api/2.0.14.201703242149' presentationname='pnnl.goss.core.goss-core-server-api' symbolicname='pnnl.goss.core.goss-core-server-api' uri='pnnl.goss.core.goss-core-server-api/pnnl.goss.core.goss-core-server-api-2.0.14.jar' version='2.0.14.201703242149'>
+    <size>
+      14286
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-server-api'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-server-api'/>
+      <p n='version' t='version' v='2.0.14.201703242149'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='pnnl.goss.core.server'/>
+      <p n='uses' v='com.northconcepts.exception,pnnl.goss.core,pnnl.goss.core.security'/>
+      <p n='version' t='version' v='2.0.3'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.1.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-server-api/2.0.12.201701270746' presentationname='pnnl.goss.core.goss-core-server-api' symbolicname='pnnl.goss.core.goss-core-server-api' uri='pnnl.goss.core.goss-core-server-api/pnnl.goss.core.goss-core-server-api-2.0.12.jar' version='2.0.12.201701270746'>
+    <size>
+      14360
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-server-api'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-server-api'/>
+      <p n='version' t='version' v='2.0.12.201701270746'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='pnnl.goss.core.server'/>
+      <p n='uses' v='com.northconcepts.exception,pnnl.goss.core,pnnl.goss.core.security'/>
+      <p n='version' t='version' v='2.0.3'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.0.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-server-api/2.0.13.201703150418' presentationname='pnnl.goss.core.goss-core-server-api' symbolicname='pnnl.goss.core.goss-core-server-api' uri='pnnl.goss.core.goss-core-server-api/pnnl.goss.core.goss-core-server-api-2.0.13.jar' version='2.0.13.201703150418'>
+    <size>
+      14378
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-server-api'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-server-api'/>
+      <p n='version' t='version' v='2.0.13.201703150418'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='pnnl.goss.core.server'/>
+      <p n='uses' v='com.northconcepts.exception,pnnl.goss.core,pnnl.goss.core.security'/>
+      <p n='version' t='version' v='2.0.3'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.1.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-server-registry/1.0.11.201703150418' presentationname='pnnl.goss.core.goss-core-server-registry' symbolicname='pnnl.goss.core.goss-core-server-registry' uri='pnnl.goss.core.goss-core-server-registry/pnnl.goss.core.goss-core-server-registry-1.0.11.jar' version='1.0.11.201703150418'>
+    <size>
+      20010
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-server-registry'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-server-registry'/>
+      <p n='version' t='version' v='1.0.11.201703150418'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.sql
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.dbcp)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.dbcp ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.framework ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.1.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-server-registry/1.0.12.201703242149' presentationname='pnnl.goss.core.goss-core-server-registry' symbolicname='pnnl.goss.core.goss-core-server-registry' uri='pnnl.goss.core.goss-core-server-registry/pnnl.goss.core.goss-core-server-registry-1.0.12.jar' version='1.0.12.201703242149'>
+    <size>
+      20264
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-server-registry'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-server-registry'/>
+      <p n='version' t='version' v='1.0.12.201703242149'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.sql
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.dbcp)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.dbcp ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.framework ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.1.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
     </require>
   </resource>
   <resource id='pnnl.goss.core.goss-core-server-registry/1.0.4.201605201921' presentationname='pnnl.goss.core.goss-core-server-registry' symbolicname='pnnl.goss.core.goss-core-server-registry' uri='pnnl.goss.core.goss-core-server-registry/pnnl.goss.core.goss-core-server-registry-1.0.4.jar' version='1.0.4.201605201921'>
@@ -1293,6 +2861,150 @@
     </require>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-server-registry/1.0.9.201701200421' presentationname='pnnl.goss.core.goss-core-server-registry' symbolicname='pnnl.goss.core.goss-core-server-registry' uri='pnnl.goss.core.goss-core-server-registry/pnnl.goss.core.goss-core-server-registry-1.0.9.jar' version='1.0.9.201701200421'>
+    <size>
+      20007
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-server-registry'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-server-registry'/>
+      <p n='version' t='version' v='1.0.9.201701200421'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.sql
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.dbcp)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.dbcp ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.framework ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[2.0.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-server-registry/1.0.10.201701270746' presentationname='pnnl.goss.core.goss-core-server-registry' symbolicname='pnnl.goss.core.goss-core-server-registry' uri='pnnl.goss.core.goss-core-server-registry/pnnl.goss.core.goss-core-server-registry-1.0.10.jar' version='1.0.10.201701270746'>
+    <size>
+      20301
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-server-registry'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-server-registry'/>
+      <p n='version' t='version' v='1.0.10.201701270746'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.sql
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.dbcp)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.dbcp ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.framework ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[3.0.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.goss-core-server-web/1.0.27.201703242149' presentationname='pnnl.goss.core.goss-core-server-web' symbolicname='pnnl.goss.core.goss-core-server-web' uri='pnnl.goss.core.goss-core-server-web/pnnl.goss.core.goss-core-server-web-1.0.27.jar' version='1.0.27.201703242149'>
+    <size>
+      242744
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.goss-core-server-web'/>
+      <p n='symbolicname' v='pnnl.goss.core.goss-core-server-web'/>
+      <p n='version' t='version' v='1.0.27.201703242149'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.google.gson)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.google.gson ;version=[2.3.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=2.5.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.servlet ;version=[2.5.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=2.5.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.servlet.http ;version=[2.5.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.ws.rs)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.ws.rs ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.ws.rs.core)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.ws.rs.core ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.io)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.io ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.felix.dm)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.felix.dm
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authc)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authc ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.framework ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.http)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.http ;version=[1.2.0,2.0.0)
     </require>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
@@ -1403,51 +3115,6 @@
       Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
     </require>
   </resource>
-  <resource id='pnnl.goss.core.itests/0.0.0.201503111933' presentationname='pnnl.goss.core.itests' symbolicname='pnnl.goss.core.itests' uri='pnnl.goss.core.itests/pnnl.goss.core.itests-0.0.0.jar' version='0.0.0.201503111933'>
-    <size>
-      14740
-    </size>
-    <license>
-      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
-       Licensed";link=LICENSE
-    </license>
-    <copyright>
-      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
-    </copyright>
-    <capability name='bundle'>
-      <p n='manifestversion' v='2'/>
-      <p n='presentationname' v='pnnl.goss.core.itests'/>
-      <p n='symbolicname' v='pnnl.goss.core.itests'/>
-      <p n='version' t='version' v='0.0.0.201503111933'/>
-    </capability>
-    <require extend='false' filter='(&amp;(package=org.amdatu.testing.configurator)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.amdatu.testing.configurator ;version=[3.0.0,4.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.felix.dm)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package org.apache.felix.dm
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.junit)(version&gt;=4.11.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.junit ;version=[4.11.0,5.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package org.slf4j ;version=[1.7.0,2.0.0)
-    </require>
-    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package pnnl.goss.core
-    </require>
-    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
-      Import package pnnl.goss.core.server
-    </require>
-    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server.runner.requests)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
-      Import package pnnl.goss.core.server.runner.requests ;version=[1.0.0,2.0.0)
-    </require>
-  </resource>
   <resource id='pnnl.goss.core.itests/1.0.0.201503080631' presentationname='pnnl.goss.core.itests' symbolicname='pnnl.goss.core.itests' uri='pnnl.goss.core.itests/pnnl.goss.core.itests-1.0.0.jar' version='1.0.0.201503080631'>
     <size>
       13771
@@ -1553,6 +3220,51 @@
       Import package pnnl.goss.core.testutil ;version=[1.0.0,2.0.0)
     </require>
   </resource>
+  <resource id='pnnl.goss.core.itests/0.0.0.201503111933' presentationname='pnnl.goss.core.itests' symbolicname='pnnl.goss.core.itests' uri='pnnl.goss.core.itests/pnnl.goss.core.itests-0.0.0.jar' version='0.0.0.201503111933'>
+    <size>
+      14740
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.itests'/>
+      <p n='symbolicname' v='pnnl.goss.core.itests'/>
+      <p n='version' t='version' v='0.0.0.201503111933'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.amdatu.testing.configurator)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.amdatu.testing.configurator ;version=[3.0.0,4.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.felix.dm)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.apache.felix.dm
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.mgt)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.mgt ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.junit)(version&gt;=4.11.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.junit ;version=[4.11.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server.runner.requests)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server.runner.requests ;version=[1.0.0,2.0.0)
+    </require>
+  </resource>
   <resource id='pnnl.goss.core.runner/2.0.2.201509102217' presentationname='pnnl.goss.core.runner' symbolicname='pnnl.goss.core.runner' uri='pnnl.goss.core.runner/pnnl.goss.core.runner-2.0.2.jar' version='2.0.2.201509102217'>
     <size>
       31884
@@ -1607,6 +3319,71 @@
     </require>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core.server
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server.runner.requests)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server.runner.requests ;version=[1.0.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.runner/2.0.4.201701200421' presentationname='pnnl.goss.core.runner' symbolicname='pnnl.goss.core.runner' uri='pnnl.goss.core.runner/pnnl.goss.core.runner-2.0.4.jar' version='2.0.4.201701200421'>
+    <size>
+      32435
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.runner'/>
+      <p n='symbolicname' v='pnnl.goss.core.runner'/>
+      <p n='version' t='version' v='2.0.4.201701200421'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='pnnl.goss.core.server.runner.requests'/>
+      <p n='uses' v='pnnl.goss.core'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.sql
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authc)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authc ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.realm ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.subject)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.subject ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.jdbc)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.jdbc ;version=[1.0.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.6.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core ;version=[2.0.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server ;version=[2.0.0,3.0.0)
     </require>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core.server.runner.requests)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core.server.runner.requests ;version=[1.0.0,2.0.0)
@@ -1669,6 +3446,110 @@
     </require>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core.server.runner.requests)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core.server.runner.requests ;version=[1.0.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.runner/2.0.5.201703242150' presentationname='pnnl.goss.core.runner' symbolicname='pnnl.goss.core.runner' uri='pnnl.goss.core.runner/pnnl.goss.core.runner-2.0.5.jar' version='2.0.5.201703242150'>
+    <size>
+      32276
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.runner'/>
+      <p n='symbolicname' v='pnnl.goss.core.runner'/>
+      <p n='version' t='version' v='2.0.5.201703242150'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='pnnl.goss.core.server.runner.requests'/>
+      <p n='uses' v='pnnl.goss.core'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.jms)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.jms ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.sql
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.2.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.http.auth ;version=[4.2.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authc)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authc ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.realm ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.subject)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.subject ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.jdbc)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.service.jdbc ;version=[1.0.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.server.runner.requests)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.server.runner.requests ;version=[1.0.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.security-ldap/1.0.6.201703242149' presentationname='pnnl.goss.core.security-ldap' symbolicname='pnnl.goss.core.security-ldap' uri='pnnl.goss.core.security-ldap/pnnl.goss.core.security-ldap-1.0.6.jar' version='1.0.6.201703242149'>
+    <size>
+      6948
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.security-ldap'/>
+      <p n='symbolicname' v='pnnl.goss.core.security-ldap'/>
+      <p n='version' t='version' v='1.0.6.201703242149'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authc)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authc ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz.permission)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz.permission ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm.ldap)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.realm.ldap ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.subject)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.subject ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
     </require>
   </resource>
   <resource id='pnnl.goss.core.security-ldap/1.0.5.201509102217' presentationname='pnnl.goss.core.security-ldap' symbolicname='pnnl.goss.core.security-ldap' uri='pnnl.goss.core.security-ldap/pnnl.goss.core.security-ldap-1.0.5.jar' version='1.0.5.201509102217'>
@@ -1825,6 +3706,48 @@
     </require>
     <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
       Import package pnnl.goss.core.security ;version=[1.0.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='pnnl.goss.core.security-propertyfile/2.0.9.201703242149' presentationname='pnnl.goss.core.security-propertyfile' symbolicname='pnnl.goss.core.security-propertyfile' uri='pnnl.goss.core.security-propertyfile/pnnl.goss.core.security-propertyfile-2.0.9.jar' version='2.0.9.201703242149'>
+    <size>
+      7115
+    </size>
+    <license>
+      https://github.com/GridOPTICS/GOSS/wiki/PNNL-License;description="PNNL
+       Licensed";link=LICENSE
+    </license>
+    <copyright>
+      Copyrigth 2015 Pacific Northwest National Laboratory (PNNL)
+    </copyright>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='pnnl.goss.core.security-propertyfile'/>
+      <p n='symbolicname' v='pnnl.goss.core.security-propertyfile'/>
+      <p n='version' t='version' v='2.0.9.201703242149'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.northconcepts.exception)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package com.northconcepts.exception ;version=[2.1.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authc)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authc ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.authz.permission)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.authz.permission ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.realm)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.realm ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.shiro.subject)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.apache.shiro.subject ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.slf4j ;version=[1.7.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=pnnl.goss.core.security)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package pnnl.goss.core.security ;version=[2.1.0,3.0.0)
     </require>
   </resource>
   <resource id='pnnl.goss.core.testutil/1.0.0.201509102217' presentationname='pnnl.goss.core.testutil' symbolicname='pnnl.goss.core.testutil' uri='pnnl.goss.core.testutil/pnnl.goss.core.testutil-1.0.0.jar' version='1.0.0.201509102217'>
